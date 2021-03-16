@@ -1,0 +1,22 @@
+/* || WEB FONTS  */
+body { 
+    font: 400 100%/1.5 'Noto Sans', sans-serif;
+}
+
+/* || GENERAL STYLES  */
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+h1 {
+    font-weight: 700;  
+}
+
+/* || MAIN STYLES  */
+
+/* || MEDIA QUERIES  */
