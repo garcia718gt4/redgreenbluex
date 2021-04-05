@@ -7,13 +7,15 @@ a {
     color: #FFE2E2;
 }
 
+
+
 body { 
     font: 400 100%/1.5 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     color: #dfdfdf;
-    background: radial-gradient(99.1% 99.1% at 49.34% 0.9%, #770000 0%, #003260 100%);
+    background: radial-gradient(99.1% 99.1% at 49.34% 0.9%, #770000 0%, #001860 100%);
 } 
 
 .main-nav {

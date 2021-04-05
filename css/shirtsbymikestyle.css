@@ -2,6 +2,79 @@
     box-sizing: border-box;
 }
 
+.banner {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+/* || logo *******/
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px auto;
+}
+
+.square {
+    width: 26px;
+    height: 26px;
+    background-color: #ED1010;
+    border-radius: 3px;
+}
+
+.triangle {
+	position: relative;
+	background-color: #00ff11;
+	text-align: left;
+    margin-left: -3px;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  15px;
+	height: 15px;
+	border-top-right-radius: 25%;
+}
+
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+.circle {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: rgb(0, 106, 255);
+    margin-left: -5px;
+}
+
+
+.x {
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    color: rgb(220, 7, 220);
+    margin: 0;
+    margin-left: -9px;
+    padding: 0;
+}
+
 a {
     color: #ffb668;
     text-decoration: none;
@@ -85,7 +158,7 @@ h2 {
 /* || HEADER STYLES  */
 
 .main-header-shirts {
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -485,17 +558,17 @@ h2 {
 
 
 .grocery-txt, 
-.prime-txt {
+.prime-txt { 
     font-family: 'Fugaz One', cursive;
     margin: 0;
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 36px;
 }
 
 
 .woosh-txt {
     width: 355px;
-    font-size: 1.8rem;
+    font-size: 36px;
     padding: 8px;
     font-family: 'Leckerli One', cursive;
     background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
@@ -524,74 +597,7 @@ footer p {
 }
 
 
-/* || logo */
 
-.logo {
-    width: 150px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 0px auto;
-}
-
-
-
-.square {
-    width: 26px;
-    height: 26px;
-    background-color: #ED1010;
-    border-radius: 3px;
-}
-
-.triangle {
-	position: relative;
-	background-color: #00ff11;
-	text-align: left;
-    margin-left: -3px;
-}
-.triangle:before,
-.triangle:after {
-	content: '';
-	position: absolute;
-	background-color: inherit;
-}
-.triangle,
-.triangle:before,
-.triangle:after {
-	width:  15px;
-	height: 15px;
-	border-top-right-radius: 25%;
-}
-
-.triangle {
-	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
-}
-.triangle:before {
-	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
-}
-.triangle:after {
-	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
-}
-
-
-.circle {
-    height: 26px;
-    width: 26px;
-    border-radius: 50%;
-    background-color: rgb(0, 106, 255);
-    margin-left: -5px;
-}
-
-
-.x {
-    font-family: 'Righteous', cursive;
-    font-size: 32px;
-    color: rgb(220, 7, 220);
-    margin: 0;
-    margin-left: -9px;
-    padding: 0;
-}
 
 /*===================================
     Media Query for 750px
@@ -839,7 +845,7 @@ h3,
 .grocery-txt,
 .prime-txt,
 .woosh-txt {
-    font-size: 2.1rem;
+    font-size: 50px;
 }
 
 .next-section {
@@ -864,10 +870,6 @@ h3,
 
 .prime-txt {
     margin-top: -21px;
-}
-
-.logo {
-    margin-bottom: 50px;
 }
 
 
