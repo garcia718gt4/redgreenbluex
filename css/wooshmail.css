@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+/* || HEADER  */
+
+body { 
+    color: #717171;
+    font: 500 100%/1.5 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+} 
+
+.main-header {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(50% 302.96% at 50% 50%, #E0FFC8 0%, #E9FFD8 0.01%, #E9FFCC 8.33%, #FEFFBC 51.04%, #FFDEAC 100%);    width: 100;
+}
+
+.main-header {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(100% 100% at 50% 0%, #F1F8FF 0%, #FFFFFF 0%, #FFFFFF 0.01%, rgba(242, 249, 255, 0) 9.38%, rgba(100, 181, 255, 0.77) 100%);
+}
+
+.wooshmail {
+    padding-right: 6px;
+    font-size: 38px;
+    font-family: 'Leckerli One', cursive;
+    background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.rgb-bar {
+    height: 15px;
+    background: linear-gradient(90deg, #4EAAFF 0%, #D6EBFE 53.65%, #4EAAFF 100%);
+}
+
+
+
+/*=============================
+    Media Query for 750px
+=========================== */
+
+@media (min-width: 750px) {
+
+    .wooshmail {
+        font-size: 60px;
+    }
+
+}

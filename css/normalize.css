@@ -429,3 +429,23 @@
   [hidden] {
     display: none;
   }
+
+  /* Custom CSS
+   * ========================================================================== */
+  
+  /**
+   * Remove default list style, padding, and margin 
+   */
+
+   ol, 
+   ul {
+     margin: 0;
+     padding: 0; 
+     list-style: none;
+   }
+
+   body {
+     margin: 0 auto;
+     padding: 0; 
+     height: 100%;
+   }

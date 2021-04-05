@@ -2,14 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>redgreenbluex</title>
+    <title>Redgreenbluex</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700;800&family=Fugaz+One&family=Leckerli+One&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>hello</h1>
+    <header class='main-header'>
+        <a href="index.html">
+            <div class="logo">
+                <div class="square"></div>
+                <div class="triangle"></div>
+                <div class="circle"></div>
+                <div class="x">X</div>
+            </div> 
+        </a>
+    
+
+        <ul class="main-nav">
+            <li><a href="index.html" class='home active'>Home</a></li>
+            <li><a href="about.html" class="about ">About</a></li>
+            <li><a href="contact.html" class="contact ">Contact</a></li>
+        </ul>
+        
+        <div class='intro-message'>
+            <h1 class='hello-title'>Hello<span class="period">.</span></h1>
+            <div class='intro'>
+                <p>My name is Ricardo,</p>
+                <p>and I design to serve all mankind.</p> 
+                <p>Click below to discover more.</p> 
+            </div>
+        </div>
+    </header>
+
+    
+   
+
+    <main class="main-container">
+
+        <a href="shirtsbymike.html" class="card frog-col">
+            <div class="frog-logo">
+                <img  class="frog-pic" src="img/frogshirtbymike.png" alt="an animated frog" height="80" width="80">
+                <h2 class="shirts-txt">Shirts by Mike</h2>
+            </div>
+        </a>
+
+
+        <a href="groceryprime.html" class="card grocery-col">
+            <div class="grocery-logo">
+                <h2 class="grocery-txt">grocery</h2>
+                <h2 class="prime-txt">prime</h2>
+            </div>
+        </a>
+
+        <a href="wooshmail.html" class="card woosh-col">
+            <div class="woosh-logo">
+                <h2 class="woosh-txt">WooshMail</h2>
+            </div>
+        </a>
+    </main>
+    
+    
+    <footer>
+        <p>&copy; 2021 Redgreenbluex | All projects displayed were completed as part of the UX Design Techdegree from <a class="treehouse-link" href="https://teamtreehouse.com/techdegree/ux-design" target="_blank" rel="noopener noreferrer">Treehouse&trade;</a></p>
+    </footer>
+    <!-- bottom bar -->
+    <div class="rgb-bar-bottom"></div> 
+    <script src="js/script.js"></script>
 </body>
 </html>

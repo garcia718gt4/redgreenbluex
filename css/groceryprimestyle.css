@@ -1,0 +1,466 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* || WEB FONTS  */
+
+a {
+    text-decoration: none;
+}
+
+.grocery-logo {
+    width: 270px;
+    text-align: center;
+}
+
+.grocery-txt, 
+.prime-txt {
+    font-family: 'Fugaz One', cursive;
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+}
+
+
+h1,
+h2 {
+    font-family: 'Fugaz One', cursive;
+}
+
+
+h1 {
+    color: #31B004;
+    font-size: 38px;
+}
+
+
+h2 {
+    color: #ff9727;
+    font-size: 30px;
+}
+
+h3 {
+    color: #ffbd77;
+    text-shadow: 1px 1px 1px #dcdcdc;;
+}
+
+.prime-txt {
+    color: #ff9727;
+    margin-top: -18px;
+}
+
+
+html{
+    font-size: 24px;
+}
+
+/* || MAIN HEADER  */  
+body { 
+    color: #717171;
+    font: 500 100%/1.5 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+} 
+
+.main-header {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(50% 302.96% at 50% 50%, #E0FFC8 0%, #E9FFD8 0.01%, #E9FFCC 8.33%, #FEFFBC 51.04%, #FFDEAC 100%);    width: 100;
+}
+
+.rgb-bar {
+    height: 15px;
+    background: linear-gradient(90deg, #FFCB7D 0%, #F5FF8F 26.56%, rgba(182, 255, 125, 0.49) 50%, #F5FF8F 75.52%, #FFCB7D 100%);}
+
+
+/* ||  OVERVIEW */  
+
+.case-study-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:white;
+}
+
+.container {
+    width: 370px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+/* margin bottom for main sections */
+.overview,
+.research-planning,
+.prototyping {
+    margin-bottom: 10px;
+}
+
+
+ p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: .8rem;
+    text-align: left;
+    line-height: 1.7;
+}
+
+
+/* ||  RESEARCH PLANNING */  
+
+.research-planning p,
+.prototyping p {
+    margin-bottom: 50px;
+}
+
+.sample-questions p {
+    margin-bottom: 25px;
+}
+
+
+/* ||  SAMPLE ?s */  
+
+.sample-questions p {
+    text-align: center;
+}
+
+/* ||  sketches */  
+
+.sketch-container,
+.wireframe-wrap,
+.pros-cons-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sketch {
+    width: 185px;
+    height: 398px;
+    margin-bottom: 30px;
+}
+
+
+.wireframe-wrap {
+    margin: 60px auto 150px;
+}
+
+.wireframe-wrap img {
+    margin-bottom: 50px;
+}
+
+
+/* ||  usability */  
+
+.usability-responses p {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.task-paragraph,
+.usability-responses p {
+    margin-bottom: 30px;
+}
+
+.pc {
+    width: 370px;
+}
+
+
+/* ||  view next */  
+
+.view-next {
+    text-align: center;
+    margin: 150px auto 100px;
+}
+
+
+.next {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 150px;
+    text-align: center;
+}
+
+.center-logo {
+    text-align: center;
+}
+
+.frog-pic {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+
+.shirts-txt {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin-top: -15px;
+    color: #00747B;
+    font-size: 43px;
+    padding: 8px;
+}
+
+
+.woosh-txt {
+    width: 283px;
+    font-size: 43px;
+    padding: 8px;
+    font-family: 'Leckerli One', cursive;
+    background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer p {
+    text-align: center;
+    padding: 1.4em 0;
+    color: #acacac;
+    margin: 0 auto;
+    font-size: .63rem;
+    width: 85%;
+}
+
+.treehouse-link {
+    color: #acacac;
+}
+
+.treehouse-link:hover {
+    text-decoration: underline;
+    color: #acacac;
+}
+
+
+
+.rgb-bar-bottom {
+    height: 15px;
+    background: linear-gradient(90deg, #ff0000 0%, #4dff00 50%, #007EFF 100%);
+}
+
+
+/* || logo */
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px auto;
+}
+
+.square {
+    width: 26px;
+    height: 26px;
+    background-color: #ED1010;
+    border-radius: 3px;
+}
+
+.triangle {
+	position: relative;
+	background-color: #00ff11;
+	text-align: left;
+    margin-left: -3px;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  15px;
+	height: 15px;
+	border-top-right-radius: 25%;
+}
+
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+.circle {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: rgb(0, 106, 255);
+    margin-left: -5px;
+}
+
+
+.x {
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    color: rgb(220, 7, 220);
+    margin: 0;
+    margin-left: -9px;
+    padding: 0;
+}
+
+/*=============================
+    Media Query for 750px
+=========================== */
+
+@media (min-width: 750px) {
+
+.grocery-txt,
+.prime-txt {
+    font-size: 60px;
+}
+
+.shirts-txt,
+.woosh-txt {
+    font-size: 50px;
+}
+
+.shirts-txt {
+    margin-top: -25px
+}
+
+.prime-txt {
+    margin-top: -25px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.container {
+    width: 740px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+.research-planning p,
+.prototyping p {
+    margin-bottom: 100px;
+}
+
+.sample-questions p {
+    margin-bottom: 50px;
+}
+
+.sample-questions p:last-child {
+    margin-bottom: 100px;
+}
+
+
+/* margin bottom for main sections */
+.overview,
+.research-planning,
+.prototyping {
+    margin-bottom: 150px;
+}
+
+/* ||  sketches */  
+
+.sketch {
+    width: 277px;
+    height: 597px;
+}
+
+.sketch-container,
+.wireframe-wrap {
+    width: 750px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.last-sketch-container {
+    margin-bottom: 85px;
+}
+
+.wireframe-wrap img {
+    margin-bottom: 80px;
+}
+
+.task-paragraph {
+    margin-bottom: 70px;
+}
+
+.usability-responses p {
+    margin-bottom: 50px;
+}
+
+.pc {
+    width: 425px;
+    text-align: left;
+}
+
+.pc p {
+    margin-right: 100px;
+}
+
+.view-next h2 {
+    font-size: 40px;
+}
+
+.frog-pic {
+    width: 120px;
+    height: 120px;
+}
+
+.treehouse-disclaimer {
+    font-size: .73rem;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+/*=============================
+    Media Query for 1000px
+=========================== */
+
+@media (min-width: 1000px) {
+
+    .container {
+        width: 1000px;
+    }
+
+    .wireframe-wrap {
+        width: 1000px;
+        justify-content: space-between;
+    }
+
+    .pros-cons-wrap {
+        width: 1000px;
+        margin-top: 60px;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+
+    .next {
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

@@ -1,0 +1,904 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #ffb668;
+    text-decoration: none;
+    transition: color .2s ease;
+}
+
+a:hover {
+    color: #ffa23e;
+}
+
+.treehouse-link {
+    color: #acacac;
+}
+
+.treehouse-link:hover {
+    text-decoration: underline;
+    color: #acacac;
+}
+
+/* || WEB FONTS  */
+
+html{
+    font-size: 24px;
+    
+}
+
+/* || SHIRTS BY MIKE TITLE  */
+
+.frog-pic {
+    width: 80px;
+    height: 80px;
+}
+
+.shirts-txt {
+    font-size: 42px;
+}
+
+body { 
+    color: #00b4bd;
+    font: 500 100%/1.5 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* background: radial-gradient(51.25% 163.25% at 48.75% 49.24%, rgb(211, 255, 201) 0%, rgb(0, 164, 139) 100%);  */
+} 
+
+h2 {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 10px;
+    margin: 20px auto;
+}
+
+
+.col h3 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+
+
+.old-website-title,
+.website-critique-title,
+.redesign-title {
+    font-size: 1.6rem;
+}
+
+
+.card p {
+    font-size: .8rem;
+    line-height: 1.3rem;
+    width: 85%;
+    text-align: left;
+    padding-bottom: 55px;
+    margin: auto;
+}
+
+
+/* || HEADER STYLES  */
+
+.main-header-shirts {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(51.25% 163.25% at 48.75% 49.24%, rgb(211, 255, 201) 0%, rgb(0, 164, 139) 100%); 
+
+    /* background: radial-gradient(51.25% 163.25% at 48.75% 49.24%, rgb(207, 250, 197) 0%, rgb(0, 164, 139) 100%); */
+    
+    width: 100;
+}
+
+.frog-logo {
+    text-align: center;
+}
+
+.shirts-txt {
+    margin-top: -15px;
+    color: #00747B;
+}
+
+.rgb-bar {
+    height: 15px;
+    background: linear-gradient(90deg, #01c8aa 0%, #74FF73 53.12%, #01c8aa 100%);
+}
+
+.rgb-bar-bottom {
+    height: 15px;
+    background: linear-gradient(90deg, #ff0000 0%, #4dff00 50%, #007EFF 100%);
+}
+
+
+/* || CASE STUDY STYLES  */
+
+/* OVERVIEW CARD */
+
+
+.case-study-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:white;
+}
+
+.card {
+    width: 390px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.50);
+    margin: 0 auto 125px;
+}
+
+.overview {
+    margin-top: 100px;
+    background: radial-gradient(100% 100% at 50% 100%, #008327 0%, #009aab 100%);   
+}
+
+
+.overview,
+.assumptions,
+.approach,
+.problems-goals,
+.audience,
+.overall-summary {
+    color: #efefef;
+    text-align: center;
+}
+
+/* PROBLEMS AND GOALS CARD */
+
+.problems-goals {
+    background: radial-gradient(100% 100% at 50% 100%, #0086ce 0%, #00437e 100%);
+}
+
+
+
+/* AUDIENCE CARD */
+
+
+.audience {
+    background: radial-gradient(100% 100% at 50.07% 0%, #7100d3 0%, #1f0087 100%);
+}
+
+.audience p {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: .8em;
+    line-height: .9em;
+}
+
+.audience p:last-child {
+    padding-bottom: 50px;
+}
+
+.target-user-title {
+    font-size: 1rem;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: rgb(185, 116, 254);
+    
+}
+
+.target-user-container h3 {
+    font-size: .8rem;
+    color: rgb(185, 116, 254);
+}
+
+.target-user-container p {
+    margin-top: -5px;
+    line-height: 1.3;
+}
+
+.target-user-container p:last-child {
+    margin-bottom: 30px;
+}
+
+.target-user-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+/* OLD WEBSITE SECTION */
+
+.old-website-container {
+    text-align: center;
+} 
+
+.old-website-title {
+    margin: 0 0 35px 0;
+}
+
+.hero-mike,
+.old-mike-page {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-mike {
+    margin-bottom: -50px;
+}
+
+.catalog-product-container,
+.sketches-container  {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.old-mike-page {
+    margin-top: 50px;
+}
+
+.old-mike-page {
+    text-align: center;
+}
+
+.old-mike-page img {
+    max-width: 90%;
+    margin-bottom: 0;
+}
+
+.img-card {
+    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.50);
+}
+
+
+/* WEBSITE CRITIQUE SECTION */
+
+.website-critique-container,
+.redesign-website-container {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.design-principles {
+    margin: 40px auto;
+}
+
+
+.design-critique-container,
+.mockup-imgs-container,
+.mockup-mobile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* DESIGN PRINCIPLES SECTION */
+
+.col {
+    width: 370px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: radial-gradient(100% 100% at 52.22% 100%, #007478 0%, #00b37a 100%);
+    color: #efefef;
+    box-shadow: 0px 4px 7px #007d82;
+    margin-bottom: 30px;
+}
+
+.col p {
+    font-size: .65rem;
+    width: 90%;
+    line-height: 1.1rem;
+    text-align: center;
+    margin: -15px auto 0;
+}
+
+
+/* JOURNEY MAP SECTION */
+
+.journey-map-container {
+    width: 375px;
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.journey-map-container h2 {
+    margin: 10px;
+}
+
+.journey-map-img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+    border-radius: 3px;
+}
+
+/* REDESING WEBSITE SECTION */
+
+.redesign-website-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.assumptions  {
+    background: radial-gradient(100% 100% at 52.93% 0%, #00CBA6 0%, #004A9C 100%);
+    margin: 75px auto;
+}
+
+.assumptions-title,
+.approach-title,
+.overall-title {
+    font-size: 1.3rem;
+    padding-top: 25px;
+}
+
+.sketch
+
+/* SKETCHES SECTION */
+
+.main-sketch-container {
+    text-align: center;
+    margin: 0 auto 125px;
+}
+
+
+.sketch-img {
+    width: 365px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+/* MOCKUPS SECTION */
+
+/* color palette */
+
+.color-palette-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 50px;
+}
+
+.color-block {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-dark-aqua {
+    background-color: #00747B;
+}
+
+.color-dark-blue {
+    background-color: #41a3ff;
+}
+
+.color-orange {
+    background-color: #f3934f;
+}
+
+.color-white {
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #959595;
+}
+
+.hex-number {
+    display: none;
+}
+
+.color-parag-container,
+.typo-container,
+.brand-container,
+.txt-content-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.color-parag-container,
+.typo-container,
+.brand-container {
+    margin: 0 auto;
+}
+
+.color-paragraph {
+    text-align: center;
+    font-size: .9rem;
+    margin: 0 auto;
+}
+
+
+.color-paragraph { 
+    background: linear-gradient(180deg, #00aba5 1%, #0057a9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.baloo-chettan-subtitle {
+    font-size: 1.1em;
+    font-family: 'Baloo Chettan 2', cursive;
+    color: #00747B;
+}
+
+.approach {
+    background: radial-gradient(100% 100% at 52.22% 0%, #FF0000 0%, #740000 100%);
+
+}
+
+    /* mockup images palette */
+
+.mockup-imgs-container,
+.mockup-mobile-container {
+    margin: 0 auto;
+}
+
+
+.mockup-imgs-container img { 
+    width: 370px;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.mobile-mockup {
+    width: 187px;
+    height: 406px;
+    margin-bottom: 30px;
+}
+
+.mockup-mobile-container {
+    margin-bottom: 30px;
+}
+
+   /* OVERALL SUMMARY */
+
+.overall-summary {
+    background: radial-gradient(107.74% 107.74% at 53.05% -7.74%, #79E7FF 0%, #0056D8 100%);}
+
+
+  /* NEXT SECTION SUMMARY */
+
+.next-section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 175px;
+    text-align: center;
+}
+
+
+
+
+.grocery-txt, 
+.prime-txt {
+    font-family: 'Fugaz One', cursive;
+    margin: 0;
+    padding: 0;
+    font-size: 1.8rem;
+}
+
+
+.woosh-txt {
+    width: 355px;
+    font-size: 1.8rem;
+    padding: 8px;
+    font-family: 'Leckerli One', cursive;
+    background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.grocery-txt {
+    color: #31B004;
+}
+
+.prime-txt {
+    color: #ff9627;
+    margin-top: -17px;
+}
+
+
+footer p {
+    text-align: center;
+    padding: 1.4em 0;
+    color: #acacac;
+    margin: 0 auto;
+    font-size: .63rem;
+    width: 85%;
+}
+
+
+/* || logo */
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px auto;
+}
+
+
+
+.square {
+    width: 26px;
+    height: 26px;
+    background-color: #ED1010;
+    border-radius: 3px;
+}
+
+.triangle {
+	position: relative;
+	background-color: #00ff11;
+	text-align: left;
+    margin-left: -3px;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  15px;
+	height: 15px;
+	border-top-right-radius: 25%;
+}
+
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+.circle {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: rgb(0, 106, 255);
+    margin-left: -5px;
+}
+
+
+.x {
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    color: rgb(220, 7, 220);
+    margin: 0;
+    margin-left: -9px;
+    padding: 0;
+}
+
+/*===================================
+    Media Query for 750px
+=====================================*/
+
+@media (min-width: 750px) {
+
+.frog-pic {
+    width: 120px;
+    height: 120px;
+}
+
+.shirts-txt {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 1.35rem;
+}
+.card {
+    width: 750px;
+}
+
+
+.overview-title,
+.problems-goals-title,
+.audience-title,
+.assumptions-title,
+.approach-title,
+.overall-title {
+    font-size: 1.9rem;
+}
+
+
+.card p,
+.target-user-container p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.target-user-container h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.target-user-container p {
+    margin-top: -10px;
+}
+
+
+    /* OLD WEBSITE SECTION */
+
+.old-website-container {
+    margin-top: 70px;
+}
+
+.old-website-title {
+    margin-bottom: 55px;
+}
+
+.old-website-title,
+.website-critique-container h2,
+.redesign-title {
+    font-size: 2.5rem;
+}
+
+h3,
+.design-principles {
+    font-size: 1.7rem;
+}
+
+.target-user-title {
+    font-size: 1.5rem;
+}
+
+.design-principles {
+    margin-bottom: 50px;
+}
+
+.hero-mike {
+    max-width: 1000px;
+}
+
+.catalog-product-container {
+    max-width: 1300px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.old-mike-page img {
+    height: 400px;
+}
+
+    /* WEBSITE CRITIQUE SECTION */
+
+.website-critique-container {
+    margin: 100px auto 100px;
+    max-width: 1200px;
+
+}
+
+
+
+.design-critique-container,
+.sketches-container,
+.mockup-imgs-container {
+    max-width: 1200px;
+    flex-flow:  row wrap;
+    justify-content: space-evenly;
+}
+
+.mockup-mobile-container {
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col h3 {
+    color: #efefef;
+    font-size: 1.3rem;
+}
+
+.col {
+    font-size: .9rem;
+    width: 550px;
+    height: 400px;
+    padding: 25px;
+    line-height: 1.4rem;
+} 
+
+.col p {
+    font-size: .9rem;
+    width: 85%;
+    line-height: 1.35rem;
+    margin-top: 0;
+}
+
+
+    /* DESIGN PRINCIPLES SECTION */
+
+
+/* JOURNEY MAP SECTION */
+
+.journey-map-container {
+    width: 720px;
+}
+
+.journey-map-container img {
+    margin-top: 25px;
+    transition: all .5s ease;
+}
+
+/* REDESIGN SECTION */
+
+.redesign-website-container {
+    margin-top: 70px;
+}
+
+.main-sketch-container {
+    margin-top: 125px;
+}
+
+/* SKETCHES SECTION */
+
+.sketch-img {
+    width: 480px;
+    height: 375px;
+}
+
+/* color palette */
+
+.color-palette-wrap {
+    display: row;
+    flex-flow: row nowrap;
+    width: 760px;
+    justify-content: space-evenly;
+}
+
+.color-block {
+    height: 145px;
+    width: 145px;
+    margin-right: 20px;
+    flex-flow: column nowrap;
+}
+
+.hex-number {
+    display: block;
+}
+
+.a-color {
+    color: #01cfda;
+}
+
+.b-color {
+    color: #005db3;
+}
+
+.c-color {
+    color: #c75403;
+}
+
+.d-color {
+    color: rgb(154, 154, 154);
+}
+
+.color-parag-container,
+.typo-container,
+.brand-container,
+.txt-content-container {
+    width: 750px;
+  
+}
+
+.typography-wrap {
+    margin: 150px auto;
+}
+
+.brand-personality-wrap,
+.text-content-wrap {
+    margin-bottom: 150px;
+}
+
+.color-paragraph {
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+
+.baloo-chettan-subtitle {
+    font-size: 1.55rem;
+}
+
+.mockup-imgs-container img {
+    width: 550px;
+    height: 400px;
+    padding: 25px;
+}
+
+.mockup-mobile-container {
+    margin-bottom: 150px;
+}
+
+
+.grocery-txt,
+.prime-txt,
+.woosh-txt {
+    font-size: 2.1rem;
+}
+
+.next-section {
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.treehouse-disclaimer {
+    font-size: .73rem;
+}
+
+
+.overview,
+.problems-goals,
+.approach,
+.last-card,
+.assumptions {
+    padding: 5px 0px 25px;
+}
+
+.prime-txt {
+    margin-top: -21px;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+
+}
+
+
+
+/*=============================
+    Media Query for 1000px
+=========================== */
+
+@media (min-width: 1000px) {
+
+    .last-card,
+    .card {
+        min-width: 900px;
+    }
+
+    .overview,
+    .problems-goals,
+    .approach,
+    .last-card,
+    .assumptions {
+        padding: 5px 0px 25px;
+    }
+
+    .audience {
+        padding: 10px 0px 40px;
+    }
+
+
+
+
+}
