@@ -6,11 +6,11 @@
 
 
 /* || WEB FONTS  */
-body { 
+body {   
     min-height: 100vh;
     display: flex;
+    flex: 1;
     flex-direction: column;
-    flex:1;
     font: 400 100%/1.5 'Noto Sans', sans-serif;
     background: radial-gradient(101.25% 101.25% at 50% 101.25%, #0183BF 0%, #000364 100%);
 } 
@@ -104,7 +104,7 @@ body {
 
 
 html{
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .main-nav {
@@ -163,6 +163,7 @@ h1 {
 }
 
 .hello-title {
+    font-size: 65px;
     width: 185px;
     font-weight: bold;
     text-align: center;
@@ -208,8 +209,8 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
-    min-width: 90%;
+  
+    width: 90%;
 }
 
 .main-container a {
@@ -217,7 +218,7 @@ h1 {
 }
 
 .card {
-    min-width: 90%;
+    width: 90%;
     height: 300px;
     border-radius: 10px;
     margin: 0 auto 30px;
@@ -307,13 +308,17 @@ h1 {
 
 /******  FOOTER  ******/
 
+footer {
+    margin-top: auto;
+}
+
 footer p {
+    margin-top: auto;
     text-align: center;
     padding: 1.4em 0;
     color: #e1e1e1;
     margin: 0 auto;
     font-size: 15px;
-    width: 90%;
 }
 
 .treehouse-link {
@@ -332,7 +337,7 @@ footer p {
 Media Query for 720px
 =========================== */
 
-@media (min-width: 720px) {
+@media (min-width: 770px) {
     .main-nav {
         width: 450px;
         flex-direction: row;
@@ -345,9 +350,9 @@ Media Query for 720px
     
     .hello-title {
         width: 200px;
+        font-size: 77px;
     }
 
-    .hello-title,
     .period {
         font-size: 3.25rem;
     }
@@ -363,36 +368,37 @@ Media Query for 720px
 
 
     .main-container {
-        max-width: 1200px;
+        width: 770px;
         flex-flow: row wrap;
      
     }
-    
+
     .card {
-        min-width: 45%;
+        width: 45%;
     }
+    
+
 
 
 }
 
 
 /* =====================
-Media Query for 1024px
+Media Query for 1230px
 ======================== */
 
-@media (min-width: 1200px) {
+@media (min-width: 1230px) {
 
-  
-    
     .main-container {
-        max-width: 1500px;
+        width: 1350px;
         flex-wrap: nowrap; 
         align-items: flex-start;
+        justify-content: space-around;    
     }
 
  
     .card {
-        min-width: 30%;
+        width: 30%;
     }
 
 }
