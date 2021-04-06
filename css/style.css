@@ -4,12 +4,14 @@
 }
 
 
+
 /* || WEB FONTS  */
 body { 
-    font: 400 100%/1.5 'Noto Sans', sans-serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    flex:1;
+    font: 400 100%/1.5 'Noto Sans', sans-serif;
     background: radial-gradient(101.25% 101.25% at 50% 101.25%, #0183BF 0%, #000364 100%);
 } 
 
@@ -34,12 +36,13 @@ body {
 }
 
 .logo {
+    text-decoration: none;
+    margin: 10px auto 0px;
     width: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 10px auto;
 }
 
 .square {
@@ -149,8 +152,7 @@ h1 {
     height: 540px;
     padding: 1em;
     margin-bottom: 30px;
-    
-    /* background: radial-gradient(101.25% 101.25% at 50% 101.25%, #0183BF 0%, #000364 100%); */
+
 }
 
 
@@ -193,7 +195,7 @@ h1 {
     text-align:center;
 }
 
-.rgb-bar {
+.rgb-bar-bottom {
     height: 15px;
     background: linear-gradient(90deg, #ff0000 0%, #4dff00 50%, #007EFF 100%);
 }
@@ -207,7 +209,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex: 1;
-    width: 100%;
+    min-width: 90%;
 }
 
 .main-container a {
@@ -216,16 +218,16 @@ h1 {
 
 .card {
     min-width: 90%;
-    height: 320px;
+    height: 300px;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 0 auto 30px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
+
 
 .shirts-txt,
 .grocery-txt,
@@ -310,7 +312,8 @@ footer p {
     padding: 1.4em 0;
     color: #e1e1e1;
     margin: 0 auto;
-    font-size: .75em;
+    font-size: 15px;
+    width: 90%;
 }
 
 .treehouse-link {
@@ -324,19 +327,16 @@ footer p {
 }
 
 
+
 /* ========================
 Media Query for 720px
 =========================== */
 
 @media (min-width: 720px) {
-
-  
-
     .main-nav {
         width: 450px;
         flex-direction: row;
         justify-content: space-between;
-      
     }
 
     .main-nav li {
@@ -365,7 +365,7 @@ Media Query for 720px
     .main-container {
         max-width: 1200px;
         flex-flow: row wrap;
-        align-items:flex-start; 
+     
     }
     
     .card {
@@ -381,21 +381,18 @@ Media Query for 1024px
 ======================== */
 
 @media (min-width: 1200px) {
-    
-    .logo {
-        position: fixed;
-        left: 50px;
-        top: 35px;
-    }
+
   
+    
     .main-container {
         max-width: 1500px;
         flex-wrap: nowrap; 
+        align-items: flex-start;
     }
 
+ 
     .card {
         min-width: 30%;
-        margin-bottom: -20px;
     }
 
 }
