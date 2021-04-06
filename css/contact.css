@@ -7,13 +7,90 @@ a {
     color: #FFE2E2;
 }
 
+.main-header {
+    padding-top: 20px;
+}
+
+/* || logo */
+
+.main-header a {
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    margin: 10px auto 0px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.square {
+    width: 26px;
+    height: 26px;
+    background-color: #ED1010;
+    border-radius: 3px;
+}
+
+.triangle {
+	position: relative;
+	background-color: #00ff11;
+	text-align: left;
+    margin-left: -3px;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  15px;
+	height: 15px;
+	border-top-right-radius: 25%;
+}
+
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+.circle {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: rgb(0, 106, 255);
+    margin-left: -5px;
+}
+
+
+.x {
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    color: rgb(220, 7, 220);
+    margin: 0;
+    margin-left: -9px;
+    padding: 0;
+}
+
 
 
 body { 
+    min-height: 100vh;
     font: 400 100%/1.5 'Noto Sans', sans-serif;
     display: flex;
+    flex:1;
     flex-direction: column;
-    min-height: 100vh;
     color: #dfdfdf;
     background: radial-gradient(99.1% 99.1% at 49.34% 0.9%, #770000 0%, #001860 100%);
 } 
@@ -23,8 +100,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 45px auto;
-    font-size: 24px;
+    margin: 20px auto;
+    font-size: 20px;
 }
 
 .main-nav li {
@@ -52,13 +129,10 @@ ul a {
 }
 
 .red-circle-container {
-    position: relative;
+    margin: 100px auto;
     width: 375px;
     height: 375px;
-    left: 0px;
-    top: 150px;
     border-radius: 50%;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,17 +145,17 @@ p {
 }
 
 .name {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .number,
-.email-link {
+.email-link,
+.linkedin {
     font-size: 20px;
 }
 
 .linkedin {
     margin-top: 7px;
-    font-size: 17px;
 }
 
 .email-link,
@@ -100,6 +174,7 @@ p {
 @media (min-width: 750px) {
 
 .main-nav {
+    font-size: 22px;
     width: 450px;
     flex-direction: row;
     justify-content: space-between;
@@ -114,18 +189,15 @@ p {
     height: 600px;
 }
     
-  
 .name {
     font-size: 32px;
 }
 
 .number,
-.email-link {
+.email-link,
+.linkedin {
     font-size: 28px;
 }
 
-.linkedin {
-    font-size: 25px;
-}
 
 }

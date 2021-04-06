@@ -3,7 +3,7 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 20px;
 }
 a {
     text-decoration: none;
@@ -103,7 +103,10 @@ p {
 }
 
 .problems {
-    background: linear-gradient(180deg, #0690E4 0%, #30B0FF 32.29%, #6CC7FF 53.65%, #9AD8FE 78.65%, #FFFFFF 100%);
+    /* background: linear-gradient(180deg, #0690E4 0%, #037bc5 32.29%, #01609b 53.65%, #01578d 78.65%, #FFFFFF 100%); */
+
+    background: linear-gradient(180deg, #1662bf 0%,  #106dd0 32.29%,  #078ee1 53.65%, #0796ef 78.65%, #FFFFFF 100%);
+
 }
 
 .problems h1, 
@@ -141,8 +144,8 @@ p {
 
 .personas img,
 .storyboard img {
-    height: 200px;
-    width: 370px;
+    height: 225px;
+    width: 375px;
     margin-bottom: 50px;
     border-right: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -399,7 +402,7 @@ footer p {
 @media (min-width: 750px) {
 
     html {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     h1 {
@@ -428,8 +431,8 @@ footer p {
 
     .personas img,
     .storyboard img {
-        height: 400px;
-        width: 740px;
+        height: 450px;
+        width: 790px;
         margin-bottom: 75px;
     }
 
@@ -512,10 +515,6 @@ footer p {
     .frog-pic {
         width: 120px;
         height: 120px;
-    }
-
-    footer p {
-        font-size: 17px;
     }
 
 

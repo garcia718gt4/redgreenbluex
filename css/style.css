@@ -149,10 +149,7 @@ h1 {
 /* || MAIN STYLES  */
 
 .main-header {
-    height: 540px;
-    padding: 1em;
-    margin-bottom: 30px;
-
+    padding-top: 20px;
 }
 
 
@@ -204,7 +201,7 @@ h1 {
 /******  MAIN CONTAINER  ******/
 
 .main-container {
-    margin: -10px auto;
+    margin: 90px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,6 +309,7 @@ footer {
 }
 
 footer p {
+    width: 90%;
     margin-top: auto;
     text-align: center;
     padding: 1.4em 0;

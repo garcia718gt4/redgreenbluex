@@ -97,7 +97,7 @@ a:hover {
 /* || WEB FONTS  */
 
 html{
-    font-size: 24px;
+    font-size: 22px;
     
 }
 
@@ -592,7 +592,7 @@ footer p {
     padding: 1.4em 0;
     color: #acacac;
     margin: 0 auto;
-    font-size: .63rem;
+    font-size: 15px;
     width: 85%;
 }
 
@@ -854,10 +854,6 @@ h3,
     justify-content: space-between;
 }
 
-
-.treehouse-disclaimer {
-    font-size: .73rem;
-}
 
 
 .overview,

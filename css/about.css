@@ -2,27 +2,100 @@
     box-sizing: border-box;
 }
 
+
+.main-header a {
+    text-decoration: none;
+    padding-top: 20px;
+}
+/* || logo */
+
+
+.logo {
+    text-decoration: none;
+    margin: 10px auto 0px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.square {
+    width: 26px;
+    height: 26px;
+    background-color: #ED1010;
+    border-radius: 3px;
+}
+
+.triangle {
+	position: relative;
+	background-color: #00ff11;
+	text-align: left;
+    margin-left: -3px;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  15px;
+	height: 15px;
+	border-top-right-radius: 25%;
+}
+
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+
+.circle {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: rgb(0, 106, 255);
+    margin-left: -5px;
+}
+
+
+.x {
+    font-family: 'Righteous', cursive;
+    font-size: 32px;
+    color: rgb(220, 7, 220);
+    margin: 0;
+    margin-left: -9px;
+    padding: 0;
+}
+
 body {
+    min-height: 100vh;
     font: 400 100%/1.5 'Noto Sans', sans-serif;
     display: flex;
+    flex:1;
     flex-direction: column;
-    min-height: 100vh;
     color: #dfdfdf;
     background: linear-gradient(180deg, #001a06 0%, #005813 48.96%, #001a06 100%);
     box-shadow: 0px 2px 25px 5px rgba(219, 219, 219, 0.23);
+
 }
 
-html {
-    font-size: 21px;
-}
 
 .main-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 45px auto;
-    font-size: 24px;
+    margin: 20px auto;
+    font-size: 22px;
 }
 
 .main-nav li {
@@ -52,10 +125,8 @@ ul a {
 .about-paragraph {
     width: 370px;
     line-height: 1.5;
-    margin: 0 auto;
-    position: relative;
-    left: 0px;
-    top: 150px;
+    margin: 100px auto;
+    font-size: 22px;
 }
 
 
@@ -72,16 +143,17 @@ ul a {
     }
 
     .about-paragraph {
-        font-size: 28px;
+        font-size: 25px;
         width: 740px;
         line-height: 1.9;      
     }
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1025px) {
 
     .about-paragraph {
-        width: 975px;     
+    
+        width: 1015px;     
     }
 }
