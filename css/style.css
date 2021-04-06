@@ -3,7 +3,9 @@
     box-sizing: border-box;
 }
 
-
+.main-header {
+    padding-top: 15px;
+}
 
 /* || WEB FONTS  */
 body {   
@@ -148,9 +150,7 @@ h1 {
 
 /* || MAIN STYLES  */
 
-.main-header {
-    padding-top: 20px;
-}
+
 
 
 
