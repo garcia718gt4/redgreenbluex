@@ -196,8 +196,9 @@ h1 {
 }
 
 .rgb-bar-bottom {
-    height: 15px;
-    background: linear-gradient(90deg, #ff0000 0%, #4dff00 50%, #007EFF 100%);
+    height: 25px;
+    background: radial-gradient(49.75% 8150.4% at 50.25% 50%, #00FF8A 0%, #0056FF 54.69%, #FF0600 100%);
+
 }
 
 /******  MAIN CONTAINER  ******/
