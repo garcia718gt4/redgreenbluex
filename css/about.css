@@ -83,7 +83,7 @@ body {
     flex:1;
     flex-direction: column;
     color: #dfdfdf;
-    background: radial-gradient(100% 100% at 50% 0%, #007E32 0%, #00154B 100%);
+    background: radial-gradient(100% 100% at 50% 0%, #006d2c 0%, #00154B 100%);
 }
 
 
@@ -102,7 +102,7 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #0dd438;
+    color: #88f8a0;
     padding: 10px;
 }
 
@@ -112,7 +112,7 @@ ul a {
 
 .home:hover,
 .contact:hover {
-    color: #04ad29;
+    color: #019e23;
 }
 
 .contact,

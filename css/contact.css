@@ -110,7 +110,7 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #fa4848;
+    color: #ff5858;
     padding: 10px;
 }
 
@@ -120,7 +120,7 @@ ul a {
 
 .about:hover,
 .home:hover {
-    color: #bb2525;
+    color: #be0404;
 }
 
 .about,
