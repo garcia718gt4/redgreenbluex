@@ -292,7 +292,6 @@ body {
 .woosh-txt {
     width: 315px;
     font-size: 36px;
-    padding: 8px;
     font-family: 'Leckerli One', cursive;
     background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
     -webkit-background-clip: text;
