@@ -137,8 +137,7 @@ ul a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(132, 36, 255, 0) 80.65%, #9441FF 95.83%, rgba(143, 56, 255, 0.682927) 100%);
-}
+    background: linear-gradient(89.89deg, rgba(238, 32, 32, .19) 0.11%, rgba(225, 31, 31, 0) 50.39%, rgba(238, 32, 32, .19) 99.91%);}
 
 p {
     line-height: .3;

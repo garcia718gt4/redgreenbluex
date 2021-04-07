@@ -83,9 +83,7 @@ body {
     flex:1;
     flex-direction: column;
     color: #dfdfdf;
-    background: linear-gradient(180deg, #000c03 0%, #005813 48.96%, #000c03 100%);
-    box-shadow: 0px 2px 25px 5px rgba(219, 219, 219, 0.23);
-
+    background: radial-gradient(100% 100% at 50% 0%, #007E32 0%, #00154B 100%);
 }
 
 
@@ -104,7 +102,7 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #00AB25;
+    color: #0dd438;
     padding: 10px;
 }
 
@@ -114,7 +112,7 @@ ul a {
 
 .home:hover,
 .contact:hover {
-    color: #107426;
+    color: #04ad29;
 }
 
 .contact,
@@ -126,7 +124,14 @@ ul a {
     width: 370px;
     line-height: 1.5;
     margin: 100px auto;
+    padding: 15px;
     font-size: 22px;
+    background: linear-gradient(134.94deg, rgba(48, 171, 46, 0.19) 20.03%, rgba(28, 255, 23, 0) 47.66%, rgba(5, 255, 0, 0.1) 77.08%);    border-radius: 10px;    
+}
+
+.about-paragraph p {
+    width: 95%;
+    margin: 10px auto;
 }
 
 

@@ -14,8 +14,8 @@ body {
     flex: 1;
     flex-direction: column;
     font: 400 100%/1.5 'Noto Sans', sans-serif;
-    background: radial-gradient(101.25% 101.25% at 50% 101.25%, #0183BF 0%, #000364 100%);
-} 
+    /* background: radial-gradient(101.25% 101.25% at 50% 101.25%, #0183BF 0%, #000364 100%); */
+    background: radial-gradient(100% 100% at 48.44% 0%, #015da4 0%, #0d0064 100%);} 
 
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
@@ -123,7 +123,7 @@ html{
 
 ul a {
     text-decoration: none;
-    color: #3994FF;
+    color: #88befb;
     padding: 10px;
 }
 
@@ -135,7 +135,7 @@ ul a {
 
 .about:hover,
 .contact:hover {
-    color: #b1d1f7;
+    color: #4999fa;
 }
 
 .about,
@@ -165,11 +165,13 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 0;
-    background: linear-gradient(89.92deg, #ff0202 4.83%, #fc5757 22.88%, #6FF55B 40.93%, #3EF31F 57.26%, #46A0FA 69.3%, #1A83FA 78.75%, #0065D8 87.35%);
+    background: linear-gradient(89.92deg, #ff0202 14.83%, #fc5757 32.88%, #6FF55B 50.93%, #3EF31F 67.26%, #0e81f3 79.3%, #056ce1 88.75%, #014899 97.35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px 60px #00FFC8;
+    text-shadow: 0px 0px 60px #00fbff;
     margin: auto;
+
+    
 }
 
 
