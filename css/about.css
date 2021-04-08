@@ -126,7 +126,8 @@ ul a {
     margin: 100px auto;
     padding: 15px;
     font-size: 22px;
-    background: linear-gradient(134.94deg, rgba(48, 171, 46, 0.19) 20.03%, rgba(28, 255, 23, 0) 47.66%, rgba(5, 255, 0, 0.1) 77.08%);    border-radius: 10px;    
+    background: linear-gradient(134.94deg, rgba(48, 171, 46, 0.19) 20.03%, rgba(3, 96, 1, 0) 47.66%, rgba(5, 255, 0, 0.1) 77.08%);   
+     border-radius: 10px;    
 }
 
 .about-paragraph p {
