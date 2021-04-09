@@ -245,7 +245,7 @@ h1 {
 }
 
 .frog-col:hover {
-    box-shadow: 0px 0px 45px 7px #bcffa5;
+    box-shadow: 0px 0px 30px 4px #bcffa5;
 }
 
 .shirts-txt {
@@ -266,7 +266,7 @@ h1 {
 }
 
 .grocery-col:hover {
-    box-shadow: 0px 0px 45px 7px #feffb8;
+    box-shadow: 0px 0px 30px 4px #feffb8;
 }
 
 .grocery-txt {
@@ -285,7 +285,7 @@ h1 {
 }
 
 .woosh-col:hover {
-    box-shadow: 0px 0px 45px 7px #a3edff;
+    box-shadow: 0px 0px 30px 4px #a3edff;
 }
 
 .woosh-txt {
