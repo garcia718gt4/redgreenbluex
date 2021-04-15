@@ -11,10 +11,13 @@ a {
 /* || HEADER  */
 
 .banner {
-    height: 80px;
+    background: rgb(0, 45, 135);
+    height: 70px;
     width: 100%;
     position: fixed;
-    background: rgb(255, 237, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -98,8 +101,8 @@ p {
     width: 90%;
     margin: 0 auto;
     text-align: left;
-    line-height: 1.7;
-    color: #0283E0;
+    line-height: 1.7;  
+    color: #0062a7; 
 }
 
 .problems {
@@ -186,7 +189,7 @@ p {
 .competitor-logo {
     width: 260px;
     height: 160px;
-    border-radius: 15px;
+    border-radius: 5px;
     margin: 0 auto 30px;
 }
 

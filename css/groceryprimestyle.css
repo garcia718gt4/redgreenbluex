@@ -7,10 +7,13 @@
 /* || logo *******/
 
 .banner {
-    height: 80px;
+    background: rgb(0, 45, 135);
+    height: 70px;
     width: 100%;
     position: fixed;
-    background: rgb(255, 237, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
