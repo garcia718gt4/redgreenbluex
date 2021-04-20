@@ -79,13 +79,13 @@
 }
 
 a {
-    color: #ffb668;
+    color: #EFEFEF;
     text-decoration: none;
     transition: color .2s ease;
 }
 
 a:hover {
-    color: #ffa23e;
+   text-decoration: underline;
 }
 
 .treehouse-link {
@@ -213,7 +213,7 @@ h2 {
 
 .overview {
     margin-top: 100px;
-    background: radial-gradient(100% 100% at 50% 0%, #02c33c 0%, #01967b 100%);   
+    background: radial-gradient(100% 100% at 50% 0%, #01a432 0%, #01ae8e 100%);   
 }
 
 
