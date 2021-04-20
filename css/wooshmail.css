@@ -68,10 +68,10 @@ h2 {
     
 }
 
-.rgb-bar {
+/* .rgb-bar {
     height: 15px;
     background: linear-gradient(90deg, #4EAAFF 0%, #D6EBFE 53.65%, #4EAAFF 100%);
-}
+} */
 
 .rgb-bar-bottom {
     height: 25px;
@@ -246,6 +246,7 @@ p {
 
 .mockups-container {
     margin-top: -50px;
+    margin-bottom: 0px;
 }
 
 .wireframes-admin-wrap {

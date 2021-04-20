@@ -182,10 +182,10 @@ h2 {
     color: #00747B;
 }
 
-.rgb-bar {
+/* .rgb-bar {
     height: 15px;
     background: linear-gradient(90deg, #01c8aa 0%, #74FF73 53.12%, #01c8aa 100%);
-}
+} */
 
 .rgb-bar-bottom {
     height: 25px;
@@ -213,7 +213,7 @@ h2 {
 
 .overview {
     margin-top: 100px;
-    background: radial-gradient(100% 100% at 50% 0%, #01a432 0%, #01ae8e 100%);   
+    background: radial-gradient(100% 100% at 50% 0%, #00bc52 0%, #009540 100%);   
 }
 
 
