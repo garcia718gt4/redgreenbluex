@@ -213,7 +213,7 @@ h2 {
 
 .overview {
     margin-top: 100px;
-    background: radial-gradient(100% 100% at 50% 100%, #008327 0%, #009aab 100%);   
+    background: radial-gradient(100% 100% at 50% 0%, #02c33c 0%, #01967b 100%);   
 }
 
 
@@ -230,7 +230,7 @@ h2 {
 /* PROBLEMS AND GOALS CARD */
 
 .problems-goals {
-    background: radial-gradient(100% 100% at 50% 100%, #0086ce 0%, #00437e 100%);
+    background: radial-gradient(100% 100% at 50% 0%, #27aef7 0%, #0576da 100%);
 }
 
 
@@ -239,7 +239,7 @@ h2 {
 
 
 .audience {
-    background: radial-gradient(100% 100% at 50.07% 0%, #7100d3 0%, #1f0087 100%);
+    background: radial-gradient(100% 100% at 50.07% 0%, #ac00d3 0%, #1f0087 100%);
 }
 
 .audience p {
@@ -257,13 +257,13 @@ h2 {
 .target-user-title {
     font-size: 1rem;
     font-family: 'Baloo Chettan 2', cursive;
-    color: rgb(185, 116, 254);
+    color: rgb(238, 225, 252);
     
 }
 
 .target-user-container h3 {
     font-size: .8rem;
-    color: rgb(185, 116, 254);
+    color: rgb(194, 138, 250);
 }
 
 .target-user-container p {

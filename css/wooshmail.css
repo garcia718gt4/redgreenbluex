@@ -157,11 +157,15 @@ p {
 
 .anaylysis-chart {
     width: 370px;
-    margin: 0px auto;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.comp-title {
+    margin-top: 100px;
 }
 
 .competitor {
@@ -171,13 +175,12 @@ p {
 .competitor-pghs {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, #FFFFFF 1.18%, #e9f4ff 50.51%, #FFFFFF 100%);
-    border-radius: 8px;
     font-size: 16px;
     margin: 0 auto;
     text-align: center;
     padding-top: 10px;
 }
+
 
 .competitor-pghs p {
     margin: 20px auto;
@@ -247,12 +250,6 @@ p {
 
 .wireframes-admin-wrap {
     width: 100%;
-}
-
-.wireframes-admin-wrap img {
-    border-right: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    box-shadow: 0px 5px 5px rgb(193, 193, 193);
 }
 
 
@@ -395,6 +392,11 @@ footer p {
 .treehouse-link:hover {
     text-decoration: underline;
     color: #acacac;
+}
+
+.comp-wrap {
+    background-color: #e9f4ff; 
+    padding-top: 1px;
 }
 
 
