@@ -11,7 +11,7 @@ a {
 /* || HEADER  */
 
 .banner {
-    background: rgb(0, 45, 135);
+    background: rgb(252, 247, 247);
     height: 70px;
     width: 100%;
     position: fixed;
@@ -90,15 +90,19 @@ h2 {
     margin: 100px auto;
     text-align: center;
     border-radius: 10px;
-    padding: 0 30px;
 }
 
 .overview {
-    background: linear-gradient(180deg, #FFFFFF 1.18%, #e9f4ff 50.51%, #FFFFFF 100%);
+    background: #e9f4ff;
 }
 
+.overview p {
+    padding-bottom: 30px;
+}
+
+
 p {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     text-align: left;
     line-height: 1.7;  
@@ -106,10 +110,7 @@ p {
 }
 
 .problems {
-    /* background: linear-gradient(180deg, #0690E4 0%, #037bc5 32.29%, #01609b 53.65%, #01578d 78.65%, #FFFFFF 100%); */
-
-    background: linear-gradient(180deg, #1662bf 0%,  #106dd0 32.29%,  #078ee1 53.65%, #0796ef 78.65%, #FFFFFF 100%);
-
+    background-color:#0b8fe0;
 }
 
 .problems h1, 
@@ -118,14 +119,14 @@ p {
 }
 
 .problems p {
-    margin-bottom: 175px;
+    margin-bottom: 55px;
 }
 
 
 /* || target audience  */
 
 .target-audience {
-    background: linear-gradient(180deg, #FFFFFF 1.18%, #CEE8FF 52.51%, #FFFFFF 100%);
+    background-color: #CEE8FF;
 }
 
 .audience-paragraph p {
@@ -141,8 +142,6 @@ p {
     align-items: center;
     justify-content: center;
 }
-
-
 
 
 .personas img,
@@ -429,7 +428,7 @@ footer p {
     }
 
     p {
-        width: 80%;
+        width: 90%;
     }
 
     .personas img,

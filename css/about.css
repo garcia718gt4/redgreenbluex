@@ -102,7 +102,7 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #88f8a0;
+    color: #9ef8b1;
     padding: 10px;
 }
 
@@ -126,8 +126,8 @@ ul a {
     margin: 100px auto;
     padding: 15px;
     font-size: 22px;
-    background: linear-gradient(134.94deg, rgba(48, 171, 46, 0.19) 20.03%, rgba(3, 96, 1, 0) 47.66%, rgba(5, 255, 0, 0.1) 77.08%);   
-     border-radius: 10px;    
+    background-color: rgba(48, 171, 46, 0.29); 
+    border-radius: 10px;    
 }
 
 .about-paragraph p {
@@ -151,7 +151,8 @@ ul a {
     .about-paragraph {
         font-size: 25px;
         width: 740px;
-        line-height: 1.9;      
+        line-height: 1.9;  
+        padding: 20px;    
     }
 
 }
@@ -159,7 +160,7 @@ ul a {
 @media (min-width: 1025px) {
 
     .about-paragraph {
-    
+        padding: 25px;
         width: 1015px;     
     }
 }
