@@ -92,14 +92,12 @@ h2 {
     border-radius: 10px;
 }
 
-.overview {
+
+
+.overview, 
+.target-audience {
     background: #e9f4ff;
 }
-
-.overview p {
-    padding-bottom: 30px;
-}
-
 
 p {
     width: 80%;
@@ -118,16 +116,13 @@ p {
     color: #F2F2F2;
 }
 
-.problems p {
+.problems p, 
+.overview p {
     margin-bottom: 55px;
 }
 
 
 /* || target audience  */
-
-.target-audience {
-    background-color: #CEE8FF;
-}
 
 .audience-paragraph p {
     text-align: center;
@@ -141,6 +136,12 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.overview, 
+.target-audience, 
+.problems {
+    margin-bottom: 50px;
 }
 
 

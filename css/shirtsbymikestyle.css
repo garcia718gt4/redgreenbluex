@@ -208,7 +208,6 @@ h2 {
 .card {
     width: 390px;
     border-radius: 5px;
-    box-shadow: 0px 7px 25px rgba(0, 0, 0, 0.50);
     margin: 0 auto 125px;
 }
 
@@ -510,7 +509,7 @@ h2 {
 }
 
 .approach {
-    background: radial-gradient(100% 100% at 52.22% 0%, #FF0000 0%, #740000 100%);
+    background: radial-gradient(100% 100% at 52.22% 0%, #ff6f00 0%, #b74f00 100%);
 
 }
 
@@ -542,7 +541,7 @@ h2 {
    /* OVERALL SUMMARY */
 
 .overall-summary {
-    background: radial-gradient(107.74% 107.74% at 53.05% -7.74%, #79E7FF 0%, #0056D8 100%);}
+    background: radial-gradient(107.74% 107.74% at 53.05% -7.74%, #00c950 0%, #008e39 100%);}
 
 
   /* NEXT SECTION SUMMARY */
