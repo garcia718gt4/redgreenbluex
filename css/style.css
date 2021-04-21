@@ -160,15 +160,15 @@ h1 {
 }
 
 .hello-title {
-    font-size: 65px;
+    font-size: 70px;
     width: 185px;
     font-weight: bold;
     text-align: center;
     margin: 0;
-    background: linear-gradient(89.92deg, #ff0202 14.83%, #fc5757 32.88%, #6FF55B 50.93%, #3EF31F 67.26%, #0e81f3 79.3%, #056ce1 88.75%, #014899 97.35%);
+    background: linear-gradient(89.92deg, #f71b1b 14.83%, #f9746d 32.88%, #06df76 50.93%, #04ceba 67.26%, #0e81f3 79.3%, #056ce1 88.75%, #0157b8 97.35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0px 0px 60px #00fbff;
+    /* text-shadow: 0px 0px 60px #00fbff; */
     margin: auto;
 
     
@@ -226,6 +226,7 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    opacity: .77;
 }
 
 
@@ -245,7 +246,8 @@ h1 {
 }
 
 .frog-col:hover {
-    box-shadow: 0px 0px 30px 4px #bcffa5;
+    /* box-shadow: 0px 0px 30px 4px #bcffa5; */
+    opacity: 1;
 }
 
 .shirts-txt {
@@ -266,7 +268,8 @@ h1 {
 }
 
 .grocery-col:hover {
-    box-shadow: 0px 0px 30px 4px #feffb8;
+    /* box-shadow: 0px 0px 30px 4px #feffb8; */
+    opacity: 1;
 }
 
 .grocery-txt {
@@ -285,7 +288,8 @@ h1 {
 }
 
 .woosh-col:hover {
-    box-shadow: 0px 0px 30px 4px #a3edff;
+    /* box-shadow: 0px 0px 30px 4px #a3edff; */
+    opacity: 1;
 }
 
 .woosh-txt {
@@ -349,8 +353,8 @@ Media Query for 720px
     }
     
     .hello-title {
-        width: 200px;
-        font-size: 77px;
+        width: 220px;
+        font-size: 82px;
     }
 
     .period {
