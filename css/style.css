@@ -150,10 +150,6 @@ h1 {
 
 /* || MAIN STYLES  */
 
-
-
-
-
 .intro-message {
     margin-top: 35px;
     text-align: center;
@@ -224,8 +220,8 @@ h1 {
     width: 90%;
     height: 300px;
     border-radius: 20px;
-    margin: 0 auto;
-    padding: 30px 0;
+    margin: 25px auto;
+    /* padding: 30px 0; */
     text-align: center;
     display: flex;
     align-items: center;
@@ -386,7 +382,7 @@ Media Query for 720px
         width: 45%;
     }
 
-
+   
 }
 
 
