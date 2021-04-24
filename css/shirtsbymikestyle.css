@@ -79,13 +79,17 @@
 }
 
 a {
-    color: #EFEFEF;
+    color: #004fbd;
     text-decoration: none;
     transition: color .2s ease;
 }
 
 a:hover {
    text-decoration: underline;
+}
+
+.next-card a:hover {
+    text-decoration: none;
 }
 
 .treehouse-link {
@@ -147,6 +151,9 @@ h2 {
     font-size: 1.6rem;
 }
 
+.redesign-title {
+    margin: 100px auto -50px;
+}
 
 .card p {
     font-size: .8rem;
@@ -208,13 +215,43 @@ h2 {
 .card {
     width: 390px;
     border-radius: 5px;
-    margin: 0 auto 125px;
+    margin: 0 auto 100px;
 }
 
 .overview {
     margin-top: 100px;
-    background: radial-gradient(100% 100% at 50% 0%, #00bc52 0%, #009540 100%);   
+  
 }
+
+.overview-title {
+    background: radial-gradient(100% 100% at 50% 0%, #00bc52 0%, #009540 100%);   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.color-paragraph-overview,
+.color-paragraph-problems,
+.audience p, 
+.assumptions p, 
+.mockups-container p,
+.color-paragraph  {
+    color: #717171;
+}
+
+.problems-goals-title,
+.strong-problems {
+    background: radial-gradient(100% 100% at 50% 0%, #27aef7 0%, #0576da 100%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.problems-goals {
+    margin-top: -60px;
+
+}
+
+
+
 
 
 .overview,
@@ -229,22 +266,20 @@ h2 {
 
 /* PROBLEMS AND GOALS CARD */
 
-.problems-goals {
-    background: radial-gradient(100% 100% at 50% 0%, #27aef7 0%, #0576da 100%);
-}
-
-
 
 /* AUDIENCE CARD */
 
 
-.audience {
+
+.audience-title {
     background: radial-gradient(100% 100% at 50.07% 0%, #ac00d3 0%, #1f0087 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .audience p {
-    padding: 10px;
-    margin: 0 auto;
+    padding: 8px;
+    margin: 0px auto;
     text-align: center;
     font-size: .8em;
     line-height: .9em;
@@ -255,24 +290,19 @@ h2 {
 }
 
 .target-user-title {
-    font-size: 1rem;
-    font-family: 'Baloo Chettan 2', cursive;
-    color: rgb(238, 225, 252);
+    font-size: 1.1rem;
+    color: rgb(188, 132, 247);
     
 }
 
 .target-user-container h3 {
     font-size: .8rem;
-    color: rgb(194, 138, 250);
+    color: rgb(188, 132, 247);
 }
 
 .target-user-container p {
-    margin-top: -5px;
+    margin-top: -15px;
     line-height: 1.3;
-}
-
-.target-user-container p:last-child {
-    margin-bottom: 30px;
 }
 
 .target-user-pic {
@@ -282,6 +312,8 @@ h2 {
 }
 
 /* OLD WEBSITE SECTION */
+
+
 
 .old-website-container {
     text-align: center;
@@ -335,11 +367,12 @@ h2 {
 .redesign-website-container {
     width: 100%;
     text-align: center;
-    margin: 50px auto;
+    margin: 25px auto;
 }
 
 .design-principles {
-    margin: 40px auto;
+    font-size: 28px;
+    margin: 30px auto;
 }
 
 
@@ -362,8 +395,7 @@ h2 {
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
-    background: radial-gradient(100% 100% at 52.22% 100%, #007478 0%, #00b37a 100%);
-    color: #efefef;
+    color: #f7f7f7;
     margin-bottom: 30px;
 }
 
@@ -375,7 +407,21 @@ h2 {
     margin: -15px auto 0;
 }
 
+.color {
+    background: radial-gradient(100% 100% at 50% 0%, #00cd59 0%, #00ac4b 100%); 
+}
 
+.shapes {
+    background: radial-gradient(100% 100% at 50% 0%, #1d96ff 0%, #0171d3 100%); 
+}
+
+.group {
+    background: radial-gradient(100% 100% at 50.07% 0%, #d010fb 0%, #a201c6 100%);
+}
+
+.balance {
+    background: radial-gradient(100% 100% at 52.22% 0%, #ff6f00 0%, #c95700 100%);
+}
 /* JOURNEY MAP SECTION */
 
 .journey-map-container {
@@ -403,7 +449,6 @@ h2 {
 }
 
 .assumptions  {
-    background: radial-gradient(100% 100% at 52.93% 0%, #00CBA6 0%, #004A9C 100%);
     margin: 75px auto;
 }
 
@@ -414,19 +459,26 @@ h2 {
     padding-top: 25px;
 }
 
-.sketch
+.assumptions-title {
+    background: radial-gradient(100% 100% at 52.93% 0%, #00CBA6 0%, #004A9C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
 
 /* SKETCHES SECTION */
 
 .main-sketch-container {
     text-align: center;
-    margin: 0 auto 125px;
+    margin: -50px auto 100px;
+   
 }
 
 
 .sketch-img {
     width: 365px;
-    height: 300px;
+    height: 280px;
     margin-bottom: 25px;
 }
 
@@ -480,6 +532,7 @@ h2 {
 .txt-content-container {
     width: 85%;
     margin: 0 auto;
+    text-align: left;
 }
 
 .color-parag-container,
@@ -489,17 +542,10 @@ h2 {
 }
 
 .color-paragraph {
-    text-align: center;
     font-size: .9rem;
     margin: 0 auto;
 }
 
-
-.color-paragraph { 
-    background: linear-gradient(180deg, #00aba5 1%, #0057a9 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .baloo-chettan-subtitle {
     font-size: 1.1em;
@@ -507,12 +553,20 @@ h2 {
     color: #00747B;
 }
 
-.approach {
-    background: radial-gradient(100% 100% at 52.22% 0%, #ff6f00 0%, #b74f00 100%);
 
+
+.approach-title {
+    background: radial-gradient(100% 100% at 52.22% 0%, #ff6f00 0%, #b74f00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-    /* mockup images palette */
+.approach p, 
+.overall-summary p {
+    color: #717171;
+}
+
+/* mockup images palette */
 
 .mockup-imgs-container,
 .mockup-mobile-container {
@@ -520,11 +574,10 @@ h2 {
 }
 
 
-.mockup-imgs-container img { 
+.mockup-pic { 
     width: 370px;
     height: 300px;
     margin-bottom: 30px;
-    border-radius: 3px;
 }
 
 .mobile-mockup {
@@ -539,8 +592,11 @@ h2 {
 
    /* OVERALL SUMMARY */
 
-.overall-summary {
-    background: radial-gradient(107.74% 107.74% at 53.05% -7.74%, #00c950 0%, #008e39 100%);}
+.overall-title {
+    background: radial-gradient(107.74% 107.74% at 53.05% -7.74%, #00c950 0%, #008e39 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
   /* NEXT SECTION SUMMARY */
@@ -644,10 +700,6 @@ h4 {
     font-weight: bold;
 }
 
-.target-user-container p {
-    margin-top: -10px;
-}
-
 
     /* OLD WEBSITE SECTION */
 
@@ -665,17 +717,18 @@ h4 {
     font-size: 2.5rem;
 }
 
-h3,
 .design-principles {
+    margin-top: 50px;
+    font-size: 1.9rem;
+}
+
+h3 {
     font-size: 1.7rem;
 }
 
-.target-user-title {
-    font-size: 1.5rem;
-}
 
-.design-principles {
-    margin-bottom: 50px;
+.target-user-title {
+    font-size: 1.4rem;
 }
 
 .hero-mike {
@@ -758,15 +811,13 @@ h3,
     margin-top: 70px;
 }
 
-.main-sketch-container {
-    margin-top: 125px;
-}
+
 
 /* SKETCHES SECTION */
 
 .sketch-img {
     width: 480px;
-    height: 375px;
+    height: 355px;
 }
 
 /* color palette */
@@ -810,14 +861,16 @@ h3,
 .brand-container,
 .txt-content-container {
     width: 750px;
-  
 }
 
-.typography-wrap {
-    margin: 150px auto;
-}
+
 
 .brand-personality-wrap,
+.color-parag-container,
+.typography-wrap {
+    margin-bottom: 100px;
+}
+
 .text-content-wrap {
     margin-bottom: 150px;
 }

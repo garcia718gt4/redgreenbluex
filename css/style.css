@@ -227,7 +227,13 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    opacity: .78;
+    opacity: .9;
+    transition: all .3s ease;
+}
+
+.card:hover {
+    opacity: 1;
+    box-shadow: 1px 1px 9px 3px rgb(65, 173, 255);
 }
 
 
@@ -246,10 +252,7 @@ h1 {
     background-color: #d5ffcc;
 }
 
-.frog-col:hover {
-    /* box-shadow: 0px 0px 30px 4px #bcffa5; */
-    opacity: 1;
-}
+
 
 .shirts-txt {
     color: #00747B;
@@ -268,10 +271,7 @@ h1 {
     background-color: #feffc9;
 }
 
-.grocery-col:hover {
-    /* box-shadow: 0px 0px 30px 4px #feffb8; */
-    opacity: 1;
-}
+
 
 .grocery-txt {
     color: #31B004;
@@ -288,10 +288,6 @@ h1 {
     background: #ffffff;
 }
 
-.woosh-col:hover {
-    /* box-shadow: 0px 0px 30px 4px #a3edff; */
-    opacity: 1;
-}
 
 .woosh-txt {
     font-family: 'Leckerli One', cursive;
@@ -304,10 +300,6 @@ h1 {
     width: 255px;
 }
 
-/* transition propertites */
-.card {
-    transition: all .3s ease;
-}
 
 
 /******  FOOTER  ******/
