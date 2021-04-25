@@ -183,6 +183,13 @@ h1 {
     font-size: 1.8rem;
 }
 
+.second-period {
+    background: #8417f1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.4rem;
+}
+
 .intro {
     text-align: center;
     margin-top: 20px;
@@ -303,6 +310,7 @@ h1 {
 
 .woosh-logo {
     width: 255px;
+    
 }
 
 
@@ -333,7 +341,13 @@ footer p {
     text-decoration: underline;
 }
 
-
+.welcome {
+    width: 360px;
+    font-size: 45px;
+    background: linear-gradient(89.92deg, #9dfbcc 0%, #6bf3b1 15%, #00b8d8 30%, #2d81f7 45%, #0468f3 52.26%, #923ef8 85%, #ae2dff 90.75%, #c70afb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 /* ========================
 Media Query for 720px
@@ -359,6 +373,10 @@ Media Query for 720px
         font-size: 1.9rem;
     }
 
+    .second-period {
+        font-size: 1.5rem;
+    }
+
     .intro p {
         font-size: 1.1rem;
         line-height: 1.9rem;
@@ -379,6 +397,10 @@ Media Query for 720px
         width: 45%;
     }
 
+    .welcome {
+        width: 750px;
+        font-size: 55px;
+    }
    
 }
 
