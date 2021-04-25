@@ -14,8 +14,12 @@ body {
     flex: 1;
     flex-direction: column;
     font: 400 100%/1.5 'Noto Sans', sans-serif;
-    /* background: radial-gradient(101.25% 101.25% at 50% 101.25%, #0183BF 0%, #000364 100%); */
-    background: radial-gradient(100% 100% at 48.44% 0%, #015da4 0%, #0d0064 100%);} 
+    /* background: radial-gradient(100% 100% at 48.44% 0%, #004996 0%, #100076 100%); */
+    background: radial-gradient(100% 100% at 48.44% 0%, #001156 0%, #000000 100%);
+   
+} 
+
+
 
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
@@ -123,20 +127,21 @@ html{
 
 ul a {
     text-decoration: none;
-    color: #88befb;
+    color: #bababa;
     padding: 10px;
 }
 
 
 
-.active {
-    color: #DCECFF;
-}
-
 .about:hover,
 .contact:hover {
-    color: #0f78f8;
+    color: #efefef;
 }
+
+.active {
+    color: #6d6d6d;
+}
+
 
 .about,
 .contact {
@@ -172,10 +177,10 @@ h1 {
 
 
 .period {
-    background: #CADFFF;
+    background: #176ef1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2.6rem;
+    font-size: 1.8rem;
 }
 
 .intro {
@@ -185,7 +190,7 @@ h1 {
 }
 
 .intro p {
-    color: #DCECFF;
+    color: #f7f7f7;
     margin: 0;
     line-height: 1.7rem;
     text-align:center;
@@ -207,7 +212,7 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 90%;
-    background-color: rgb(13, 96, 197);
+    background-color: rgb(0, 37, 101);
     border-radius: 20px;
 
 }
@@ -233,7 +238,7 @@ h1 {
 
 .card:hover {
     opacity: 1;
-    box-shadow: 1px 1px 9px 3px rgb(65, 173, 255);
+    box-shadow: 1px 1px 9px 3px rgb(67, 171, 250);
 }
 
 
@@ -285,7 +290,7 @@ h1 {
 
 /* WooshMail */
 .woosh-col {
-    background: #ffffff;
+    background: #e8f4fd;
 }
 
 
@@ -351,7 +356,7 @@ Media Query for 720px
     }
 
     .period {
-        font-size: 3.25rem;
+        font-size: 1.9rem;
     }
 
     .intro p {

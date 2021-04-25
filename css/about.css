@@ -83,7 +83,8 @@ body {
     flex:1;
     flex-direction: column;
     color: #dfdfdf;
-    background: radial-gradient(100% 100% at 50% 0%, #006d2c 0%, #00154B 100%);
+    background: radial-gradient(100% 100% at 50% 0%, #002d12 0%, #000000 100%);
+   
 }
 
 
@@ -102,17 +103,17 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #9ef8b1;
+    color: #bababa;
     padding: 10px;
 }
 
 .active {
-    color: #dfdfdf;
+    color: #6d6d6d;
 }
 
 .home:hover,
 .contact:hover {
-    color: #019e23;
+    color: #efefef;
 }
 
 .contact,
@@ -126,7 +127,7 @@ ul a {
     margin: 100px auto;
     padding: 15px;
     font-size: 22px;
-    background-color: rgba(48, 171, 46, 0.29); 
+    background-color: rgb(1, 50, 0); 
     border-radius: 10px;    
 }
 
