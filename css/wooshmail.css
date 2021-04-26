@@ -11,7 +11,7 @@ a {
 /* || HEADER  */
 
 .banner {
-    background: rgb(252, 247, 247);
+    background: rgb(255, 255, 255);
     height: 70px;
     width: 100%;
     position: fixed;
@@ -26,7 +26,15 @@ body {
     font: 500 100%/1.5 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
+
 } 
+
+.case-study-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:rgb(247, 247, 247);
+}
 
 h1 {
     color: #208CFA;
@@ -96,7 +104,7 @@ h2 {
 
 .overview, 
 .target-audience {
-    background: #e9f4ff;
+    background: #e2f0fd;
 }
 
 p {
@@ -200,12 +208,11 @@ p {
 .mailerlite-logo {
     width: 190px;
     height: 190px;
-    border: 1px solid lightgray;
 }
 
 
 .wireframes-wrap {
-    margin-top: 25px;
+    margin-top: 100px;
 }
 
 
@@ -235,6 +242,12 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
+.iteration {
+    margin-top: 50px;
+}
+
 
 .ie {
     width: 90%;
@@ -396,7 +409,7 @@ footer p {
 }
 
 .comp-wrap {
-    background-color: #e9f4ff; 
+    background: #e2f0fd;
     padding-top: 1px;
 }
 
@@ -473,11 +486,10 @@ footer p {
     .mailerlite-logo {
         width: 230px;
         height: 230px;
-        border: 1px solid lightgray;
     }
 
     .wireframes-wrap {
-        margin-top: 35px;
+        margin-top: 150px;
     }
 
 
@@ -494,6 +506,7 @@ footer p {
 
     .prototype-testing {
         width: 740px;
+        margin-bottom: 50px;
     }
 
     .mockups-container {
@@ -502,6 +515,10 @@ footer p {
   
     .summary p {
         margin-bottom: 75px;
+    }
+
+    .summary {
+        margin-top: 100px;
     }
 
     .shirts-txt {
@@ -523,7 +540,9 @@ footer p {
         height: 120px;
     }
 
-
+    .iteration {
+        margin: 100px 0 120px;
+    }
 
 
 }
