@@ -197,7 +197,7 @@ h1 {
 }
 
 .intro p {
-    color: #f7f7f7;
+    color: #dcdcdc;
     margin: 0;
     line-height: 1.7rem;
     text-align:center;
@@ -326,18 +326,18 @@ footer p {
     margin-top: auto;
     text-align: center;
     padding: 1.4em 0;
-    color: #e1e1e1;
+    color: #919191;
     margin: 0 auto;
     font-size: 15px;
 }
 
 .treehouse-link {
-    color: #e1e1e1; 
+    color: #919191;
     text-decoration: none;
 }
 
 .treehouse-link:hover {
-    color: white;
+    color: rgb(201, 201, 201);
     text-decoration: underline;
 }
 
