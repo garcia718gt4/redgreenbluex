@@ -575,10 +575,6 @@ h2 {
 /* mockup images palette */
 
 
-.mockups-images-wrap {
-    margin-top: 100px;
-}
-
 
 
 .mockup-imgs-container,
@@ -885,7 +881,7 @@ h3 {
 }
 
 .text-content-wrap {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .color-paragraph {
