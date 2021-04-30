@@ -138,12 +138,17 @@ h2 {
 }
 
 
-.col h3 {
+.col h3 {d
     margin-top: 10px;
     font-size: 1.1rem;
 }
 
 
+.website-critique-title {
+    background: radial-gradient(100% 100% at 50% 0%, #00bc52 0%, #009540 100%);   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .old-website-title,
 .website-critique-title,
@@ -222,7 +227,9 @@ h2 {
     margin-top: 100px;
 }
 
-.overview-title {
+.overview-title,
+.problems-goals-title,
+.audience-title {
     background: radial-gradient(100% 100% at 50% 0%, #00bc52 0%, #009540 100%);   
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -237,11 +244,9 @@ h2 {
     color: #717171;
 }
 
-.problems-goals-title,
+
 .strong-problems {
-    background: radial-gradient(100% 100% at 50% 0%, #27aef7 0%, #0576da 100%); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #41a3ff;
 }
 
 .problems-goals {
@@ -269,11 +274,6 @@ h2 {
     margin-top: -35px;
 }
 
-.audience-title {
-    background: radial-gradient(100% 100% at 50.07% 0%, #ac00d3 0%, #1f0087 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .audience p {
     padding: 8px;
@@ -290,13 +290,13 @@ h2 {
 
 .target-user-title {
     font-size: 1.1rem;
-    color: rgb(188, 132, 247);
+    color: #03bd44;
     
 }
 
 .target-user-container h3 {
     font-size: .8rem;
-    color: rgb(188, 132, 247);
+    color: #03bd44;
 }
 
 .target-user-container p {
@@ -317,7 +317,16 @@ h2 {
 .old-website-container {
     text-align: center;
     margin-top: -50px;
+    color: #f3934f;
 } 
+
+
+
+.catalog-product-container h3,
+.old-website-container h3 {
+    color: #fcab72;
+}
+
 
 .old-website-title {
     margin: 0 0 35px 0;
@@ -425,6 +434,7 @@ h2 {
 /* JOURNEY MAP SECTION */
 
 .journey-map-container {
+    color: #03bd44;
     width: 375px;
     text-align: center;
     margin: 0 auto 50px;
@@ -448,6 +458,7 @@ h2 {
     text-align: center;
 }
 
+
 .assumptions  {
     margin: 75px auto;
 }
@@ -460,9 +471,7 @@ h2 {
 }
 
 .assumptions-title {
-    background: radial-gradient(100% 100% at 52.93% 0%, #00CBA6 0%, #004A9C 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #00b4bd;
 }
 
 
@@ -620,6 +629,9 @@ h2 {
     text-align: center;
 }
 
+.mockups-container h3 {
+    margin-bottom: 40px;
+}
 
 
 
@@ -935,7 +947,9 @@ h3 {
 
 }
 
-
+.mockups-container h3 {
+    margin-bottom: 60px;
+}
 
 /*=============================
     Media Query for 1000px
