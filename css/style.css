@@ -166,15 +166,23 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 0;
-    background: linear-gradient(89.92deg, #f71b1b 14.83%, #f9746d 32.88%, #06df76 50.93%, #04ceba 67.26%, #0e81f3 79.3%, #056ce1 88.75%, #0157b8 97.35%);
+    background: linear-gradient(120deg, #f00202 15%, #fb3e3e 25%, #ffc7a9 35%, #06df76 45.93%, #04ceba 60.26%, #077aee 75.3%, #0358cf 88.75%, #0144b8 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* text-shadow: 0px 0px 60px #00fbff; */
     margin: auto;
-
-    
 }
 
+
+.welcome {
+    width: 360px;
+    font-size: 45px;
+    /* background: linear-gradient(120deg, #ff6b6b 15%, #ff8260 25%, #ffcb72 32%, #08f683 45.93%, #04ce9f 59.26%, #0ea3f3 69.3%, #056ce1 78.75%, #0144b8 100%); */
+
+    background: linear-gradient(120deg, #9dfbcc 0%, #6bf3b1 15%, #00b0d8 30%, #287ef7 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .period {
     background: #176ef1;
@@ -184,7 +192,7 @@ h1 {
 }
 
 .second-period {
-    background: #8417f1;
+    background: #db57ff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.4rem;
@@ -341,13 +349,7 @@ footer p {
     text-decoration: underline;
 }
 
-.welcome {
-    width: 360px;
-    font-size: 45px;
-    background: linear-gradient(89.92deg, #9dfbcc 0%, #6bf3b1 15%, #00b8d8 30%, #2d81f7 45%, #0468f3 52.26%, #923ef8 85%, #ae2dff 90.75%, #c70afb 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 /* ========================
 Media Query for 720px
