@@ -239,7 +239,7 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    opacity: .9;
+    opacity: .7;
     transition: all .3s ease;
 }
 
