@@ -15,8 +15,8 @@ body {
     flex-direction: column;
     font: 400 100%/1.5 'Noto Sans', sans-serif;
     /* background: radial-gradient(100% 100% at 48.44% 0%, #004996 0%, #100076 100%); */
-    background: radial-gradient(100% 100% at 48.44% 0%, #001156 0%, #000000 100%);
-   
+    /* background: radial-gradient(100% 100% at 50% 0%, #000000 0%, #000000 100%); */
+    background: rgb(0, 10, 48); 
 } 
 
 
@@ -166,7 +166,9 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 0;
-    background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee7f 45.93%, #05d8c3 60.26%, #077aee 75.3%, #0358cf 88.75%, #0144b8 100%);
+    /* background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee7f 45.93%, #05d8c3 60.26%, #077aee 75.3%, #0358cf 88.75%, #0144b8 100%); */
+    background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee64 45.93%, #0fe891 60.26%, #097df2 70.3%, #0553d8 80.75%, #0135b8 90%, #002685 100%);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /* text-shadow: 0px 0px 60px #00fbff; */
@@ -227,7 +229,7 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 90%;
-    background-color: rgb(0, 54, 147);
+    /* background-color: rgb(0, 54, 147); */
     border-radius: 20px;
 
 }

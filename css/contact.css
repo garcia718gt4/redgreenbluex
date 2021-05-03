@@ -7,15 +7,12 @@ a {
     color: #FFE2E2;
 }
 
-.main-header {
+.main-header a {
     padding-top: 15px;
+    text-decoration: none;
 }
 
 /* || logo */
-
-.main-header a {
-    text-decoration: none;
-}
 
 .logo {
     text-decoration: none;
@@ -92,7 +89,8 @@ body {
     flex:1;
     flex-direction: column;
     color: #dfdfdf;
-    background: radial-gradient(99.1% 99.1% at 49.34% 0.9%, #410000 0%, #000000 100%);
+    /* background: radial-gradient(100% 100% at 50% 0%, #003917 0%, #000000 100%); */
+    background: #240000;
 } 
 
 .main-nav {
@@ -137,7 +135,7 @@ ul a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:rgb(89, 0, 0);
+ 
 }
 
 p {
@@ -145,7 +143,15 @@ p {
 }
 
 .name {
-    font-size: 22px;
+    font-size: 30px;
+    width: 350px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(120deg, #f71313 15%, #ff5454 25%, #fab088 35%, #0af684 45.93%, #05d8ca 63.26%, #3a98f7 75.3%, #0d6cf2 88.75%, #014dcf 100%);
+    /* background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee64 45.93%, #0fe891 60.26%, #097df2 70.3%, #0553d8 80.75%, #0135b8 90%, #002685 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
 }
 
 .number,
@@ -190,7 +196,8 @@ p {
 }
     
 .name {
-    font-size: 32px;
+    font-size: 70px;
+    width: 800px;
 }
 
 .number,
