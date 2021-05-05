@@ -178,10 +178,9 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: radial-gradient(51.25% 163.25% at 48.75% 49.24%, rgb(211, 255, 201) 0%, rgb(0, 164, 139) 100%); 
-
+    /* background: radial-gradient(51.25% 163.25% at 48.75% 49.24%, rgb(211, 255, 201) 0%, rgb(0, 164, 139) 100%);  */
     /* background: radial-gradient(51.25% 163.25% at 48.75% 49.24%, rgb(207, 250, 197) 0%, rgb(0, 164, 139) 100%); */
-    
+    background-color: #d5ffcc;
     width: 100;
 }
 
