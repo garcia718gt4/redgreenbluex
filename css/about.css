@@ -84,7 +84,8 @@ body {
     flex-direction: column;
     color: #dfdfdf;
     /* background: radial-gradient(100% 100% at 50% 0%, #003917 0%, #000000 100%); */
-    background: #00230e;
+    /* background: #00230e; */
+    background: white;
 }
 
 
@@ -103,17 +104,17 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #bababa;
+    color: #787878;
     padding: 10px;
 }
 
 .active {
-    color: #6d6d6d;
+    color: #a9a9a9;
 }
 
 .home:hover,
 .contact:hover {
-    color: #efefef;
+    color: #a9a9a9;
 }
 
 .contact,
@@ -122,6 +123,7 @@ ul a {
 }
 
 .about-paragraph {
+    color: #787878;
     width: 370px;
     line-height: 1.5;
     margin: 100px auto;

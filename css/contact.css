@@ -90,7 +90,8 @@ body {
     flex-direction: column;
     color: #dfdfdf;
     /* background: radial-gradient(100% 100% at 50% 0%, #003917 0%, #000000 100%); */
-    background: #240000;
+    /* background: #240000; */
+    background: white;
 } 
 
 .main-nav {
@@ -108,17 +109,17 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #bababa;
+    color: #787878;
     padding: 10px;
 }
 
 .active {
-    color: #6d6d6d;
+    color: #a9a9a9;
 }
 
 .about:hover,
 .home:hover {
-    color: #efefef;
+    color: #a9a9a9;
 }
 
 .about,
@@ -158,6 +159,7 @@ p {
 .email-link,
 .linkedin {
     font-size: 20px;
+    color: #a9a9a9;
 }
 
 .linkedin {

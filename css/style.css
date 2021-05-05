@@ -16,7 +16,8 @@ body {
     font: 400 100%/1.5 'Noto Sans', sans-serif;
     /* background: radial-gradient(100% 100% at 48.44% 0%, #004996 0%, #100076 100%); */
     /* background: radial-gradient(100% 100% at 50% 0%, #000000 0%, #000000 100%); */
-    background: rgb(0, 10, 48); 
+    /* background: rgb(0, 10, 48);  */
+    background: white;
 } 
 
 
@@ -123,11 +124,12 @@ html{
 
 .main-nav li {
     margin: 7px;
+    font-size: 18px;
 }
 
 ul a {
     text-decoration: none;
-    color: #bababa;
+    color: #787878;
     padding: 10px;
 }
 
@@ -135,11 +137,11 @@ ul a {
 
 .about:hover,
 .contact:hover {
-    color: #efefef;
+    color: #a9a9a9;
 }
 
 .active {
-    color: #6d6d6d;
+    color: #a9a9a9;
 }
 
 
@@ -148,9 +150,6 @@ ul a {
     transition: color .25s ease;
 }
 
-h1 {
-    font-size: 2.7rem;
-}
 
 
 /* || MAIN STYLES  */
@@ -161,13 +160,13 @@ h1 {
 }
 
 .hello-title {
-    font-size: 70px;
+    font-size: 55px;
     width: 185px;
     font-weight: bold;
     text-align: center;
     margin: 0;
     /* background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee7f 45.93%, #05d8c3 60.26%, #077aee 75.3%, #0358cf 88.75%, #0144b8 100%); */
-    background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee64 45.93%, #0fe891 60.26%, #097df2 70.3%, #0553d8 80.75%, #0135b8 90%, #002685 100%);
+    background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #06eb62 45.93%, #0be687 60.26%, #4da9f9 70.3%, #317af7 80.75%, #1554f3 90%, #003dd8 100%);
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -178,10 +177,10 @@ h1 {
 
 .welcome {
     width: 360px;
-    font-size: 45px;
+    font-size: 32px;
     /* background: linear-gradient(120deg, #ff6b6b 15%, #ff8260 25%, #ffcb72 32%, #08f683 45.93%, #04ce9f 59.26%, #0ea3f3 69.3%, #056ce1 78.75%, #0144b8 100%); */
 
-    background: linear-gradient(120deg, #9dfbcc 0%, #6bf3b1 15%, #00b0d8 30%, #287ef7 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
+    background: linear-gradient(120deg, #75f8b7 0%, #29ff98 15%, #4bdafa 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -194,7 +193,7 @@ h1 {
 }
 
 .second-period {
-    background: #db57ff;
+    background: #8501aa;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.4rem;
@@ -207,10 +206,11 @@ h1 {
 }
 
 .intro p {
-    color: #dcdcdc;
+    color: #787878;
     margin: 0;
     line-height: 1.7rem;
     text-align:center;
+    font-size: 18px;
 }
 
 .rgb-bar-bottom {
@@ -223,14 +223,12 @@ h1 {
 
 .main-container {
     padding: 50px;
-    margin: 90px auto;
+    margin: 40px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
-    /* background-color: rgb(0, 54, 147); */
-    border-radius: 20px;
+    width: 100%;
 
 }
 
@@ -249,13 +247,13 @@ h1 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    opacity: .7;
+    opacity: .92;
     transition: all .3s ease;
 }
 
 .card:hover {
     opacity: 1;
-    /* box-shadow: 1px 1px 9px 3px rgb(67, 171, 250); */
+    box-shadow: 1px 1px 5px 3px rgb(67, 171, 250);
 }
 
 
@@ -265,7 +263,7 @@ h1 {
 .prime-txt {
     margin: 0;
     padding: 0;
-    font-size: 1.8rem;
+    font-size: 33px;
 }
 
 /* Shirts by Mike  */
@@ -274,6 +272,11 @@ h1 {
     background-color: #d5ffcc;
 }
 
+
+.frog-pic {
+    width: 65px;
+    height: 65px;
+}
 
 
 .shirts-txt {
@@ -366,11 +369,12 @@ Media Query for 720px
 
     .main-nav li {
         margin-left: 25px;
+        font-size: 22px;
     }
     
     .hello-title {
         width: 220px;
-        font-size: 82px;
+        font-size: 72px;
     }
 
     .period {
@@ -382,7 +386,7 @@ Media Query for 720px
     }
 
     .intro p {
-        font-size: 1.1rem;
+        font-size: 24px;
         line-height: 1.9rem;
     }
     
@@ -405,6 +409,20 @@ Media Query for 720px
         width: 750px;
         font-size: 55px;
     }
+
+    .shirts-txt,
+    .grocery-txt,
+    .woosh-txt,
+    .prime-txt {
+        margin: 0;
+        padding: 0;
+        font-size: 38px;
+    }
+
+    .frog-pic {
+        width: 75px;
+        height: 75px;
+    }
    
 }
 
@@ -414,6 +432,8 @@ Media Query for 1230px
 ======================== */
 
 @media (min-width: 1230px) {
+
+
 
     .main-container {
         width: 1350px;
