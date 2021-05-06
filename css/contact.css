@@ -135,7 +135,7 @@ ul a {
 }
 
 .red-circle-container {
-    margin: 30px auto;
+    margin: -10px auto;
     width: 375px;
     height: 375px;
     border-radius: 50%;
@@ -143,12 +143,12 @@ ul a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
- 
 }
 
 p {
     line-height: .3;
 }
+
 
 .name {
     font-size: 30px;
@@ -159,7 +159,7 @@ p {
     /* background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee64 45.93%, #0fe891 60.26%, #097df2 70.3%, #0553d8 80.75%, #0135b8 90%, #002685 100%); */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+    margin-bottom: 5px;
 }
 
 .number,
@@ -168,6 +168,9 @@ p {
     font-size: 20px;
     color: #787878;
 }
+
+
+
 
 .linkedin {
     margin-top: 7px;
