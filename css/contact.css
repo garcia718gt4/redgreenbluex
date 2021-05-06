@@ -88,11 +88,17 @@ body {
     display: flex;
     flex:1;
     flex-direction: column;
-    color: #dfdfdf;
-    /* background: radial-gradient(100% 100% at 50% 0%, #003917 0%, #000000 100%); */
-    /* background: #240000; */
-    background: white;
 } 
+
+
+.wrap {
+    width: 375px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
 
 .main-nav {
     display: flex;
@@ -105,6 +111,7 @@ body {
 
 .main-nav li {
     margin: 7px;
+    font-size: 18px;
 }
 
 ul a {
@@ -128,7 +135,7 @@ ul a {
 }
 
 .red-circle-container {
-    margin: 100px auto;
+    margin: 30px auto;
     width: 375px;
     height: 375px;
     border-radius: 50%;
@@ -159,7 +166,7 @@ p {
 .email-link,
 .linkedin {
     font-size: 20px;
-    color: #a9a9a9;
+    color: #787878;
 }
 
 .linkedin {
@@ -181,6 +188,11 @@ p {
 
 @media (min-width: 750px) {
 
+
+.wrap { 
+    width: 750px;
+}
+
 .main-nav {
     font-size: 22px;
     width: 450px;
@@ -190,6 +202,7 @@ p {
 
 .main-nav li {
     margin-left: 25px;
+    font-size: 22px;
 }
 
 .red-circle-container {
@@ -198,7 +211,7 @@ p {
 }
     
 .name {
-    font-size: 70px;
+    font-size: 62px;
     width: 800px;
 }
 

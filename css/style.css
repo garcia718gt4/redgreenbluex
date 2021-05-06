@@ -201,16 +201,16 @@ ul a {
 
 .intro {
     text-align: center;
-    margin-top: 20px;
-
+    margin: 20px auto 0;
 }
 
 .intro p {
     color: #787878;
-    margin: 0;
+    margin: 0 auto;
     line-height: 1.7rem;
     text-align:center;
     font-size: 18px;
+    width: 90%;
 }
 
 .rgb-bar-bottom {
@@ -222,14 +222,13 @@ ul a {
 /******  MAIN CONTAINER  ******/
 
 .main-container {
-    padding: 50px;
-    margin: 40px auto;
+    padding: 10px 0px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-
+    width: 375px;
 }
 
 .main-container a {
@@ -237,7 +236,7 @@ ul a {
 }
 
 .card {
-    width: 100%;
+    width: 340px;
     height: 300px;
     border-radius: 20px;
     margin: 25px auto;
@@ -358,7 +357,7 @@ footer p {
 
 
 /* ========================
-Media Query for 720px
+Media Query for 770px
 =========================== */
 
 @media (min-width: 770px) {
@@ -403,7 +402,7 @@ Media Query for 720px
     }
 
     .card {
-        width: 45%;
+        width: 350px; 
     }
 
     .welcome {
@@ -432,19 +431,17 @@ Media Query for 720px
 Media Query for 1230px
 ======================== */
 
-@media (min-width: 1230px) {
-
-
+@media (min-width: 1260px) {
 
     .main-container {
-        width: 1350px;
+        width: 1250px;
         flex-wrap: nowrap; 
         /* align-items: flex-start; */
         /* justify-content: space-around; */
     }
  
     .card {
-        width: 30%;
+        width: 380px;
     }
 
 }
