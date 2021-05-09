@@ -240,7 +240,6 @@ ul a {
     height: 300px;
     border-radius: 20px;
     margin: 25px auto;
-    /* padding: 30px 0; */
     text-align: center;
     display: flex;
     align-items: center;
@@ -252,7 +251,7 @@ ul a {
 
 .card:hover {
     opacity: 1;
-    box-shadow: 1px 1px 5px 3px rgb(67, 171, 250);
+    box-shadow: 1px 1px 5px 4px rgb(145, 207, 255);
 }
 
 
@@ -303,7 +302,7 @@ ul a {
 
 .prime-txt {
     color: #ff9627;
-    margin-top: -19px;
+    margin-top: -14px;
 }
 
 
@@ -414,8 +413,6 @@ Media Query for 770px
     .grocery-txt,
     .woosh-txt,
     .prime-txt {
-        margin: 0;
-        padding: 0;
         font-size: 38px;
     }
 
