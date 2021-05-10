@@ -176,42 +176,22 @@ ul a {
 
 
 .welcome {
-    width: 360px;
-    font-size: 32px;
-    /* background: linear-gradient(120deg, #ff6b6b 15%, #ff8260 25%, #ffcb72 32%, #08f683 45.93%, #04ce9f 59.26%, #0ea3f3 69.3%, #056ce1 78.75%, #0144b8 100%); */
-
-    background: linear-gradient(120deg, #75f8b7 0%, #29ff98 15%, #4bdafa 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.period {
-    background: #176ef1;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.8rem;
-}
-
-.second-period {
-    background: #8501aa;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.4rem;
-}
-
-.intro {
-    text-align: center;
-    margin: 20px auto 0;
-}
-
-.intro p {
-    color: #787878;
+    width: 365px;
+    font-size: 31px;
+    color: rgba(0, 0, 0, 0.81);
     margin: 0 auto;
-    line-height: 1.7rem;
-    text-align:center;
-    font-size: 18px;
-    width: 90%;
 }
+
+.ux-design-title {
+      background: linear-gradient(120deg, #75f8b7 0%, #29ff98 15%, #4bdafa 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
 
 .rgb-bar-bottom {
     height: 25px;
@@ -238,7 +218,7 @@ ul a {
 .card {
     width: 340px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 25px auto;
     text-align: center;
     display: flex;
@@ -251,7 +231,12 @@ ul a {
 
 .card:hover {
     opacity: 1;
-    box-shadow: 1px 1px 5px 4px rgb(145, 207, 255);
+    box-shadow: -5px 0px 10px 1px rgb(252, 100, 100),
+                0px -5px 10px 1px rgb(2, 220, 71),
+                5px 0px 10px 1px rgb(78, 152, 255),
+                0px 5px 10px 1px rgb(185, 98, 248);
+                 /* 0px 2px 5px 4px rgb(145, 207, 255); */
+                 
 }
 
 
@@ -376,18 +361,13 @@ Media Query for 770px
         font-size: 72px;
     }
 
-    .period {
-        font-size: 1.9rem;
-    }
+   
 
     .second-period {
         font-size: 1.5rem;
     }
 
-    .intro p {
-        font-size: 24px;
-        line-height: 1.9rem;
-    }
+
     
     .intro-message {
         margin-top: 80px;
@@ -425,7 +405,7 @@ Media Query for 770px
 
 
 /* =====================
-Media Query for 1230px
+Media Query for 1260px
 ======================== */
 
 @media (min-width: 1260px) {
@@ -435,6 +415,10 @@ Media Query for 1230px
         flex-wrap: nowrap; 
         /* align-items: flex-start; */
         /* justify-content: space-around; */
+    }
+
+    .welcome {
+        width: 1100px;
     }
  
     .card {
