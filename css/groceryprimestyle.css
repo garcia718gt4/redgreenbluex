@@ -8,12 +8,13 @@
 
 .banner {
     background: rgb(255, 255, 255);
-    height: 70px;
+    height: 75px;
     width: 100%;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .3s ease;
 }
 
 .logo {
@@ -23,6 +24,16 @@
     align-items: center;
     justify-content: space-evenly;
     margin: 15px auto;
+    transition: all .3s ease;
+}
+
+.logo:hover {
+    border-radius: 5px;
+    opacity: 1;
+    box-shadow: -2px 0px 3px 1px rgb(255, 101, 101),
+                0px -2px 3px 1px rgb(5, 230, 76),
+                2px 0px 3px 1px rgb(73, 169, 252),
+                0px 2px 3px 1px rgb(182, 80, 255);      
 }
 
 .square {
