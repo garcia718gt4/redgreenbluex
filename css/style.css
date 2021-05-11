@@ -175,7 +175,7 @@ ul a {
 }
 
 
-.welcome {
+.intro-message h2 {
     width: 370px;
     font-size: 31px;
     color: rgba(0, 0, 0, 0.81);
@@ -183,14 +183,10 @@ ul a {
 }
 
 .ux-design-title {
-      background: linear-gradient(120deg, #75f8b7 0%, #29ff98 15%, #4bdafa 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
+    background: linear-gradient(120deg, #75f8b7 0%, #29ff98 15%, #4bdafa 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
-
-
-
 
 
 .rgb-bar-bottom {
