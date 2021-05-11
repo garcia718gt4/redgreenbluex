@@ -354,7 +354,7 @@ Media Query for 770px
     
     .hello-title {
         width: 220px;
-        font-size: 72px;
+        font-size: 66px;
     }
 
    
@@ -380,9 +380,9 @@ Media Query for 770px
         width: 350px; 
     }
 
-    .welcome {
-        width: 750px;
-        font-size: 50px;
+    .intro-message h2 {
+        width: 800px;
+        font-size: 44px;
     }
 
     .shirts-txt,
@@ -404,17 +404,21 @@ Media Query for 770px
 Media Query for 1260px
 ======================== */
 
-@media (min-width: 1260px) {
+@media (min-width: 1250px) {
 
     .main-container {
-        width: 1250px;
+        width: 1230px;
         flex-wrap: nowrap; 
         /* align-items: flex-start; */
         /* justify-content: space-around; */
     }
 
-    .welcome {
+    .hello-title {
+        font-size: 72px;
+    }
+    .intro-message h2 {
         width: 1100px;
+        font-size: 50px;
     }
  
     .card {
