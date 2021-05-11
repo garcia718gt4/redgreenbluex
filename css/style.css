@@ -155,7 +155,7 @@ ul a {
 /* || MAIN STYLES  */
 
 .intro-message {
-    margin-top: 35px;
+    margin: 35px auto 0;
     text-align: center;
 }
 
@@ -179,7 +179,7 @@ ul a {
     width: 370px;
     font-size: 31px;
     color: rgba(0, 0, 0, 0.81);
-    margin: 0 auto;
+    margin: 0;
 }
 
 .ux-design-title {
