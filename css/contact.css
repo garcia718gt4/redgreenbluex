@@ -147,6 +147,8 @@ ul a {
 
 p {
     line-height: .3;
+    font-size: 20px;
+    color: #787878;
 }
 
 
@@ -169,10 +171,7 @@ p {
     color: #787878;
 }
 
-.number {
-    font-size: 20px;
-    color: #787878;
-}
+
 
 
 
@@ -223,7 +222,10 @@ p {
     width: 800px;
 }
 
-.number,
+p {
+    font-size: 28px;
+}
+
 .email-link,
 .linkedin {
     font-size: 28px;
