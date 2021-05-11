@@ -164,14 +164,10 @@ ul a {
     width: 185px;
     font-weight: bold;
     text-align: center;
-    margin: 0;
-    /* background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #08ee7f 45.93%, #05d8c3 60.26%, #077aee 75.3%, #0358cf 88.75%, #0144b8 100%); */
     background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #06eb62 45.93%, #0be687 60.26%, #4da9f9 70.3%, #317af7 80.75%, #1554f3 90%, #003dd8 100%);
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* text-shadow: 0px 0px 60px #00fbff; */
-    margin: auto;
+    margin: 0 auto;
 }
 
 
@@ -179,7 +175,7 @@ ul a {
     width: 370px;
     font-size: 31px;
     color: rgba(0, 0, 0, 0.81);
-    margin: 0;
+    margin: 0 auto;
 }
 
 .ux-design-title {
