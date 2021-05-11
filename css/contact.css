@@ -162,9 +162,14 @@ p {
     margin-bottom: 5px;
 }
 
-.number,
+
 .email-link,
 .linkedin {
+    font-size: 20px;
+    color: #787878;
+}
+
+.number {
     font-size: 20px;
     color: #787878;
 }
