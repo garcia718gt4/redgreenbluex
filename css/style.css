@@ -17,7 +17,7 @@ body {
     /* background: radial-gradient(100% 100% at 48.44% 0%, #004996 0%, #100076 100%); */
     /* background: radial-gradient(100% 100% at 50% 0%, #000000 0%, #000000 100%); */
     /* background: rgb(0, 10, 48);  */
-    background: white;
+    background: rgba(0, 0, 0, 0.948);
 } 
 
 
@@ -51,6 +51,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     transition: all .3s ease;
+    opacity: .85;
 }
 
 .logo:hover {
@@ -141,7 +142,7 @@ html{
 
 ul a {
     text-decoration: none;
-    color: #787878;
+    color: #ababab;
     padding: 10px;
 }
 
@@ -149,17 +150,17 @@ ul a {
 
 .about:hover,
 .contact:hover {
-    color: #a9a9a9;
+    color: #e8e8e8;
 }
 
 .active {
-    color: #a9a9a9;
+    color: #e8e8e8;
 }
 
 
 .about,
 .contact {
-    transition: color .25s ease;
+    transition: color .3s ease;
 }
 
 
@@ -189,6 +190,7 @@ ul a {
     color: rgba(0, 0, 0, 0.81);
     margin: 0 auto;
     text-align: center;
+    color: white;
 }
 
 .ux-design-title {
@@ -231,13 +233,13 @@ ul a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    opacity: .92;
+    opacity: .90;
     transition: all .3s ease;
 }
 
 .card:hover { 
     opacity: 1;
-    box-shadow: 0px 0px 10px 2px rgb(73, 169, 252);
+    box-shadow: 0px 0px 16px 8px rgb(76, 161, 252);
 }
    
 
