@@ -325,10 +325,11 @@ footer p {
 .treehouse-link {
     color: #919191;
     text-decoration: none;
+    transition: color .2s ease;
 }
 
 .treehouse-link:hover {
-    color: rgb(87, 181, 253);
+    color: rgb(242, 242, 242);
     text-decoration: underline;
 }
 
