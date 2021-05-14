@@ -117,22 +117,22 @@ body {
 
 ul a {
     text-decoration: none;
-    color: rgb(142, 142, 142);
+    color: #ea161662;
     padding: 10px;
 }
 
-.active {
-    color: #212121;
-}
 
-.home:hover {
-    color: #212121;
+.active {
+    color: #ea1616;
 }
 
 .home {
     transition: color .3s ease;
 }
 
+.home:hover {
+    color: #ea1616;
+}
 
 
 /**********************
