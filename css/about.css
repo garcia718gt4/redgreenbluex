@@ -302,6 +302,7 @@ span {
 
 .email-link, 
 .linkedin {
+    text-decoration: none;
     transition: color .2s ease;
 }
 
