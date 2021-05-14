@@ -282,13 +282,14 @@ span {
 
 /* footer ******/
 
+
 .contact-container {
     display: flex;
     flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #EA1616;
+    background: #ea1616;
     font-size: 18px;
     line-height: .1rem;
     padding: 25px 0;
@@ -311,6 +312,9 @@ span {
     color: rgb(253, 179, 179);
     text-decoration:underline;
 }
+
+
+
 
 
 /* =====================
@@ -350,7 +354,7 @@ Media Query for 750px
     }
 
     .contact-container {
-        padding: 65px 0;
+        padding: 50px 0;
     }
 
     .contact-container p {
