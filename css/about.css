@@ -280,7 +280,6 @@ span {
 }
 
 
-
 /* footer ******/
 
 .contact-container {
@@ -295,8 +294,9 @@ span {
     padding: 25px 0;
 }
 
-.contact-container p,
-.contact-container p a {
+.number,
+.email-link,
+.linkedin {
     color: #f6f6f6;
 }
 
