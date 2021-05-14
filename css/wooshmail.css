@@ -342,7 +342,7 @@ footer p {
     justify-content: space-evenly;
     margin: 15px auto;
     opacity: .90;
-    transition: all .3s ease;
+    transition: box-shadow .3s ease;
 }
 
 .logo:hover {
@@ -396,7 +396,7 @@ footer p {
     height: 26px;
     width: 26px;
     border-radius: 50%;
-    background-color: rgb(0, 106, 255);
+    background-color: rgb(25, 123, 241);
     margin-left: -5px;
 }
 

@@ -14,13 +14,8 @@ body {
     flex: 1;
     flex-direction: column;
     font: 400 100%/1.5 'Noto Sans', sans-serif;
-    /* background: radial-gradient(100% 100% at 48.44% 0%, #004996 0%, #100076 100%); */
-    /* background: radial-gradient(100% 100% at 50% 0%, #000000 0%, #000000 100%); */
-    /* background: rgb(0, 10, 48);  */
     background: rgba(0, 0, 0, 0.948);
 } 
-
-
 
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
@@ -32,9 +27,7 @@ body {
     font-family: 'Fugaz One', cursive;
 }
 
-
 /* || GENERAL STYLES  */
-
 
 /* || logo */
 
@@ -107,7 +100,7 @@ body {
     height: 26px;
     width: 26px;
     border-radius: 50%;
-    background-color: rgb(0, 106, 255);
+    background-color: rgb(25, 123, 241);
     margin-left: -5px;
 }
 
@@ -123,10 +116,6 @@ body {
 
 
 
-html{
-    font-size: 22px;
-}
-
 .main-nav {
     display: flex;
     flex-direction: column;
@@ -136,7 +125,7 @@ html{
 }
 
 .main-nav li {
-    margin: 7px;
+    margin-bottom: 10px;
     font-size: 18px;
 }
 
@@ -146,19 +135,16 @@ ul a {
     padding: 10px;
 }
 
-
-
-.about:hover,
-.contact:hover {
-    color: #e8e8e8;
+.ricardo:hover {
+    color: #efefef;
 }
 
 .active {
-    color: #e8e8e8;
+    color: #efefef;
 }
 
 
-.about,
+.ricardo,
 .contact {
     transition: color .3s ease;
 }
@@ -177,7 +163,8 @@ ul a {
     width: 185px;
     font-weight: bold;
     text-align: center;
-    background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #06eb62 45.93%, #0be687 60.26%, #4da9f9 70.3%, #317af7 80.75%, #1554f3 90%, #003dd8 100%);
+    /* background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #06eb62 45.93%, #0be687 60.26%, #4faafb 67.3%, #0d5adf 77.75%, #0747e7 86%, #0339c2 100%); */
+    background: linear-gradient(120deg,  rgb(241, 15, 15) 17%, #40fa9d 58%, #1272e7 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0 auto;
@@ -194,8 +181,11 @@ ul a {
 }
 
 .ux-design-title {
+    font-weight: bold;
     display: inline-block;
-    background: linear-gradient(120deg, #75f8b7 0%, #29ff98 15%, #4bdafa 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%);
+    /* background: linear-gradient(120deg, #32f694 0%, #0eda77 15%, #0cb4da 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%); */
+    background: linear-gradient(120deg, #7ff9bc 12%, #40d6f8 30%, #268efe 60.26%, #6b48f7 90%);
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -234,12 +224,12 @@ ul a {
     justify-content: center;
     cursor: pointer;
     opacity: .90;
-    transition: all .3s ease;
+    transition: opacity .3s ease, box-shadow .3s ease;
 }
 
 .card:hover { 
     opacity: 1;
-    box-shadow: 0px 0px 16px 8px rgb(76, 161, 252);
+    box-shadow: 0px 0px 16px 8px rgb(115, 183, 255);
 }
    
 
@@ -356,22 +346,18 @@ Media Query for 770px
     }
 
     .main-nav li {
-        margin-left: 25px;
-        font-size: 22px;
+        margin-left: -10px;
+        font-size: 21px;
+    }
+
+    .ricardo {
+        margin-right: 45px;
     }
     
     .hello-title {
         width: 220px;
         font-size: 64px;
     }
-
-   
-
-    .second-period {
-        font-size: 1.5rem;
-    }
-
-
     
     .intro-message {
         margin-top: 80px;
@@ -409,7 +395,7 @@ Media Query for 770px
 
 
 /* =====================
-Media Query for 1260px
+Media Query for 1250px
 ======================== */
 
 @media (min-width: 1250px) {
@@ -417,8 +403,6 @@ Media Query for 1260px
     .main-container {
         width: 1230px;
         flex-wrap: nowrap; 
-        /* align-items: flex-start; */
-        /* justify-content: space-around; */
     }
 
     .hello-title {
