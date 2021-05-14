@@ -294,9 +294,13 @@ span {
     padding: 25px 0;
 }
 
-.phone-number,
+
 .email-link,
 .linkedin {
+    color: #f6f6f6;
+}
+
+#phone-number {
     color: #f6f6f6;
 }
 
