@@ -17,14 +17,16 @@
 }
 
 .logo {
+    text-decoration: none;
+    margin: 0px auto;
     width: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 15px auto;
-    opacity: .90;
-    transition: box-shadow .3s ease;
+    transition: opacity .3s ease, box-shadow .3s ease, border-radius .3s ease;
+    border-radius: 5px;
+    opacity: .85;
 }
 
 .logo:hover {
