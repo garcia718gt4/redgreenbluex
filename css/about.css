@@ -300,16 +300,16 @@ span {
     color: #f6f6f6;
 }
 
-.email-link, 
-.linkedin {
+.contact-container a {
     text-decoration: none;
     transition: color .2s ease;
 }
 
-.email-link:hover,
-.linkedin:hover {
+.contact-container a:hover {
     color: rgb(253, 179, 179);
+    text-decoration:underline;
 }
+
 
 
 /* =====================
