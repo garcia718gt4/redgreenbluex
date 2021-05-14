@@ -295,14 +295,12 @@ span {
 }
 
 
+.phone-number,
 .email-link,
 .linkedin {
     color: #f6f6f6;
 }
 
-#phone-number {
-    color: #f6f6f6;
-}
 
 .contact-container a {
     text-decoration: none;
