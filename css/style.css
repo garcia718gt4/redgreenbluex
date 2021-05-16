@@ -69,7 +69,7 @@ body {
 	position: relative;
 	background-color: #00ff11;
 	text-align: left;
-    margin-left: -3px;
+    margin-left: -12px;
 }
 .triangle:before,
 .triangle:after {
@@ -96,21 +96,20 @@ body {
 }
 
 
-.circle {
+/* .circle {
     height: 26px;
     width: 26px;
     border-radius: 50%;
     background-color: rgb(25, 123, 241);
     margin-left: -5px;
-}
+} */
 
 
 .x {
     font-family: 'Righteous', cursive;
-    font-size: 32px;
-    color: rgb(220, 7, 220);
-    margin: 0;
-    margin-left: -9px;
+    font-size: 33px;
+    color: rgb(19, 119, 227);
+    margin: 0 0 0 -12px;
     padding: 0;
 }
 
@@ -132,7 +131,7 @@ body {
 ul a {
     text-decoration: none;
     color: #ababab;
-    padding: 10px;
+    padding: 5px;
 }
 
 .ricardo:hover {
