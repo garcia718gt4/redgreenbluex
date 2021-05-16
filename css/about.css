@@ -20,18 +20,27 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    transition: opacity .3s ease, box-shadow .3s ease, border-radius .3s ease;
     border-radius: 5px;
     opacity: .85;
+    /* box-shadow: -2px 0px 4px 1px rgb(255, 101, 101),
+    0px -2px 4px 1px rgb(5, 230, 76),
+    2px 0px 4px 1px rgb(10, 119, 235),
+    0px 2px 4px 1px rgb(182, 80, 255);   */
+
+    /* border-left: 2px solid rgb(255, 101, 101);
+    border-top: 2px solid rgb(5, 230, 76);
+    border-right: 2px solid rgb(10, 119, 235);
+    border-bottom: 2px solid rgb(182, 80, 255); */
+    transition: opacity .4s ease;
 }
 
 
 .logo:hover {
     opacity: 1;
-    box-shadow: -2px 0px 3px 1px rgb(255, 101, 101),
-                0px -2px 3px 1px rgb(5, 230, 76),
-                2px 0px 3px 1px rgb(73, 169, 252),
-                0px 2px 3px 1px rgb(182, 80, 255);      
+    /* box-shadow: -2px 0px 4px 1px rgb(255, 101, 101),
+                0px -2px 4px 1px rgb(5, 230, 76),
+                2px 0px 4px 1px rgb(10, 119, 235),
+                0px 2px 4px 1px rgb(182, 80, 255);       */
 }
 
 .square {
