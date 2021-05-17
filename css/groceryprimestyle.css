@@ -161,7 +161,6 @@ main {
 }
 
 .main-header {
-    margin-top: 75px;
     height: 699px;
     display: flex;
     flex-direction: column;
