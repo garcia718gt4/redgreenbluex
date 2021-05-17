@@ -7,7 +7,9 @@
     padding-top: 15px;
 }
 
-/* || WEB FONTS  */
+/* || WEB FONTS  ************/
+
+
 body {   
     min-height: 100vh;
     display: flex;
@@ -17,14 +19,78 @@ body {
     background: rgba(0, 0, 0, 0.948);
 } 
 
+.shirts-txt,
+.grocery-txt,
+.woosh-txt,
+.prime-txt {
+    margin: 0;
+    padding: 0;
+    font-size: 33px;
+}
+
+/* Shirts by Mike  */
+
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
-    font-weight: 800;
+    color: #00747B;
+    margin-top: -10px;
 }
+
+.frog-col {
+    background-color: #d5ffcc;
+}
+
+
+.frog-pic {
+    width: 65px;
+    height: 65px;
+}
+
+
+/* Grocery Prime  */
 
 .grocery-txt, 
 .prime-txt {
-    font-family: 'Fugaz One', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+
+.grocery-logo {
+    width: 270px;
+    text-align: center;
+}
+
+.grocery-col {
+    background-color: #feffc9;
+}
+
+.grocery-txt {
+    color: #31B004;
+}
+
+.prime-txt {
+    color: #ff9627;
+    margin-top: -14px;
+    font-style: italic;
+}
+
+
+/* WooshMail */
+.woosh-col {
+    /* background: #e8f4fd; */
+    background: #e4f2ff;
+}
+
+
+.woosh-txt {
+    font-family: 'Leckerli One', cursive;
+    background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.woosh-logo {
+    width: 255px;
+    
 }
 
 /* || GENERAL STYLES  */
@@ -90,15 +156,6 @@ body {
 .triangle:after {
 	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
 }
-
-
-/* .circle {
-    height: 26px;
-    width: 26px;
-    border-radius: 50%;
-    background-color: rgb(25, 123, 241);
-    margin-left: -5px;
-} */
 
 
 .x {
@@ -218,7 +275,7 @@ ul a {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    opacity: .87;
+    opacity: .85;
     transition: opacity .4s ease;
 }
 
@@ -228,75 +285,7 @@ ul a {
 
 
 
-.shirts-txt,
-.grocery-txt,
-.woosh-txt,
-.prime-txt {
-    margin: 0;
-    padding: 0;
-    font-size: 33px;
-}
 
-/* Shirts by Mike  */
-
-.frog-col {
-    background-color: #d5ffcc;
-}
-
-
-.frog-pic {
-    width: 65px;
-    height: 65px;
-}
-
-
-.shirts-txt {
-    color: #00747B;
-    margin-top: -10px;
-} 
-
-
-/* Grocery Prime  */
-
-.grocery-logo {
-    width: 270px;
-    text-align: center;
-}
-
-.grocery-col {
-    background-color: #feffc9;
-}
-
-
-
-.grocery-txt {
-    color: #31B004;
-}
-
-.prime-txt {
-    color: #ff9627;
-    margin-top: -14px;
-}
-
-
-/* WooshMail */
-.woosh-col {
-    /* background: #e8f4fd; */
-    background: #e4f2ff;
-}
-
-
-.woosh-txt {
-    font-family: 'Leckerli One', cursive;
-    background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.woosh-logo {
-    width: 255px;
-    
-}
 
 
 

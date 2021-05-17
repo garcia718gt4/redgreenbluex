@@ -151,11 +151,14 @@ html{
 
 body { 
     color: #717171;
-    font: 500 100%/1.5 'Noto Sans', sans-serif;
+    font: 400 100%/1.5 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
     background:rgb(247, 247, 247);
 } 
+main {
+    border: 1px solid red;
+}
 
 .main-header {
     height: 700px;
