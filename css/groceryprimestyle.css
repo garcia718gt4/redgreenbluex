@@ -169,7 +169,6 @@ main {
     justify-content: center;
     /* background: radial-gradient(50% 302.96% at 50% 50%, #E0FFC8 0%, #E9FFD8 0.01%, #E9FFCC 8.33%, #FEFFBC 51.04%, #FFDEAC 100%);    width: 100; */
     background-color: #feffc9;
-    opacity: .7;
 }
 
 /* .rgb-bar {
