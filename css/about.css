@@ -355,7 +355,7 @@ Media Query for 1440px
 @media (min-width: 1440px) { 
 
     .main-content {
-        width: 85%;
+        width: 1440px;
         flex-direction: row;
         margin-top: 0px;
         padding-top: 0px;
