@@ -98,7 +98,6 @@ body {
     height: 330px;
     background: url("../img/andersonImages/anderson-restaurant-location.jpg") no-repeat center;
     background-size: cover;
-    opacity: .98;
     width: 100%;
 }
 
@@ -146,3 +145,19 @@ main {
 =========================== */
 
 @media (min-width: 750px) {
+    .main-header {
+       height: 550px;
+    }
+}
+
+
+/*================================
+    Media Query for 1440px (laptop)
+================================== */
+
+@media (min-width: 1440px) {
+
+    .main-header {
+       height: 630px;
+    }
+}

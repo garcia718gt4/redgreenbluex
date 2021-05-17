@@ -7,7 +7,7 @@
 /* || logo *******/
 
 .banner {
-    background: rgba(0, 0, 0, 0.948);
+    background: rgb(28, 28, 28);
     height: 75px;
     width: 100%;
     position: fixed;
@@ -157,17 +157,18 @@ body {
     background:rgb(247, 247, 247);
 } 
 main {
-    border: 1px solid red;
+    
 }
 
 .main-header {
-    height: 700px;
+    height: 630px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     /* background: radial-gradient(50% 302.96% at 50% 50%, #E0FFC8 0%, #E9FFD8 0.01%, #E9FFCC 8.33%, #FEFFBC 51.04%, #FFDEAC 100%);    width: 100; */
     background-color: #feffc9;
+    opacity: .6;
 }
 
 /* .rgb-bar {

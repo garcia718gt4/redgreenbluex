@@ -214,19 +214,21 @@ ul a {
 .hello-title {
     font-size: 55px;
     width: 185px;
-    text-align: center;
     background: linear-gradient(120deg,  rgb(241, 15, 15) 17%, #40fa9d 58%, #1272e7 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 0 auto;
 }
 
+.hello-title, 
+.intro-message h2 {
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+}
 
 .intro-message h2 {
     width: 375px;
     font-size: 31px;
-    margin: 0 auto;
-    text-align: center;
     color: rgb(244, 244, 244);
 }
 
