@@ -361,6 +361,8 @@ Media Query for 1250px
 
     .bullit-points-container { 
         text-align: left;
+        margin-top: 0px;
+        padding-top: 0px;
     }
 
     span {
@@ -368,8 +370,8 @@ Media Query for 1250px
     }
 
     .shapes {
-        width: 390px;
-        height: 600px;
+        width: 350px;
+        height: 560px;
     }
 
 
