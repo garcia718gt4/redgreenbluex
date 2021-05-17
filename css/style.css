@@ -15,7 +15,8 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    font: 400 100%/1.5 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5;
     background: rgba(0, 0, 0, 0.948);
 } 
 
@@ -213,9 +214,7 @@ ul a {
 .hello-title {
     font-size: 55px;
     width: 185px;
-    font-weight: bold;
     text-align: center;
-    /* background: linear-gradient(120deg, #f80505 15%, #fb3e3e 25%, #fca06e 35%, #06eb62 45.93%, #0be687 60.26%, #4faafb 67.3%, #0d5adf 77.75%, #0747e7 86%, #0339c2 100%); */
     background: linear-gradient(120deg,  rgb(241, 15, 15) 17%, #40fa9d 58%, #1272e7 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -226,28 +225,19 @@ ul a {
 .intro-message h2 {
     width: 375px;
     font-size: 31px;
-    color: rgba(0, 0, 0, 0.81);
     margin: 0 auto;
     text-align: center;
     color: rgb(244, 244, 244);
 }
 
 .ux-design-title {
-    font-weight: bold;
     display: inline-block;
-    /* background: linear-gradient(120deg, #32f694 0%, #0eda77 15%, #0cb4da 30%, #3688fb 45%, #2680fe 60.26%, #7a48f7 70%, #a03df7 80.75%, #d53fff 100%); */
     background: linear-gradient(120deg, #7ff9bc 12%, #40d6f8 30%, #268efe 60.26%, #6b48f7 90%);
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 
-.rgb-bar-bottom {
-    height: 25px;
-    background: radial-gradient(49.75% 8150.4% at 50.25% 50%, #00FF8A 0%, #0056FF 54.69%, #FF0600 100%);
-
-}
 
 /******  MAIN CONTAINER  ******/
 
