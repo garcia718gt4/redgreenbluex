@@ -355,7 +355,7 @@ Media Query for 1250px
 @media (min-width: 1440px) { 
 
     .main-content {
-        width: 1420px;
+        width: 90%;
         flex-direction: row;
         margin-top: 0px;
         padding-top: 0px;
@@ -369,10 +369,13 @@ Media Query for 1250px
         font-size: 29px;
     }
 
+    .balanced-shapes {
+        margin-top: 50px;
+    }
+
     .shapes {
         width: 350px;
         height: 560px;
-        margin-bottom: 0;
     }
 
 
