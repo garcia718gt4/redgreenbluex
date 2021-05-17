@@ -372,6 +372,7 @@ Media Query for 1250px
     .shapes {
         width: 350px;
         height: 560px;
+        margin-bottom: 0;
     }
 
 
