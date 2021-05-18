@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Sen', sans-serif;
 }
 
 
@@ -124,6 +125,9 @@ body {
     margin-right: 6px;
 }
 
+p {
+    color:#8d8d8d; 
+}
 
 /* || TABLE OF CONTENTS *******/
 
@@ -177,20 +181,20 @@ body {
 
 /* || PROJECT CONTAINER *******/
 
-.project-container {
-    font-family: 'Sen', sans-serif;
-}
 
 .project-container p {
-    color: #7E7E7E;
     text-align: left;
     padding: 0 5px;
 }
 
-.project-container h2 {
+
+h2 {
     font-size: 19px;
-    color: #202020;
     text-align: center;
+}
+
+.project-container h2 {
+    color:  #202020;
 }
 
 .project-square {
@@ -209,12 +213,50 @@ body {
 
 .goal-role-duration {background: #F9F9F9;}
 
-.project-text-wrap {
+
+.project-text-wrap,
+.abstract-text-wrap,
+.point-wrap {
     margin: 0 auto;
     line-height: 1.4rem;
     width: 330px;
 }
 
+
+/* || ABSTRACT CONTAINER *******/
+
+.abstract {
+    background: #F9F9F9;
+}
+
+.abstract h2 {
+    color: #38578A;
+}
+
+.abstract-text-wrap {
+    margin: 25px 0; 
+}
+
+/* || PAIN POINTS *******/
+
+.pain-points-container {
+    background: rgba(56, 87, 138, 0.9); 
+}
+
+.pain-points-container h2 {
+    color: #F8E7BC;
+}
+
+.pain-points-header {
+    margin: 30px 0px; 
+}
+
+.point-wrap {
+    margin-bottom: 30px;
+}
+.pain-points-wrap p {
+    color: #E7E7E7;
+}
 
 /*=============================
     Media Query for 768px (iPad)
@@ -274,19 +316,28 @@ body {
         height: 340px;
     }
 
-    .project-container h2 {
+
+    h2 {
         font-size: 20px;
     }
 
-    .project-container p {
+    p {
         font-size: 17px;
     }
+
 
     .project-text-wrap {
         line-height: 1.4rem;
         width: 335px;
     }
-    
+
+    /* || ABSTRACT CONTAINER *******/
+
+    .abstract-text-wrap {
+        margin: 35px 0; 
+        width: 445px;
+    }
+
 
 }
 
@@ -340,17 +391,24 @@ body {
         height: 350px;
     }
 
-    .project-container h2 {
+    h2 {
         font-size: 21px;
     }
 
-    .project-container p {
+    p {
         font-size: 18px;
     }
 
     .project-text-wrap {
         line-height: 1.5rem;
         width: 400px;
+    }
+
+    /* || ABSTRACT CONTAINER *******/
+
+    .abstract-text-wrap {
+        margin: 55px 0; 
+        width: 800px;
     }
 
 
