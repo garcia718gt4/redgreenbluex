@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 body {
     display: flex;
     flex-direction: column;
@@ -108,35 +105,118 @@ body {
     padding: 0;
 }
 
+.nova-slim {
+    font-family: "Nova Slim", cursive;
+}
 
 .anderson-title {
-    font-family: "Nova Slim", cursive;
     color: #F3F3F3;
     letter-spacing: 0.06em;
     text-align: center;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 .restaurant-title {
     font-family: 'Parisienne', cursive;
     color: #D9A319;
     text-align: right;
-    font-size: 17px;
+    font-size: 22px;
+    margin-right: 6px;
 }
 
 
 /* || TABLE OF CONTENTS *******/
 
-main {
-    border: 1px solid red;
+.table-of-contents-container {
+    width: 100%;
+    background: rgba(248, 231, 188, 0.35);
 }
 
-.table-of-contents {
-    margin-top: 0px;
-    padding-top: 0px;
-   width: 100%;
-   background: rgba(248, 231, 188, 0.35);
+.table-wrap {
+    margin: 30px auto;
+    width: 250px;  
 }
+
+.table-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.table-flex h2 {
+    color: #414141; 
+    font-size: 19px;
+}
+
+.block {
+    width: 105px;
+    height: 35px;   
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.gold {background: #A97A01;}
+.blue {background: #38578A;}
+.black {background: #202020;}
+
+
+/* || PROJECT DIVIDER *******/
+
+.project-divider {
+    width: 100%;
+    height: 45px;
+}
+
+.gold-divider {background:#A97A01;}
+.blue-divider {background: #38578A;}
+
+
+
+
+/* || PROJECT CONTAINER *******/
+
+.project-container {
+    font-family: 'Sen', sans-serif;
+}
+
+.project-container p {
+    color: #7E7E7E;
+    text-align: left;
+    padding: 0 5px;
+}
+
+.project-container h2 {
+    font-size: 19px;
+    color: #202020;
+    text-align: center;
+}
+
+.project-square {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.product, 
+.responsibilities {
+    background: #FFFFFF;
+}
+
+.problem {background: #FFF1CC;}
+
+.goal-role-duration {background: #F9F9F9;}
+
+.project-text-wrap {
+    margin: 0 auto;
+    line-height: 1.4rem;
+    width: 350px;
+}
+
+
+
+
 
 
 
@@ -148,6 +228,44 @@ main {
     .main-header {
        height: 550px;
     }
+
+    .anderson-title {
+        font-size: 50px;
+    }
+
+    .restaurant-title {
+        font-size: 38px;
+    }
+
+    /* || TABLE OF CONTENTS *******/
+
+    .table-wrap {
+        margin: 65px auto 105px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-evenly;
+        width: 550px;
+    }
+
+    .table-flex {
+        flex-direction: column;
+        margin: 0 50px;
+    }
+
+    .table-flex h2 {
+        font-size: 25px;
+    }
+
+    .block {
+        width: 157.5px;
+        height: 52.5px;   
+    }
+
+    .project-divider {
+        height: 52.5px;   
+    }
+
 }
 
 
@@ -158,6 +276,39 @@ main {
 @media (min-width: 1440px) {
 
     .main-header {
-       height: 700px;
+       height: 670px;
     }
+
+    .anderson-title {
+        font-size: 68px;
+    }
+
+    .restaurant-title {
+        font-size: 52px;
+    }
+
+     /* || TABLE OF CONTENTS *******/
+
+     .table-wrap {
+        margin: 85px auto 125px;
+        width: 900px;
+    }
+
+    .table-flex {
+        margin: 0 95px;
+    }
+
+    .table-flex h2 {
+        font-size: 32px;
+    }
+
+    .block {
+        width: 183.5px;
+        height: 61.25px;   
+    }
+
+    .project-divider {
+        height: 61.5px;   
+    }
+
 }
