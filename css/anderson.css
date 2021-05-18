@@ -200,9 +200,10 @@ body {
 }
 
 .product, 
-.responsibilities {
+.response {
     background: #FFFFFF;
 }
+
 
 .problem {background: #FFF1CC;}
 
@@ -211,20 +212,15 @@ body {
 .project-text-wrap {
     margin: 0 auto;
     line-height: 1.4rem;
-    width: 350px;
+    width: 330px;
 }
 
 
-
-
-
-
-
 /*=============================
-    Media Query for 750px
+    Media Query for 768px (iPad)
 =========================== */
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
     .main-header {
        height: 550px;
     }
@@ -265,6 +261,32 @@ body {
     .project-divider {
         height: 52.5px;   
     }
+
+     /* || PROJECT CONTAINER *******/
+
+    .project-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .project-square {
+        width: 50%; 
+        height: 340px;
+    }
+
+    .project-container h2 {
+        font-size: 20px;
+    }
+
+    .project-container p {
+        font-size: 17px;
+    }
+
+    .project-text-wrap {
+        line-height: 1.4rem;
+        width: 335px;
+    }
+    
 
 }
 
@@ -310,5 +332,27 @@ body {
     .project-divider {
         height: 61.5px;   
     }
+
+
+    /* || PROJECT CONTAINER *******/
+
+    .project-square {
+        height: 350px;
+    }
+
+    .project-container h2 {
+        font-size: 21px;
+    }
+
+    .project-container p {
+        font-size: 18px;
+    }
+
+    .project-text-wrap {
+        line-height: 1.5rem;
+        width: 400px;
+    }
+
+
 
 }
