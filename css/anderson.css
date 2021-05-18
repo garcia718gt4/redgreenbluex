@@ -234,7 +234,7 @@ h2 {
 }
 
 .abstract-text-wrap {
-    margin: 25px 0; 
+    margin: 25px auto; 
 }
 
 /* || PAIN POINTS *******/
@@ -253,7 +253,9 @@ h2 {
 
 .point-wrap {
     margin-bottom: 30px;
+    text-align: center;
 }
+
 .pain-points-wrap p {
     color: #E7E7E7;
 }
@@ -331,12 +333,25 @@ h2 {
         width: 335px;
     }
 
-    /* || ABSTRACT CONTAINER *******/
+    /* || ABSTRACT & PAIN POINTS CONTAINER *******/
 
     .abstract-text-wrap {
-        margin: 35px 0; 
         width: 445px;
     }
+
+    .point-wrap {
+        width: 445px;
+        margin-bottom: 40px;
+    }
+
+    .pain-points-header {
+        margin-top: 40px;
+    }
+
+    .pain-points-wrap {
+        margin-bottom: 50px;
+    }
+
 
 
 }
@@ -407,10 +422,27 @@ h2 {
     /* || ABSTRACT CONTAINER *******/
 
     .abstract-text-wrap {
-        margin: 55px 0; 
+        margin: 65px 0; 
         width: 800px;
     }
 
+    /* || PAIN POINTS CONTAINER *******/
+
+    .pain-points-header {
+        margin-top: 50px;
+    }
+    .pain-points-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 1400px;
+        margin: 0 auto 55px;
+    }
+
+    .point-wrap {
+        width: 320px;
+    }
 
 
 }
