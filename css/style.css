@@ -185,8 +185,11 @@ body {
 
 ul a {
     text-decoration: none;
-    color: #ababab;
     padding: 5px;
+}
+
+.ricardo {
+    color: #a2a2a2;
 }
 
 .ricardo:hover {
