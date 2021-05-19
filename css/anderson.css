@@ -176,7 +176,7 @@ p {
 
 .gold-divider {background:#A97A01;}
 .blue-divider {background: #38578A;}
-
+.black-divider {background: #202020;}
 
 
 
@@ -432,7 +432,6 @@ h2 {
         width: 500px;
         margin: 45px auto 55px;
     }
-
 
 }
 
