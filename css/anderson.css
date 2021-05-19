@@ -29,11 +29,12 @@ body {
 .logo {
     text-decoration: none;
     margin: 0px auto;
-    width: 150px;
+    padding: 6px;
+    width: 105px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-radius: 5px;
     opacity: .85;
     transition: opacity .4s ease;
@@ -269,6 +270,7 @@ h2 {
 
 .problem-statement-text-wrap {
     margin: 30px auto 0px;
+    text-align: center;
 }
 
 .problem-statement-title {
@@ -327,8 +329,8 @@ h2 {
   /* || PAPER WIREFRAMES CONTAINER *******/
 
   .paper-wireframes-container {
-      background: #F8F8F8;
-      padding: 20px 0;
+      background: #f2f2f2;
+      padding: 10px 0 15px;
   }
 
   .paper-wireframes-container p {
@@ -438,7 +440,7 @@ h2 {
     }
 
     .problem-statement-text-wrap {
-        width: 450px;
+        width: 660px;
     }
 
     .persona-container {
@@ -448,14 +450,14 @@ h2 {
 
     .img-frame {
         margin-top: 20px;
-        width: 500px;
-        height: 300px;
+        width: 660px;
+        height: 420px;
     }
 
     /* || USER JOURNEY CONTAINER *******/
 
     .user-journey-info-wrap {
-        width: 500px;
+        width: 660px;
         margin: 45px auto 55px;
     }
 
@@ -473,7 +475,7 @@ h2 {
     /* || PAPER WIREFRAMES CONTAINER *******/
 
   .paper-wireframes-container {
-        padding: 30px 0;
+        padding: 10px 0 25px;
     }
 
     .paper-wireframes-container p {
@@ -582,8 +584,9 @@ h2 {
     .problem-statement-title {
         text-align: left;
     }
-
+    
     .problem-statement-text-wrap {
+        text-align: left;
         width: 400px;
     }
 
@@ -591,30 +594,27 @@ h2 {
         margin: 75px auto 65px;
     }
 
-    .davit-persona {
-        width: 665px;
-        height: 380px;
-    }
-
      /* || USER JOURNEY CONTAINER *******/
 
+     .img-frame {
+        width: 825px;
+        height: 525px;
+    }
+
      .user-journey-info-wrap {
-        width: 775px;
+        width: 825px;
     }
     
     .user-journey-info-wrap {
         margin: 60px auto 90px;
     }
 
-    .user-journey-img {
-        width: 775px;
-        height: 440px;
-    }
+
 
     /* || SKETCHES CONTAINER *******/
 
     .top-three-sketches {
-        margin: 70px auto;
+        width: 1180px;
     }
 
     .paper-sketch {

@@ -105,11 +105,12 @@ body {
 .logo {
     text-decoration: none;
     margin: 0px auto;
-    width: 150px;
+    padding: 6px;
+    width: 105px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-radius: 5px;
     opacity: .85;
     transition: opacity .4s ease;
