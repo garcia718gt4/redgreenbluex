@@ -126,6 +126,7 @@ body {
 }
 
 p {
+    line-height: 1.6;
     color:#8d8d8d; 
 }
 
@@ -181,7 +182,6 @@ p {
 
 /* || PROJECT CONTAINER *******/
 
-
 .project-container p {
     text-align: left;
     padding: 0 5px;
@@ -216,9 +216,10 @@ h2 {
 
 .project-text-wrap,
 .abstract-text-wrap,
-.point-wrap {
+.point-wrap,
+.problem-statement-text-wrap,
+.user-journey-info-wrap {
     margin: 0 auto;
-    line-height: 1.4rem;
     width: 330px;
 }
 
@@ -259,6 +260,59 @@ h2 {
 .pain-points-wrap p {
     color: #E7E7E7;
 }
+
+/* || PROBLEM STATEMENT CONTAINER *******/
+
+.problem-statement-container {
+    background: #F9F9F9;
+}
+
+.problem-statement-text-wrap {
+    margin: 30px auto 0px;
+}
+
+.problem-statement-title {
+    color: #38578A;
+}
+
+.persona-container {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.img-frame {
+    margin-top: 10px;
+    display: inline-block;
+    width: 330px;
+    height: 210px;
+    border-radius: 5px;
+}
+
+.davit-persona {
+    border: 2px solid #38578A;
+}
+
+
+/* || USER JOURNEY CONTAINER *******/
+
+.user-journey-container {
+    background: rgba(56, 87, 138, 0.9);
+}
+
+.user-journey-info-wrap {
+    margin: 30px auto 40px;
+}
+
+.user-journey-info-wrap h2 {
+    color: #F8E7BC;
+}
+
+.user-journey-info-wrap p {
+    text-align: center;
+    color: #E7E7E7;
+}
+
+
 
 /*=============================
     Media Query for 768px (iPad)
@@ -327,9 +381,7 @@ h2 {
         font-size: 17px;
     }
 
-
     .project-text-wrap {
-        line-height: 1.4rem;
         width: 335px;
     }
 
@@ -352,6 +404,34 @@ h2 {
         margin-bottom: 50px;
     }
 
+
+    /* || PROBLEM STATEMENT CONTAINER *******/
+
+    .problem-statement-text-wrap {
+        margin: 40px auto 0px;
+    }
+
+    .problem-statement-text-wrap {
+        width: 450px;
+    }
+
+    .persona-container {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .img-frame {
+        margin-top: 20px;
+        width: 500px;
+        height: 300px;
+    }
+
+    /* || USER JOURNEY CONTAINER *******/
+
+    .user-journey-info-wrap {
+        width: 500px;
+        margin: 45px auto 55px;
+    }
 
 
 }
@@ -415,34 +495,77 @@ h2 {
     }
 
     .project-text-wrap {
-        line-height: 1.5rem;
-        width: 400px;
+        width: 420px;
     }
 
     /* || ABSTRACT CONTAINER *******/
 
     .abstract-text-wrap {
-        margin: 65px 0; 
+        margin: 75px 0; 
         width: 800px;
     }
 
     /* || PAIN POINTS CONTAINER *******/
 
+    .header-pain-points-container {
+        margin: 65px 0;
+    }
+
     .pain-points-header {
         margin-top: 50px;
     }
-    .pain-points-wrap {
+
+    .three-col {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        width: 1400px;
+        width: 1420px;
+    }
+
+    .pain-points-wrap {
         margin: 0 auto 55px;
     }
 
     .point-wrap {
         width: 320px;
     }
+
+    /* || PROBLEM STATEMENT CONTAINER *******/
+
+    .problem-statement-title {
+        text-align: left;
+    }
+
+    .problem-statement-text-wrap {
+        width: 400px;
+    }
+
+    .problem-img-container {
+        margin: 75px auto 65px;
+    }
+
+    .davit-persona {
+        width: 665px;
+        height: 380px;
+    }
+
+     /* || USER JOURNEY CONTAINER *******/
+
+     .user-journey-info-wrap {
+        width: 775px;
+    }
+    
+    .user-journey-info-wrap {
+        margin: 60px auto 90px;
+    }
+
+    .user-journey-img {
+        width: 775px;
+        height: 440px;
+    }
+
+   
 
 
 }
