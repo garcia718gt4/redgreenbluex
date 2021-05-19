@@ -312,6 +312,32 @@ h2 {
     color: #E7E7E7;
 }
 
+/* || SKETCHES CONTAINER *******/
+
+.top-three-sketches {
+    margin: 30px auto;
+    text-align: center;
+}
+.paper-sketch {
+    width: 124px;
+    height: 268px;
+    margin: 10px 0px;
+}
+
+  /* || PAPER WIREFRAMES CONTAINER *******/
+
+  .paper-wireframes-container {
+      background: #F8F8F8;
+      padding: 20px 0;
+  }
+
+  .paper-wireframes-container p {
+      text-align: center;
+      width: 330px;
+      margin: 0 auto;
+  }
+
+
 
 
 /*=============================
@@ -431,6 +457,27 @@ h2 {
     .user-journey-info-wrap {
         width: 500px;
         margin: 45px auto 55px;
+    }
+
+
+    /* || SKETCHES CONTAINER *******/
+    .top-three-sketches {
+        margin: 50px auto;
+        text-align: center;
+    }
+    .paper-sketch {
+        width: 186px;
+        height: 402px;
+    }
+   
+    /* || PAPER WIREFRAMES CONTAINER *******/
+
+  .paper-wireframes-container {
+        padding: 30px 0;
+    }
+
+    .paper-wireframes-container p {
+        width: 650px;
     }
 
 }
@@ -564,7 +611,17 @@ h2 {
         height: 440px;
     }
 
-   
+    /* || SKETCHES CONTAINER *******/
+
+    .top-three-sketches {
+        margin: 70px auto;
+    }
+
+    .paper-sketch {
+        width: 217px;
+        height: 469px;
+    }
+
 
 
 }
