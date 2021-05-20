@@ -316,17 +316,20 @@ h2 {
 
 /* || SKETCHES CONTAINER *******/
 
-.top-three-sketches {
+.top-three-sketches,
+.wireframes-info-wrap {
     margin: 30px auto;
     text-align: center;
 }
-.paper-sketch {
+
+.paper-sketch,
+.wireframe-img {
     width: 124px;
     height: 268px;
     margin: 10px 0px;
 }
 
-  /* || PAPER WIREFRAMES CONTAINER *******/
+  /* || PAPER & DIGITAL WIREFRAMES CONTAINER *******/
 
   .paper-wireframes-container {
       background: #f2f2f2;
@@ -339,7 +342,27 @@ h2 {
       margin: 0 auto;
   }
 
+  .digital-wireframes-container {
+      height: 110px;
+      width: 100%;
+      background: #929292;
+  }
 
+  .wireframes-container {
+      background: #202020;
+  }
+
+  .wireframe-paragraph {
+      background: #3A3A3A;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 15px auto;
+      width: 330px;
+  }
+
+  .wireframe-paragraph p {
+      color: #bababa;
+  }
 
 
 /*=============================
@@ -463,23 +486,31 @@ h2 {
 
 
     /* || SKETCHES CONTAINER *******/
-    .top-three-sketches {
+    .top-three-sketches,
+    .wireframes-info-wrap {
         margin: 50px auto;
         text-align: center;
     }
-    .paper-sketch {
+
+    .paper-sketch,
+    .wireframe-img {
         width: 186px;
         height: 402px;
     }
    
-    /* || PAPER WIREFRAMES CONTAINER *******/
+    /* || PAPER & DIGITAL WIREFRAMES CONTAINER *******/
 
-  .paper-wireframes-container {
-        padding: 10px 0 25px;
-    }
+    .paper-wireframes-container {
+            padding: 10px 0 25px;
+        }
 
     .paper-wireframes-container p {
         width: 650px;
+    }
+
+    .wireframe-paragraph {
+        width: 400px;
+        margin:0;
     }
 
 }
@@ -609,11 +640,11 @@ h2 {
         margin: 60px auto 90px;
     }
 
-
-
     /* || SKETCHES CONTAINER *******/
 
-    .top-three-sketches {
+    .top-three-sketches,
+    .wireframes-info-wrap {
+        margin: 60px auto;
         width: 1180px;
     }
 
@@ -622,6 +653,17 @@ h2 {
         height: 469px;
     }
 
+    /* || PAPER & DIGITAL WIREFRAMES CONTAINER *******/
+
+    .wireframe-img {
+        width: 248px;
+        height: 536px;
+    }
+
+    .wireframe-paragraph {
+        text-align: left;
+        padding: 20px
+    }
 
 
 }
