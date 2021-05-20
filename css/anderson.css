@@ -393,6 +393,19 @@ h2 {
       color:rgb(19, 119, 227);
   }
 
+    /* || USABILITY STUDY CONTAINER *******/
+  
+.usability-study-container {
+    background: #202020;
+}
+
+.usability-study-wrap {
+    margin: 30px 0 30px;
+}
+
+.usability-study-parameters-title {
+    color: #c4c4c4;
+}
 
 /*=============================
     Media Query for 768px (iPad)
