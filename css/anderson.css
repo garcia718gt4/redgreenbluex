@@ -393,19 +393,50 @@ h2 {
       color:rgb(19, 119, 227);
   }
 
-    /* || USABILITY STUDY CONTAINER *******/
+/* || USABILITY & FINDINGS STUDY CONTAINER *******/
   
 .usability-study-container {
     background: #202020;
 }
 
 .usability-study-wrap {
-    margin: 30px 0 30px;
+    margin-top: 30px;
 }
 
 .usability-study-parameters-title {
     color: #c4c4c4;
 }
+
+.parameter-info-wrap,
+.findings-info-wrap {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.findings-info-wrap {
+    width: 330px;
+}
+
+.parameter-info-wrap h2 {
+    color: #c4c4c4;
+}
+
+.single-parameter,
+.single-findings {
+    margin-bottom: 20px;
+}
+
+.findings-container {background: #d2d2d2;}
+
+.findings-container h2 {
+    color: #202020;
+}
+
+.findings-container p {
+    color:#515151;
+    text-align: center;
+}
+
 
 /*=============================
     Media Query for 768px (iPad)
@@ -568,6 +599,31 @@ h2 {
         font-size: 17px;
     }
 
+    /* || USABILITY & FINDINGS STUDY CONTAINER *******/
+  
+    .usability-study-wrap {
+        margin-top: 40px;
+    }
+
+    .parameter-info-wrap {
+        margin: 40px auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .findings-info-wrap {
+        margin: 40px auto;
+    }
+
+    .single-parameter {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .findings-info-wrap {
+        width: 420px;
+    }
+
 }
 
 
@@ -722,11 +778,49 @@ h2 {
     /* || LOW-FI PROTOTYPE CONTAINER *******/
 
     .low-fi-info-wrap {
-    margin: 50px 0 50px;
+        margin: 60px 0;
     }
 
     .low-fi-link {
         font-size: 18px;
+    }
+
+    .low-fidelity-txt-wrap {
+        width: 600px;
+    }
+
+    .low-fidelity-txt-wrap p {
+        text-align: center;
+
+    }
+
+    /* || USABILITY & FINDINGS STUDY CONTAINER *******/
+  
+    .usability-study-wrap {
+        margin-top: 50px;
+    }
+
+    .parameter-info-wrap {
+        margin: 70px auto;
+        flex-flow: row nowrap;
+        width: 1420px;
+    }
+
+    .single-parameter {
+        width: 25%;
+    }
+
+    .single-findings {
+        width: 310px;
+    }
+
+    .findings-info-wrap {
+        margin: 70px auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 1340px;
     }
 
 
