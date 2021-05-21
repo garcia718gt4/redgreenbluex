@@ -439,7 +439,7 @@ h2 {
 .single-findings p,
 .single-parameter p,
 .mockup-paragraph p {
-    color: #7b7b7b;
+    color: #808080;
 }
 
 
@@ -488,7 +488,16 @@ h2 {
 /* || TAKEAWAYS CONTAINER *******/
 
 .takeaways-info-wrap {
-    margin: 30px auto;
+    margin: 30px auto 40px;
+}
+
+.takeaways-info-wrap h2,
+.takeaways-info-wrap p {
+    color: #202020;
+}
+
+.takeaways-info-wrap p {
+    color: #808080;
 }
 
 .next-steps-info-wrap {
@@ -694,7 +703,7 @@ h2 {
     /* || TAKEAWAYS CONTAINER *******/
 
     .takeaways-info-wrap {
-        margin: 40px auto;
+        margin: 40px auto 60px;
     }
     
     .next-steps-info-wrap {
@@ -914,7 +923,7 @@ h2 {
     /* || TAKEAWAYS CONTAINER *******/
 
     .takeaways-info-wrap {
-        margin: 50px auto;
+        margin: 50px auto 80px;
     }
     
     .next-steps-info-wrap {
