@@ -133,7 +133,8 @@ p {
 
 /* || TABLE OF CONTENTS *******/
 
-.table-of-contents-container {
+.table-of-contents-container,
+.next-steps-container {
     width: 100%;
     background: rgba(248, 231, 188, 0.35);
 }
@@ -406,7 +407,7 @@ h2 {
 /* || USABILITY & FINDINGS STUDY CONTAINER *******/
   
 .usability-study-container {
-    background: #dcdcdc;
+    background: rgb(244, 244, 244);
 
 }
 
@@ -436,8 +437,9 @@ h2 {
 
 
 .single-findings p,
-.single-parameter p {
-    color: #515151;
+.single-parameter p,
+.mockup-paragraph p {
+    color: #7b7b7b;
 }
 
 
@@ -468,11 +470,10 @@ h2 {
 }
 
 .mockup-paragraph {
-    background: rgb(237, 237, 237);
+    background: rgb(244, 244, 244);
 }
 
 .mockup-paragraph p {
-    color: #7b7b7b;
     padding: 0 7px;
 }
 
@@ -484,6 +485,25 @@ h2 {
     color: #808080;
 }
 
+/* || TAKEAWAYS CONTAINER *******/
+
+.takeaways-info-wrap {
+    margin: 30px auto;
+}
+
+.next-steps-info-wrap {
+    margin-bottom: 100px;
+}
+
+.takeaways-wrap {
+    width: 330px;
+    margin: 20px auto;
+}
+
+.rgb-bar-bottom {
+    height: 25px;
+    background: radial-gradient(49.75% 8150.4% at 50.25% 50%,  #38578A 0%, #A97A01 100%);
+}
 
 /*=============================
     Media Query for 768px (iPad)
@@ -671,6 +691,22 @@ h2 {
         width: 420px;
     }
 
+    /* || TAKEAWAYS CONTAINER *******/
+
+    .takeaways-info-wrap {
+        margin: 40px auto;
+    }
+    
+    .next-steps-info-wrap {
+        margin-bottom: 110px;
+    }
+    
+
+    .takeaways-wrap {
+        width: 660px;
+        margin-top: 30px;
+    }
+
 }
 
 
@@ -764,8 +800,13 @@ h2 {
         margin: 0 auto 55px;
     }
 
+    .painpoints {
+        margin-bottom: 92px;
+    }
+
     .point-wrap {
         width: 320px;
+        margin-bottom: auto;
     }
 
     /* || PROBLEM STATEMENT CONTAINER *******/
@@ -868,6 +909,31 @@ h2 {
         align-items: center;
         justify-content: space-between;
         width: 1340px;
+    }
+
+    /* || TAKEAWAYS CONTAINER *******/
+
+    .takeaways-info-wrap {
+        margin: 50px auto;
+    }
+    
+    .next-steps-info-wrap {
+        margin-bottom: 120px;
+    }
+    
+
+    .takeaways-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 1240px;
+        margin: 0 auto;
+    }
+
+    .takeaways-wrap {
+        width: 520px;
+        margin-top: 40px;
     }
 
 
