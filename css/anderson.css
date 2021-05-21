@@ -128,7 +128,7 @@ body {
 
 p {
     line-height: 1.6;
-    color:#8d8d8d; 
+    color:#848484; 
 }
 
 /* || TABLE OF CONTENTS *******/
@@ -351,6 +351,7 @@ h2 {
   .wireframes-container {
       background: #202020;
   }
+  
 
   .wireframe-paragraph {
       background: #3A3A3A;
@@ -366,6 +367,7 @@ h2 {
       margin: 0; 
       padding: 0; 
   }
+
 
     /* || LOW-FI PROTOTYPE CONTAINER *******/
 
@@ -403,8 +405,9 @@ h2 {
     margin-top: 30px;
 }
 
-.usability-study-parameters-title {
-    color: #c4c4c4;
+.usability-study-parameters-title,
+.parameter-info-wrap h2 {
+    color: #d0d0d0;
 }
 
 .parameter-info-wrap,
@@ -417,14 +420,17 @@ h2 {
     width: 330px;
 }
 
-.parameter-info-wrap h2 {
-    color: #c4c4c4;
+
+.single-parameter p {
+    color: #9b9b9b;
 }
+
 
 .single-parameter,
 .single-findings {
     margin-bottom: 20px;
 }
+
 
 .findings-container {background: #d2d2d2;}
 
@@ -437,6 +443,24 @@ h2 {
     text-align: center;
 }
 
+/* || MOCKUPS CONTAINER *******/
+
+.mockup-container {
+    background: #ffffff;
+}
+
+.mockup-img {
+    border: 1px solid rgb(172, 172, 172);
+}
+
+.mockup-paragraph {
+    background: rgb(237, 237, 237);
+}
+
+.mockup-paragraph p {
+    color: #515151;
+    padding: 0 7px;
+}
 
 /*=============================
     Media Query for 768px (iPad)
