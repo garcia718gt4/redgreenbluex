@@ -128,7 +128,7 @@ body {
 
 p {
     line-height: 1.6;
-    color:#848484; 
+    color:#808080;
 }
 
 /* || TABLE OF CONTENTS *******/
@@ -372,7 +372,7 @@ h2 {
     /* || LOW-FI PROTOTYPE CONTAINER *******/
 
   .low-fidelity-container {
-      background: #F8F8F8;
+      background: #202020;
   }
 
   .low-fi-info-wrap {
@@ -383,6 +383,14 @@ h2 {
       margin: 0 auto;
       width: 330px;
   }
+
+  .low-fi-info-wrap h2 {
+      color: #efefef;
+  }
+
+  .low-fi-info-wrap p {
+    color: #c4c4c4;
+}
 
   .low-fi-link {
       color:rgb(82, 151, 224);
@@ -398,7 +406,12 @@ h2 {
 /* || USABILITY & FINDINGS STUDY CONTAINER *******/
   
 .usability-study-container {
-    background: #202020;
+    background: #dcdcdc;
+
+}
+
+.findings {
+    border-top: 1px solid rgb(196, 196, 196);
 }
 
 .usability-study-wrap {
@@ -406,8 +419,9 @@ h2 {
 }
 
 .usability-study-parameters-title,
-.parameter-info-wrap h2 {
-    color: #d0d0d0;
+.parameter-info-wrap h2,
+.single-findings h2 {
+    color: #202020;
 }
 
 .parameter-info-wrap,
@@ -421,8 +435,9 @@ h2 {
 }
 
 
+.single-findings p,
 .single-parameter p {
-    color: #9b9b9b;
+    color: #515151;
 }
 
 
@@ -432,9 +447,8 @@ h2 {
 }
 
 
-.findings-container {background: #d2d2d2;}
-
-.findings-container h2 {
+.findings-container h2,
+.hi-fidelity-txt-wrap h2 {
     color: #202020;
 }
 
@@ -458,9 +472,18 @@ h2 {
 }
 
 .mockup-paragraph p {
-    color: #515151;
+    color: #7b7b7b;
     padding: 0 7px;
 }
+
+.high-fidelity-container {
+    background: rgb(255, 255, 255);
+}
+
+.hi-fidelity-txt-wrap p {
+    color: #808080;
+}
+
 
 /*=============================
     Media Query for 768px (iPad)
