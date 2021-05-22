@@ -115,16 +115,17 @@ body {
     color: #F3F3F3;
     letter-spacing: 0.06em;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .restaurant-title {
     font-family: 'Parisienne', cursive;
     color: #D9A319;
     text-align: right;
-    font-size: 22px;
+    font-size: 23px;
     margin-right: 6px;
 }
+
 
 p {
     line-height: 1.6;

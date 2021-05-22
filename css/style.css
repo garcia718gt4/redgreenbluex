@@ -16,7 +16,7 @@ body {
     flex: 1;
     flex-direction: column;
     font-family: 'Noto Sans', sans-serif;
-    line-height: 1.5;
+    line-height: 1.3;
     background: rgba(0, 0, 0, 0.948);
 } 
 
@@ -28,6 +28,35 @@ body {
     padding: 0;
     font-size: 33px;
 }
+
+/* Anderson Restaurant  */
+
+.anderson-col {
+    background: #202020;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+.anderson-title, 
+.restaurant-title {
+    margin: 0;
+    padding: 0;
+}
+.anderson-title {
+    color: #F3F3F3;
+    letter-spacing: 0.06em;
+    font-family: "Nova Slim", cursive;
+    font-size: 32px;
+ }
+
+
+ .restaurant-title {
+    font-family: 'Parisienne', cursive;
+    color: #D9A319;
+    text-align: right;
+    font-size: 23px;
+    margin-right: 6px;
+}
+
 
 /* Shirts by Mike  */
 
@@ -43,8 +72,9 @@ body {
 
 
 .frog-pic {
-    width: 65px;
-    height: 65px;
+    margin: 6px;
+    width: 55px;
+    height: 55px;
 }
 
 
@@ -249,13 +279,12 @@ ul li a {
 /******  MAIN CONTAINER  ******/
 
 .main-container {
-    padding: 7px 0px;
-    margin: 50px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 375px;
+    width: 345px;
 }
 
 .main-container a {
@@ -265,61 +294,69 @@ ul li a {
 .card {
     width: 340px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin: 25px auto;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    opacity: .85;
+    opacity: 1;
     transition: opacity .4s ease;
 }
 
 .card:hover {
-    opacity: 1;
+    opacity: .58;
 }
-
-
-
-
 
 
 
 /******  FOOTER  ******/
 
+
 footer {
     margin-top: auto;
 }
 
+
 footer p {
-    width: 90%;
-    margin-top: auto;
     text-align: center;
     padding: 1.4em 0;
     color: #919191;
     margin: 0 auto;
-    font-size: 15px;
+    padding: 0;
+    font-size: 12px;
+    text-align: left;
 }
 
-.treehouse-link {
-    color: #919191;
+.copyright-p {
+    margin-top: 7px;
+    text-align: center;
+}
+
+.certificate-paragraphs {
+   margin: 20px auto 30px;
+   line-height: 1.4rem;
+   width: 345px;
+}
+
+.link {
+    color: #9f9f9f;
     text-decoration: none;
-    transition: color .2s ease;
 }
 
-.treehouse-link:hover {
-    color: rgb(242, 242, 242);
+.link:hover {
+    color: rgb(184, 184, 184);
     text-decoration: underline;
 }
 
 
 
-/* ========================
-Media Query for 770px
-=========================== */
+/* ===========================
+Media Query for 768px (tablet)
+============================== */
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .main-nav {
         width: 450px;
         flex-direction: row;
@@ -337,52 +374,57 @@ Media Query for 770px
     
     .hello-title {
         width: 220px;
-        font-size: 64px;
+        font-size: 62px;
     }
     
     .intro-message {
         margin-top: 80px;
     }
 
-
     .main-container {
-        width: 770px;
+        margin: 50px auto;
+        width: 758px;
         flex-flow: row wrap;
-     
-    }
-
-    .card {
-        width: 350px; 
+        justify-content: space-evenly;
     }
 
     .intro-message h2 {
-        width: 800px;
-        font-size: 42px;
+        width: 758px;
+        font-size: 40px;
     }
 
     .shirts-txt,
     .grocery-txt,
     .woosh-txt,
     .prime-txt {
-        font-size: 38px;
+        font-size: 33px;
     }
 
     .frog-pic {
-        width: 75px;
-        height: 75px;
+        width: 65px;
+        height: 65px;
     }
+
+    .certificate-paragraphs {
+        width: 745px;
+     }
+
+     footer p {
+         font-size: 14px;
+     }
    
 }
 
 
 /* =====================
-Media Query for 1250px
+Media Query for 1440px (desktop)
 ======================== */
 
-@media (min-width: 1250px) {
+@media (min-width: 1440px) {
 
     .main-container {
-        width: 1230px;
+        margin: 70px auto;
+        width: 1400px;
         flex-wrap: nowrap; 
     }
 
@@ -395,7 +437,12 @@ Media Query for 1250px
     }
     
     .card {
-        width: 380px;
+        width: 330px;
+        height: 290px;
     }
+
+    .certificate-paragraphs {
+        width: 845px;
+     }
 
 }
