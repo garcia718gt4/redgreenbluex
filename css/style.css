@@ -279,7 +279,7 @@ ul li a {
 /******  MAIN CONTAINER  ******/
 
 .main-container {
-    margin: 30px auto;
+    margin: 35px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -382,7 +382,7 @@ Media Query for 768px (tablet)
     }
 
     .main-container {
-        margin: 50px auto;
+        margin: 40px auto;
         width: 758px;
         flex-flow: row wrap;
         justify-content: space-evenly;
@@ -423,7 +423,7 @@ Media Query for 1440px (desktop)
 @media (min-width: 1440px) {
 
     .main-container {
-        margin: 70px auto;
+        margin: 50px auto;
         width: 1400px;
         flex-wrap: nowrap; 
     }
