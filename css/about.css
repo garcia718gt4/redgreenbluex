@@ -267,17 +267,24 @@ span {
 
 /* footer ******/
 
-
 .contact-container {
+    background: #ea1616;
+}
+
+.contact-p-container  {
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #ea1616;
     font-size: 18px;
-    line-height: .1rem;
-    padding: 25px 0;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.contact-container p {
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.8em;
 }
 
 
@@ -302,10 +309,10 @@ span {
 
 
 /* =====================
-Media Query for 750px
+Media Query for 768px
 ======================== */
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
 
     span {
         font-size: 25px;
@@ -338,12 +345,13 @@ Media Query for 750px
     }
 
 
-    .contact-container {
-        padding: 50px 0;
+    .contact-p-container  {
+        font-size: 21px;
+        margin: 50px auto;
     }
-
+    
     .contact-container p {
-        font-size: 22px;
+        line-height: 2em;
     }
 
 }
@@ -378,6 +386,12 @@ Media Query for 1440px
     .shapes {
         width: 350px;
         height: 560px;
+    }
+
+
+    .contact-p-container  {
+        font-size: 21px;
+        margin: 70px auto;
     }
 
 
