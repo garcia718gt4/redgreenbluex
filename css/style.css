@@ -1,11 +1,7 @@
-
 * {
     box-sizing: border-box;
 }
 
-.main-header {
-    padding-top: 15px;
-}
 
 /* || WEB FONTS  ************/
 
@@ -20,6 +16,17 @@ body {
     background: rgba(0, 0, 0, 0.948);
 } 
 
+.center-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    height: 75px;
+    width: 100%;
+}
+
 .shirts-txt,
 .grocery-txt,
 .woosh-txt,
@@ -32,7 +39,8 @@ body {
 /* Anderson Restaurant  */
 
 .anderson-col {
-    background: #A2812C50;
+    /* background: #A2812C50; */
+    background: #3e3011;
 }
 
 .anderson-title, 
@@ -65,11 +73,12 @@ body {
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
     color: #40B962;
-    margin-top: -10px;
+    /* font-weight: 100; */
 }
 
 .frog-col {
-    background-color:#40b96250;
+    /* background-color: #40B96250; */
+    background-color:#15351e;
 }
 
 
@@ -93,7 +102,8 @@ body {
 }
 
 .grocery-col {
-    background-color: #ff962750;
+    /* background-color: #ff962750; */
+    background-color: #432709;
 }
 
 .grocery-txt, 
@@ -110,8 +120,8 @@ body {
 
 /* WooshMail */
 .woosh-col {
-    /* background: #e8f4fd; */
-    background: #0b7ce650;
+    /* background: #0b7ce650; */
+    background: #032749;
 }
 
 
@@ -132,29 +142,28 @@ body {
 
 /* || logo */
 
-.main-header a {
+.banner a {
     text-decoration: none;
 }
 
 .logo {
     text-decoration: none;
     margin: 0px auto;
-    padding: 6px;
+    padding: 7px;
     width: 105px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border-radius: 5px;
-    opacity: .85;
+    opacity: .80;
     transition: opacity .4s ease;
+    margin: auto;
 }
 
 .logo:hover {
     opacity: 1;
 }
-
-
 
 .square {
     width: 26px;

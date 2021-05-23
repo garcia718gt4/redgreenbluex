@@ -3,7 +3,7 @@
 }
 
 .main-header {
-    padding-top: 15px;
+    padding-top: 11px;
 }
 
 .main-header a {
@@ -15,14 +15,14 @@
 .logo {
     text-decoration: none;
     margin: 0px auto;
-    padding: 6px;
+    padding: 7px;
     width: 105px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border-radius: 5px;
-    opacity: .85;
+    opacity: .80;
     transition: opacity .4s ease;
 }
 
@@ -87,6 +87,16 @@ body {
     line-height: 1.3;
 }
 
+.center-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    height: 75px;
+    width: 100%;
+}
 
 .main-nav {
     display: flex;
