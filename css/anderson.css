@@ -120,10 +120,13 @@ body {
 
 .restaurant-title {
     font-family: 'Parisienne', cursive;
-    color: #D9A319;
+    /* color: #D9A319; */
+    font-weight: 100;
+    color: #A2812C;
     text-align: right;
-    font-size: 23px;
+    font-size: 22px;
     margin-right: 6px;
+    letter-spacing: .02em;
 }
 
 
@@ -413,7 +416,7 @@ h2 {
 }
 
 .findings {
-    border-top: 1px solid rgb(196, 196, 196);
+    border-top: 2px dotted rgb(196, 196, 196);
 }
 
 .usability-study-wrap {
@@ -529,7 +532,7 @@ h2 {
     }
 
     .restaurant-title {
-        font-size: 38px;
+        font-size: 35px;
     }
 
     /* || TABLE OF CONTENTS *******/
@@ -735,7 +738,7 @@ h2 {
     }
 
     .restaurant-title {
-        font-size: 52px;
+        font-size: 48px;
     }
 
      /* || TABLE OF CONTENTS *******/

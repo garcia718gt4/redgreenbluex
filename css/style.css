@@ -32,8 +32,7 @@ body {
 /* Anderson Restaurant  */
 
 .anderson-col {
-    background: #202020;
-    border: 1px solid rgb(77, 77, 77);
+    background: #A2812C50;
 }
 
 .anderson-title, 
@@ -51,10 +50,13 @@ body {
 
  .restaurant-title {
     font-family: 'Parisienne', cursive;
-    color: #D9A319;
+    /* color: #D9A319; */
+    font-weight: 100;
+    color: #A2812C;
     text-align: right;
-    font-size: 23px;
+    font-size: 22px;
     margin-right: 6px;
+    letter-spacing: .02em;
 }
 
 
@@ -62,12 +64,12 @@ body {
 
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
-    color: #00747B;
+    color: #40B962;
     margin-top: -10px;
 }
 
 .frog-col {
-    background-color: #d5ffcc;
+    background-color:#40b96250;
 }
 
 
@@ -91,15 +93,16 @@ body {
 }
 
 .grocery-col {
-    background-color: #feffc9;
+    background-color: #ff962750;
 }
 
-.grocery-txt {
-    color: #31B004;
+.grocery-txt, 
+.prime-txt {
+    color: #ff9627;
 }
 
 .prime-txt {
-    color: #ff9627;
+    font-weight: 100;
     margin-top: -14px;
     font-style: italic;
 }
@@ -108,13 +111,14 @@ body {
 /* WooshMail */
 .woosh-col {
     /* background: #e8f4fd; */
-    background: #e4f2ff;
+    background: #0b7ce650;
 }
 
 
 .woosh-txt {
+    font-weight: 200;
     font-family: 'Leckerli One', cursive;
-    background: linear-gradient(90deg, rgba(145, 202, 255, 0.83) 3.98%, #43A5FF 51.99%, #0063BE 100%);
+    background: linear-gradient(90deg, #5da3e6 0%, #0779e4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -229,12 +233,8 @@ ul li a {
     color: #efefef;
 }
 
-
-
-
-.ricardo,
-.contact {
-    transition: color .3s ease;
+.ricardo {
+    transition: color .2s ease;
 }
 
 

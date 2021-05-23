@@ -112,7 +112,7 @@ ul li a {
 
 .home {
     color: #a2a2a2;
-    transition: color .3s ease;
+    transition: color .2s ease;
 }
 
 .home:hover {
