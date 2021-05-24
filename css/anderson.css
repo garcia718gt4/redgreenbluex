@@ -178,12 +178,6 @@ p {
     height: 42.5px;
 }
 
-.gold-divider {background:#A97A01;}
-.blue-divider {background: #38578A;}
-.black-divider {background: #202020;}
-
-
-
 /* || PROJECT CONTAINER *******/
 
 .project-container p {
@@ -258,7 +252,23 @@ h2 {
     background: rgba(56, 87, 138, 0.9); 
 }
 
-.pain-points-container h2 {
+.accessibility-container {
+    background: #f9f9f9;
+}
+
+#accessibility-title {
+    color: #A97A01;
+}
+#accessibility-info p {
+    color: #808080;
+}
+
+#accessibility-info h2 {
+    color: #A97A01;
+}
+
+.pain-points-container h2,
+.accessibility-container h2 {
     color: #F8E7BC;
 }
 

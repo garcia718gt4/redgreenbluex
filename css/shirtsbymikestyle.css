@@ -169,10 +169,6 @@ h2 {
     height: 42.5px;
 }
 
-.teal-divider {background:#28798A;}
-.orange-divider {background: #38578A;}
-.green-divider {background: #202020;}
-
 
 /* || PROJECT CONTAINER *******/
 
@@ -228,6 +224,36 @@ h2 {
     margin: 0 auto;
     width: 330px;
 }
+
+
+/* || OLD WEBSITE CONTAINER *******/
+
+.old-website-container {
+    background: #D96A1A20;
+    width: 100%;
+}
+
+.old-hero-img-container,
+.two-old-img-container,
+.hero-img,
+.one-old-img {
+    width: 355px;
+}
+
+.three-img-container {
+    margin-bottom: 40px;
+}
+
+.old-hero-img-container,
+.two-old-img-container {
+    margin: 0 auto;
+}
+
+.two-old-img-container,
+.product-img {
+    margin-top: 20px;
+}
+
 
 
 
@@ -309,6 +335,34 @@ h2 {
 
     .text-wrap {
         width: 365px;
+    }
+
+    /* || OLD WEBSITE CONTAINER *******/
+
+    .old-website-container {
+        background: #D96A1A20;
+        width: 100%;
+    }
+
+    .old-hero-img-container,
+    .two-old-img-container,
+    .hero-img,
+    .one-old-img {
+        width: 355px;
+    }
+
+    .three-img-container {
+        margin-bottom: 40px;
+    }
+
+    .old-hero-img-container,
+    .two-old-img-container {
+        margin: 0 auto;
+    }
+
+    .two-old-img-container,
+    .product-img {
+        margin-top: 20px;
     }
 
 
