@@ -275,7 +275,6 @@ h2 {
 
 /* || DESIGN PRINCIPLES CONTAINER *******/
 
-
 .square-container {
     margin: 10px 0;
     height: 250px;
@@ -303,6 +302,26 @@ h2 {
     width: 335px;
     margin: 30px auto;
 }
+
+
+/* || SKETCHES CONTAINER *******/
+
+.sketches-container {
+    width: 100%;
+    background: #40B96220;
+}
+
+.sketches-wrap {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.sketch-img {
+    width: 335px;
+    margin: 10px auto;
+}
+
+
 
 
 
