@@ -129,6 +129,7 @@ body {
 p {
     line-height: 1.6;
     color:#808080;
+    font-size: 17px;
 }
 
 
@@ -156,7 +157,7 @@ p {
 
 .table-flex h2 {
     color: #414141; 
-    font-size: 19px;
+    font-size: 21px;
 }
 
 .block {
@@ -187,7 +188,7 @@ p {
 
 
 h2 {
-    font-size: 19px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -248,8 +249,9 @@ h2 {
 
 /* || PAIN POINTS *******/
 
-.pain-points-container {
-    background: rgba(56, 87, 138, 0.9); 
+.pain-points-container,
+.user-journey-container {
+    background: #3764adec; 
 }
 
 .accessibility-container {
@@ -320,9 +322,6 @@ h2 {
 
 /* || USER JOURNEY CONTAINER *******/
 
-.user-journey-container {
-    background: rgba(56, 87, 138, 0.9);
-}
 
 .user-journey-info-wrap {
     margin: 30px auto 40px;
@@ -605,11 +604,11 @@ h2 {
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 21px;
     }
 
     p {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .project-text-wrap {
@@ -810,11 +809,11 @@ h2 {
     }
 
     h2 {
-        font-size: 21px;
+        font-size: 22px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .project-text-wrap {
