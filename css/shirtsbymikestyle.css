@@ -207,7 +207,8 @@ h2 {
     color: #28798A;
 }
 
-.duration p {
+.duration p,
+.response p {
     text-align: center;
 }
 
@@ -284,14 +285,14 @@ h2 {
 }
 
 .square-container p {
-    color: rgba(255, 255, 255, 0.89);
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .square-container h2,
 .website-critique-info-wrap p {
     color: white;
     font-weight: bolder;
-    text-shadow: 2px 0px 2px rgba(0, 0, 0, 0.35);
+    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.35);
 }
 
 .four-squares-wrap {
@@ -314,14 +315,13 @@ h2 {
     /* || GENERAL FONT STYLES *******/
 
     p {
-       font-size: 18px;
+       font-size: 19px;
     }
     
     h2 {
-        font-size: 20px;
+        font-size: 22px;
     }
     
-
     /* || HERO *******/
 
     .main-header {
@@ -383,11 +383,15 @@ h2 {
     }
     
     .problem-container {
-        height: 187.59px;
+        height: 180.59px;
     }
 
     .response-container {
         height: 103.59px;
+    }
+
+    .text-wrap {
+        width: 355px;
     }
     
 
@@ -436,11 +440,11 @@ h2 {
     /* || GENERAL FONT STYLES *******/
 
     p {
-        font-size: 19px;
+        font-size: 20px;
      }
      
     h2 {
-         font-size: 21px;
+         font-size: 24px;
      }
 
     /* || HERO *******/
@@ -487,7 +491,7 @@ h2 {
     /* || PROJECT CONTAINER *******/
 
     .problem-container {
-        height: 169.42px;
+        height: 190.42px;
     }
 
     .response-container {
@@ -546,7 +550,7 @@ h2 {
 
     .square-container {
         width: 23.75%;
-        height: 285px;
+        height: 308px;
     }
     
 
