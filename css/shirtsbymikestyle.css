@@ -474,14 +474,16 @@ h2 {
 
     /* || DESIGN PRINCIPLES CONTAINER *******/
 
-    .four-squares-wrap {
+    .four-squares-wrap,
+    .redesign-wrap {
         flex-flow: row wrap;
         justify-content: space-between;
         width: 705px;
         margin: 40px auto;
     }
 
-    .square-container {
+    .square-container,
+    .redesign-square  {
         width: 47%;
         height: 275px; 
     }
@@ -507,10 +509,6 @@ h2 {
         margin: 40px auto;
         width: 600px;
     }
-
-
-
- 
 
 }
 
@@ -626,14 +624,16 @@ h2 {
     /* || DESIGN PRINCIPLES CONTAINER *******/
     /* || SKETCHES CONTAINER *******/
 
-      .four-squares-wrap {
+      .four-squares-wrap,
+      .redesign-wrap {
         flex-direction: row;
         justify-content: space-between;
         width: 1300px;
         margin: 50px auto 80px;
     }
 
-    .square-container {
+    .square-container,
+    .redesign-square  {
         width: 23.75%;
         height: 308px;
     }
@@ -645,9 +645,9 @@ h2 {
         margin: 50px auto 70px;
     }
 
-  .sketch-img-wrap {
-      margin-top: 20px;
-  }
+    .sketch-img-wrap {
+        margin-top: 20px;
+    }
     
     .sketch-img {
         width: 395px;
