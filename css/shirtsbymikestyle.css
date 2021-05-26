@@ -274,22 +274,29 @@ h2 {
 
 /* || DESIGN PRINCIPLES CONTAINER *******/
 
-.square-container {
+.square-container,
+.redesign-square {
     margin: 10px 0;
     height: 250px;
     border-radius: 25px;
     padding: 10px 18px;
+}
+
+.square-container {
     background: linear-gradient(0deg, #D96A1A 0%, #F37E2A 100%);
 }
 
 .square-container p,
-.assumptions-info-wrap p {
+.assumptions-info-wrap p,
+.redesign-square p {
     color: rgb(255, 255, 255);
 }
 
 .square-container h2,
 .website-critique-info-wrap p,
-.assumptions-info-wrap h2 {
+.assumptions-info-wrap h2,
+.design-principles-title,
+.redesign-wrap h2 {
     color: white;
     font-weight: bolder;
     text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.35);
@@ -304,20 +311,19 @@ h2 {
     margin: 30px auto;
 }
 
-
 /* || SKETCHES CONTAINER *******/
 
 .sketches-container {
     background: #40B96220;
 }
 
-.assumptions-container {
-    /* background: rgba(64, 185, 98, 0.85); */
-    background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(31, 145, 63, 0.9) 98.46%);
+.design-changes-container {
+    background: #0E2B13;
+    /* background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(31, 145, 63, 0.9) 98.46%); */
 }
 
 .sketches-container,
-.assumptions-container {
+.design-changes-container {
     width: 100%;
 }
 
@@ -341,6 +347,20 @@ h2 {
 
 .assumptions-info-wrap p {
     text-align: left;
+}
+
+/* || REDESIGN WRAP *******/
+
+.redesign-wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    border-radius: 25px;
+}
+
+.redesign-square {
+    background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(31, 145, 63, 0.9) 98.46%);
 }
 
 
