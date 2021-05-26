@@ -277,7 +277,7 @@ h2 {
 .square-container {
     margin: 10px 0;
     height: 250px;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 10px 18px;
     background: linear-gradient(0deg, #D96A1A 0%, #F37E2A 100%);
 }
