@@ -282,12 +282,14 @@ h2 {
     background: linear-gradient(0deg, #D96A1A 0%, #F37E2A 100%);
 }
 
-.square-container p {
-    color: rgba(255, 255, 255, 0.95);
+.square-container p,
+.assumptions-info-wrap p {
+    color: rgba(255, 255, 255);
 }
 
 .square-container h2,
-.website-critique-info-wrap p {
+.website-critique-info-wrap p,
+.assumptions-info-wrap h2 {
     color: white;
     font-weight: bolder;
     text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.35);
@@ -306,8 +308,17 @@ h2 {
 /* || SKETCHES CONTAINER *******/
 
 .sketches-container {
-    width: 100%;
     background: #40B96220;
+}
+
+.assumptions-container {
+    /* background: rgba(64, 185, 98, 0.85); */
+    background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(31, 145, 63, 0.9) 98.46%);
+}
+
+.sketches-container,
+.assumptions-container {
+    width: 100%;
 }
 
 .sketches-wrap {
@@ -318,6 +329,18 @@ h2 {
 .sketch-img {
     width: 335px;
     margin: 10px auto;
+}
+
+/* || ASSUMPTIONS CONTAINER *******/
+
+.assumptions-info-wrap {
+    margin: 30px auto;
+    text-align: center;
+    width: 335px;
+}
+
+.assumptions-info-wrap p {
+    text-align: left;
 }
 
 
@@ -458,6 +481,15 @@ h2 {
         width: 47%;
     }
 
+    /* || ASSUMPTIONS CONTAINER *******/
+
+    .assumptions-info-wrap {
+        margin: 40px auto;
+        width: 600px;
+    }
+
+
+
  
 
 }
@@ -581,26 +613,34 @@ h2 {
         margin: 50px auto 80px;
     }
 
-    .sketches-wrap {
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 1400px;
-        margin: 70px auto;
-        text-align: center;
-        }
-
     .square-container {
         width: 23.75%;
         height: 308px;
     }
-    
-    .sketch-img {
-        width: 325px;
-        height: 215px;
+
+    .sketches-wrap {
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        width: 1000px;
+        margin: 50px auto 70px;
     }
 
-    .sketch-img-wrap {
-        width: 23%;
+  .sketch-img-wrap {
+      margin-top: 20px;
+  }
+    
+    .sketch-img {
+        width: 395px;
+        height: 265px;
     }
+
+    /* || ASSUMPTIONS CONTAINER *******/
+
+    .assumptions-info-wrap {
+        margin: 50px auto;
+        width: 740px;
+    }
+
+    
 
 }
