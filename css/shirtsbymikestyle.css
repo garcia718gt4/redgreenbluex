@@ -292,6 +292,7 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+
 .square-container h2,
 .website-critique-info-wrap p,
 .assumptions-info-wrap h2,
@@ -335,17 +336,25 @@ h2 {
 .sketch-img {
     width: 335px;
     margin: 10px auto;
+    border: 2px solid lightgray;
+}
+
+.mobile-img {
+    width: 125px;
+    height: 270px;
 }
 
 /* || ASSUMPTIONS CONTAINER *******/
 
-.assumptions-info-wrap {
+.assumptions-info-wrap,
+.summary-info-wrap {
     margin: 30px auto;
     text-align: center;
     width: 335px;
 }
 
-.assumptions-info-wrap p {
+.assumptions-info-wrap p,
+.summary-info-wrap p {
     text-align: left;
 }
 
@@ -360,8 +369,27 @@ h2 {
 }
 
 .redesign-square {
-    background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(31, 145, 63, 0.9) 98.46%);
+    background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(25, 117, 51, 0.9) 100%);
 }
+
+
+/* || REDESIGN WRAP *******/
+
+.summary-container {
+    background: #f9f9f9;
+}
+
+.summary-info-wrap {
+    margin-bottom: 100px;
+}
+
+.rgb-bar-bottom {
+    height: 25px;
+    background: radial-gradient(49.75% 8150.4% at 50.25% 50%,  #40B962 0%, #28798A 100%);
+}
+
+/* .teal {background: #28798A;}
+.orange {background: #D96A1A;} */
 
 
 /*===============================
@@ -503,11 +531,33 @@ h2 {
         width: 47%;
     }
 
+    .mobile-container {
+        display: flex;
+        flex-direction: row wrap;
+        width: 500px;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px auto;
+    }
+
+    .mobile-img {
+        width: 150px;
+        height: 324px;
+        margin: 20px 0;
+    }
+
     /* || ASSUMPTIONS CONTAINER *******/
 
-    .assumptions-info-wrap {
+    .assumptions-info-wrap,
+    .summary-info-wrap {
         margin: 40px auto;
         width: 600px;
+    }
+
+    /* || REDESIGN WRAP *******/
+
+    .summary-info-wrap {
+        margin-bottom: 120px;
     }
 
 }
@@ -625,11 +675,12 @@ h2 {
     /* || SKETCHES CONTAINER *******/
 
       .four-squares-wrap,
-      .redesign-wrap {
+      .redesign-wrap,
+      .mobile-container {
         flex-direction: row;
         justify-content: space-between;
         width: 1300px;
-        margin: 50px auto 80px;
+        margin: 60px auto 80px;
     }
 
     .square-container,
@@ -641,24 +692,43 @@ h2 {
     .sketches-wrap {
         flex-flow: row wrap;
         justify-content: space-evenly;
-        width: 1000px;
-        margin: 50px auto 70px;
+        width: 1050px;
+        margin: 60px auto 70px;
     }
 
     .sketch-img-wrap {
         margin-top: 20px;
     }
+
     
     .sketch-img {
-        width: 395px;
-        height: 265px;
+        width: 455px;
+        height: 325px;
+    }
+
+    .mobile-img-wrap {
+        width: 25%;
+        margin-top: -30px;
+    }
+
+    .mobile-img {
+        width: 187px;
+        height: 406px;
     }
 
     /* || ASSUMPTIONS CONTAINER *******/
 
-    .assumptions-info-wrap {
+    .assumptions-info-wrap,
+    .summary-info-wrap {
         margin: 50px auto;
         width: 740px;
+    }
+
+
+    /* || REDESIGN WRAP *******/
+
+    .summary-info-wrap {
+        margin-bottom: 140px;
     }
 
     
