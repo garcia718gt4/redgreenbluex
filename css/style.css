@@ -39,7 +39,7 @@ body {
 /* Anderson Restaurant  */
 
 .anderson-col {
-    background: #3e3011;
+    background: #523800;
 }
 
 .anderson-title, 
@@ -76,8 +76,7 @@ body {
 
 
 .frog-col {
-    /* background-color: #40B96250; */
-    background-color:#15351e;
+    background-color:#003D11;
 }
 
 
@@ -101,26 +100,26 @@ body {
 }
 
 .grocery-col {
-    /* background-color: #ff962750; */
-    background-color: #432709;
+    background-color:#630000;
 }
 
-.grocery-txt, 
-.prime-txt {
-    color: #ff9627;
+.grocery-txt {
+    color: #FF0C0C;
+    letter-spacing: .055em;
 }
 
 .prime-txt {
-    font-weight: 100;
-    margin-top: -14px;
+    color: #FFA35E;
+    font-weight: bold;
+    margin-top: -10px;
     font-style: italic;
+    letter-spacing: .04em;
 }
 
 
 /* WooshMail */
 .woosh-col {
-    /* background: #0b7ce650; */
-    background: #032749;
+    background: #012f5b;
 }
 
 
