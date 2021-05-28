@@ -301,7 +301,7 @@ ul li a {
 .card {
     width: 340px;
     height: 300px;
-    border-radius: 12px;
+    border-radius: 15px;
     margin: 25px auto;
     text-align: center;
     display: flex;
