@@ -193,7 +193,7 @@ h2 {
 }
 
 .project-container h2 {
-    color:  #202020;
+    color:  #565656;
 }
 
 .project-square {
@@ -358,6 +358,9 @@ h2 {
       padding: 10px 0 15px;
   }
 
+  .paper-wireframes-container h2 {
+      color: #565656;
+  }
   .paper-wireframes-container p {
       text-align: center;
       width: 330px;
@@ -371,7 +374,7 @@ h2 {
   }
 
   .wireframes-container {
-      background: #202020;
+      background: #565656;
   }
   
 
@@ -394,7 +397,7 @@ h2 {
     /* || LOW-FI PROTOTYPE CONTAINER *******/
 
   .low-fidelity-container {
-      background: #202020;
+      background: #565656;
   }
 
   .low-fi-info-wrap {
@@ -443,7 +446,7 @@ h2 {
 .usability-study-parameters-title,
 .parameter-info-wrap h2,
 .single-findings h2 {
-    color: #202020;
+    color: #565656;
 }
 
 .parameter-info-wrap,
@@ -472,7 +475,7 @@ h2 {
 
 .findings-container h2,
 .hi-fidelity-txt-wrap h2 {
-    color: #202020;
+    color: #565656;
 }
 
 .findings-container p {
@@ -514,7 +517,7 @@ h2 {
 
 .takeaways-info-wrap h2,
 .takeaways-info-wrap p {
-    color: #202020;
+    color: #565656;
 }
 
 .takeaways-info-wrap p {

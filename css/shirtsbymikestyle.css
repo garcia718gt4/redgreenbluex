@@ -202,6 +202,13 @@ h2 {
     background: #FFFFFF;
 }
 
+.project h2,
+.response h2, 
+.old-critique-title,
+.summary-info-wrap h2 {
+    color: #565656;
+}
+
 .problem p,
 .duration p {
     color: #28798A;
@@ -214,7 +221,7 @@ h2 {
 
 .problem h2, 
 .duration h2 {
-    color: #0D4753;
+    color: #005363;
 }
 
 .problem,
