@@ -538,7 +538,7 @@ h2 {
 
 .rgb-bar-bottom {
     height: 25px;
-    background: radial-gradient(49.75% 8150.4% at 50.25% 50%,  #38578A 0%, #A97A01 100%);
+    background: radial-gradient(49.75% 8150.4% at 50.25% 50%, #A97A01 0%, #38578A 100%);
 }
 
 /*===============================

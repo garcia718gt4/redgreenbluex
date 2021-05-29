@@ -279,7 +279,7 @@ h2 {
     margin: 10px 0;
     height: 250px;
     border-radius: 20px;
-    padding: 10px 18px;
+    padding: 10px 20px;
 }
 
 .square-container {
@@ -679,7 +679,7 @@ h2 {
       .mobile-container {
         flex-direction: row;
         justify-content: space-between;
-        width: 1300px;
+        width: 1360px;
         margin: 60px auto 80px;
     }
 
