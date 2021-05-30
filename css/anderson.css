@@ -106,6 +106,7 @@ body {
 
 .nova-slim {
     font-family: "Nova Slim", cursive;
+
 }
 
 .anderson-title {
@@ -190,6 +191,7 @@ p {
 h2 {
     font-size: 20px;
     text-align: center;
+    font-weight: normal;
 }
 
 .project-container h2 {
@@ -222,14 +224,13 @@ h2 {
 }
 
 
-
 .project-text-wrap,
 .abstract-text-wrap,
 .point-wrap,
 .problem-statement-text-wrap,
 .user-journey-info-wrap {
     margin: 0 auto;
-    width: 330px;
+    width: 310px;
 }
 
 
@@ -270,9 +271,11 @@ h2 {
 }
 
 .pain-points-container h2,
-.accessibility-container h2 {
-    color: #F8E7BC;
+.accessibility-container h2,
+.user-journey-info-wrap {
+    color: #fce5ac;
 }
+
 
 .pain-points-header {
     margin: 30px 0px; 
@@ -310,7 +313,7 @@ h2 {
 .img-frame {
     margin-top: 10px;
     display: inline-block;
-    width: 330px;
+    width: 310px;
     height: 210px;
     border-radius: 5px;
 }
@@ -325,15 +328,15 @@ h2 {
 
 .user-journey-info-wrap {
     margin: 30px auto 40px;
+    width: 310px;
 }
 
-.user-journey-info-wrap h2 {
-    color: #F8E7BC;
-}
+
 
 .user-journey-info-wrap p {
     text-align: center;
     color: #E7E7E7;
+    width: 310px;
 }
 
 /* || SKETCHES CONTAINER *******/
@@ -363,7 +366,7 @@ h2 {
   }
   .paper-wireframes-container p {
       text-align: center;
-      width: 330px;
+      width: 310px;
       margin: 0 auto;
   }
 
@@ -384,7 +387,7 @@ h2 {
       padding: 13px;
       margin: 15px auto;
       text-align: left;
-      width: 330px;
+      width: 310px;
   }
 
   .wireframe-paragraph p {
@@ -406,7 +409,7 @@ h2 {
 
   .low-fidelity-txt-wrap {
       margin: 0 auto;
-      width: 330px;
+      width: 310px;
   }
 
   .low-fi-info-wrap h2 {
@@ -456,7 +459,7 @@ h2 {
 }
 
 .findings-info-wrap {
-    width: 330px;
+    width: 300px;
 }
 
 
@@ -526,7 +529,7 @@ h2 {
 
 .next-steps-info-wrap {
     margin-bottom: 100px;
-    width: 330px;
+    width: 310px;
 }
 
 .next-steps-container p {
@@ -534,7 +537,7 @@ h2 {
 }
 
 .takeaways-wrap {
-    width: 330px;
+    width: 310px;
     margin: 20px auto;
 }
 

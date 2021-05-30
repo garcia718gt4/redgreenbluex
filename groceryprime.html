@@ -4,197 +4,235 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grocery Prime Project</title>
+    <title>Grocery Prime</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/groceryprimestyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700;800&family=Fugaz+One&family=Leckerli+One&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,500;0,600;1,600&family=Righteous&family=Sen:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <div class="banner">
-       
-            <a href="index.html" class="logo">
-                <div class="square"></div>
-                <div class="triangle"></div>
-                <div class="circle"></div>
-                <div class="x">X</div>
-            </a> 
-       
+    <div class="banner center-vertical">
+        <a  href="index.html" class="logo">
+            <div class="square"></div>
+            <div class="triangle"></div>
+            <div class="x">X</div>
+        </a> 
     </div>
 
     <header class="main-header">
-        <div class="grocery-logo">
-            <h1 class="grocery-txt">grocery</h1>
-            <h1 class="prime-txt">prime</h1>
+        <div class="main-title-container center-vertical">
+            <img class="grocery-title" src="img/groceryprime/grocery-title.png" alt="image of logo">
         </div>
     </header>
 
-3
 
-   
+    <div class="table-of-contents-container">
+        <div class="table-wrap">
 
-    <main>
-
-        <div class="overview container">
-            <h1>Overview</h1>
-            <p>For the Grocery Prime project, I was tasked with three
-                assignments:<br><br>
-                
-                1. My first goal was to discover how Grocery Prime’s 
-                app can help solve shoppers’ pain points. <br>
-                
-                2. Develop an interactive prototype focusing on the main
-                pain points found during the research phase, and <br>
-                
-                3. Complete a usability test with participants.</p>
-        </div>
-
-        
-        <div class="research-planning container">
-            <h1>Research Planning</h1>
-            <h2>Goal</h2>
-            <p>My research goal was to explore the needs of shoppers’ experiences in a short interview format.</p>
-            <h2>Target Audience</h2>
-            <p>The target audience for this project was people who visit the grocery store at least once a week, own a smartphone, and want to use an app to make their shopping experience more pleasant and/or efficient. </p>
-            <h2>Method</h2>
-            <p>For recruitment, I randomly selected participants at a local grocery store and asked them if they would like to participate in a quick survey study. I recruited on two different days and times to help improve the external validity (generalizability) of the short survey study. </p>
-            <h2>Interview Questions</h2>
-            <p> 1. Can you tell me about your last grocery shopping experience? <br>
-                2. Can you tell me about a time when you had an issue or problem shopping? <br>
-                3. How do you typically prepare before you go grocery shopping? <br>
-                4. What would be the worst-case scenario when grocery shopping?<br>
-                5. Do you use a smartphone to shop in general? And if so, what are your thoughts and feelings about using an app to shop at a grocery store. </p>
-            <h2>Participants</h2>
-            <p>A total of five participants (<em>N </em>= 5) were included in the study. The demographics of the sample group were as follows: <br>
-                <strong>Gender: </strong>1 man and 4 women.<br>
-                <strong>Age range: </strong>22 to 48 years.<br>
-                <strong>Race/Ethnicity: </strong>1 Caucasian, 2 Latino, and 2 Filipino-American.</p>
-            <h2>Sample of Participants' Responses</h2>
-                <div class="sample-questions">
-                    <p><em>Q 1. “I wanted to pick up some things, not too many. I needed some body wash and some hygiene products. I could have just ordered them but I was craving some seltzer also, so you know, it was just easier to come down here, I don’t live far anyway, so.”</em></p>
-                    <p><em>Q 2. “I couldn’t find a crock pot. I wanted to cook a roast on the crock pot. Also, I hate or avoid going down the cookie aisle because the kids feel tempted and I don’t like that. They’ll ask if they can eat cookies for breakfast.”</em></p>
-                    <p><em>Q 3. “Either I make a list or it’s just in my head. If I really need something I make a list but if I want something I don’t make a list.”</em></p>
-                    <p><em>Q 4. “When I go to the store for one thing and it’s not there. I went to ‘Food 4 Less’ for asparagus and they had no asparagus!”</em></p>
-                    <p><em>Q 5. “Yes, to keep track of my stuff. I still like to do my own personal shopping because I like looking at the products and I don’t like paying for a delivery fee or having to keep adding items to get free delivery.”</em></p>
-                </div>
-            <h2>Analysis</h2>
-                <p>Based on my interviews, I believed participants enjoy a fast or convenient shopping experience. Moreover participants appreciated they can find on-sale items on the item itself (designated by a yellow sticker). However, what participants found frustrating was if an item they are looking for is no longer available or if they missed a sale on an item. Finally, I found this to be the most important pain point: it is difficult to know  the quantity left of a specific product that is still on sale before customers arrive at the store. Many times customers know when a product is on sale but don’t know how much of that product (quantity) is currently in stock. Giving customers more information about a product’s availability could improve their shopping experience.</p>
-        </div>
-
-        <div class="prototyping container">
-            <h1>Prototyping the Solution</h1>
-            <h2>Solution</h2>
-            <p>For the app design, I indicated which items are on sale with a ribbon, to serve as a quick visual aid, in the corner of the product container. I also included an “in stock” feature, written in text, near the product to show, in real time, the quantity left of that specific item. Moreover, I displayed the date range of when the sale price expires. Lastly, near the checkout process, I included a feature to remind the user if he or she has all the items they need, or if they want to go back and continue shopping.</p>
-            <h2>Steps</h2>
-            <div class="five-steps">
-                <p>In order to solve the pain point, the user completed five steps: <br><br>
-                    1.  The user selects a category on the home page. <br>
-                    2.  The user chooses a subcategory. <br>
-                    3.  The user adds or subtracts an item. An “in stock” feature will change the quantity of the selected item when the user adds or subtracts the item. <br>
-                    4.   In the “My cart” screen, the user can view how many of each item they have. <br>
-                    5.   When the user presses the checkout button, they will have a chance to go back to select additional items before placing their order. 
-                </p>
+            <div class="table-flex">
+                <h2 class="kait">Research</h2>
+                <div class="red block"></div>
             </div>
 
-            <h2>Sketches</h2>
-                <h3>Home</h3>
-                    <div class="sketch-container">
-                        <img class="sketch" src="img/groceryprime/homescreen1.jpeg" alt="sketch of the homescreen.">
-                        <img class="sketch" src="img/groceryprime/homescreen2.jpeg" alt="second sketch of the homescreen.">
-                    </div>
-                <h3>Subcategory</h3>
-                    <div class="sketch-container">
-                        <img class="sketch" src="img/groceryprime/subcategory1.jpeg" alt="sketch of subcategory screen.">
-                        <img class="sketch" src="img/groceryprime/subcategory2.jpeg" alt="second sketch of the subcategory screen.">
-                    </div>
-                <h3>Products</h3>
-                    <div class="sketch-container">
-                        <img class="sketch" src="img/groceryprime/itemscreen1.jpeg" alt="sketch of the items screen.">
-                        <img class="sketch" src="img/groceryprime/items2.jpeg" alt="second sketch of the items screen.">
-                    </div>
-                <h3>My Cart</h3>
-                    <div class="sketch-container">
-                        <img class="sketch" src="img/groceryprime/mycart1.jpeg" alt="sketch of the my cart screen.">
-                        <img class="sketch" src="img/groceryprime/mycart2.jpeg" alt="second sketch of my cart screen.">
-                    </div>
-                <h3>Checkout</h3>
-                    <div class="sketch-container last-sketch-container">
-                        <img class="sketch" src="img/groceryprime/checkout1.jpeg" alt="sketch of the checkout screen.">
-                        <img class="sketch" src="img/groceryprime/checkout2.jpeg" alt="second sketch of the checkout screen.">
-                    </div>
-
-
-            <h2>Wireframes</h2>
-                <div class="wireframe-wrap">
-                    <img class="sketch" src="img/groceryprime/wireframe-home.png" alt="wireframe of the homescreen.">
-                    <img class="sketch" src="img/groceryprime/wireframe-selectsub.png" alt="wireframe of the subcategory screen.">     
-                    <img class="sketch" src="img/groceryprime/wireframe-products.png" alt="wireframe of the products screen.">
-                    <img class="sketch" src="img/groceryprime/wireframe-myCart.png" alt="wireframe of my cart screen.">
-                    <img class="sketch" src="img/groceryprime/wireframe-checkout.png" alt="wireframe of the checkout screen.">
-                    <img class="sketch" src="img/groceryprime/wireframe-item-list.png" alt="wireframe of the list items screen.">
-                </div>
-        </div>
-
-
-        <div class="usability container">
-            <h1>Usability Test</h1>
-            <h2>Task</h2>
-            <p class="task-paragraph">Researcher (Ricardo): "In this research study, you will be asked to use a prototype of a grocery store app using this laptop. Can you navigate through the app to locate the number of items you have in your cart and the subtotal before placing an order? I will briefly explain how to use the prototype. It is simple. You can click anywhere you want on the app. However, the app will guide you where to click by highlighting the button in blue color, allowing you to proceed to the next screen." (Participants completed the task using Adobe XD.)</p>
-            <h2>Sample of Participants' Responses</h2>
-            <div class="usability-responses"> 
-                <p><em>“How can you scroll down?” “How do I add more?” “It’s not allowing me to scroll down.”</em> Participant reported it was easy to see the price of the items and to know if the item is expensive or not.</p>
-                <p><em>“It looks simple”, “Can I scroll sideways?” “Do I pay right here?”</em> This participant reported the app looked clean and easy to use. He liked the large picture of the item but looked a little confused in his facial expression about all the other information surrounding the item.</p>
-                <p><em>“Can I look for an item and save it for later?” “It looks clean.” “Where do I enter my card information?” “The price is hard to see here.”</em> This participant asked several good questions. She appeared focused on each screen taking her time and looking around all the information on each screen carefully</p>
+            <div class="table-flex">
+                <h2 class="kait">Prototype</h2>
+                <div class="gray block"></div>
             </div>
 
-            <div class="pros-cons-wrap"> 
-                <div class="pc"> 
-                    <h2>What Went Well</h2>
-                    <p> 1. All participants appeared attentive to the task and understood what the study was about.<br>
-                        2. Most of the participants reported the app was easy to use.<br>
-                        3. Some participants reported the app looked clean which was consistent with this designer’s goal.<br>
-                        4. Users were satisfied with the presentation of the content, overall.</p>
-                </div>
+            <div class="table-flex">
+                <h2 class="kait">Testing</h2>
+                <div class="orange block"></div>
+            </div>
+        </div>  
+    </div>
 
-                <div class="pc"> 
-                    <h2>What Needs to Change</h2>
-                    <p> 1. Some participants reported the text appeared a little too small to read. <br>
-                        2. Add a “Return to Cart” button in the checkout screen to allow users to continue shopping if they want. <br>
-                        3. Make the add and subtract feature more distinct from the “in stock” feature, perhaps place them in their own separate container below the item?</p>
+
+
+    <div class="project-container">
+
+        <div class="project-container-wrap">
+            <div class="project-square center-vertical">
+                <div class="text-wrap">
+                    <h2>Overview</h2>
+                    <p>The goal was to explore how a grocery store app can help solve shoppers’ pain points. </p>
+                </div>
+            </div>
+
+            <div class="project-square center-vertical objective-square">
+                <div class="text-wrap">
+                    <h2>Objective</h2>
+                    <p>Conduct user interviews, develop a prototype, and complete a usability test with participants.</p>
+                </div>
+            </div>
+
+            <div class="project-square center-vertical">
+                <div class="text-wrap duration-square">
+                    <h2>Duration</h2>
+                    <p>January to February 2021.</p>
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <h1>Project Summary</h1>
-            <p>This was a fun project to complete. From going out into the field interviewing participants, sketching wireframes on Adobe XD, and finally testing my ideas with people, I felt this project captured the process of a real world design project. I learned how important doing research and usability testing is, because it helped me see the shortcomings of my original design. The research phase, moreover, reinforced the idea that design should be user centric.</p>
-        </div>
+    </div> <!-- project container -->
 
 
-        <h2 class="view-next">View Next Case Study</h2>
 
-        <div class="next">
-            <div class="center-logo">
-                <a href="shirtsbymike.html"><img class="frog-pic" src="img/frogshirtbymike.png" alt="an animated frog"></a>
-                <a href="shirtsbymike.html"><h2 class="shirts-txt">Shirts by Mike</h2></a>
+    <div class="project-divider red"></div>
+
+
+
+    <div class="research-planning-container">
+        <div class="research-planning-wrap text-wrap">
+            <div class="research-planning-square">
+                <h2>Goal</h2>
+                <p>Interview grocery shoppers to understand their shopping needs.</p>
             </div>
 
+            <div class="research-planning-square text-wrap">
+                <h2>Method</h2>
+                <p>I randomly selected participants at a local grocery store and asked them if they would like to participate in a brief survey study. In addition, I recruited on two different days and times to help improve the external validity of the study.</p>
+            </div>
+
+            <div class="research-planning-square text-wrap research-participants">
+                <h2>Participants</h2>
+                <p>5</p>
+            </div>
+        </div>
+    
+
+        <div class="interview-questions-container">
+            <div class="interview-questions-wrap text-wrap">
+                <h2>Interview Questions</h2>
+                <ol>
+                    <li>Can you tell me about your last grocery shopping experience?</li>
+                    <li>Can you tell me about a time when you had an issue or problem shopping?</li>
+                    <li>How do you typically prepare before you go grocery shopping?</li>
+                    <li>What would be the worst case scenario when grocery shopping?</li>
+                    <li>Do you use a smartphone to shop in general? And if so, what are your thoughts and feelings about using an app to shop at a grocery store?</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="analysis-container">
+        <div class="analysis-info-wrap">
+            <div class="text-wrap">
+                <h2>Sample Responses and Analysis</h2>
+                <ul class="participant-quotes">
+                    <li>"I couldn't find a crock pot. I wanted to cook a roast on the crock pot."</li>
+                    <li>"Either I make a list or it's just in my head. If I really need something I make a list but if I want something I don't make a list."</li>
+                    <li>"When I go to the store for one thing and it's not there. I went to 'Food 4 Less' for asparagus and they had no asparagus!"</li>
+                </ul>
+            </div>
+
+            <div class="text-wrap analysis-paragraph">
+                <p>Based on my interviews, I believe participants enjoy a fast and convenient shopping experience. Moreover, participants appreciate they can find on-sale items quickly. However, participants found it frustrating when an item they want is no longer available. Therefore, I concluded giving customers more information about a product's availability could help improve their shopping experience.</p>
+            </div>
+         </div>
+    </div>
+
+
+    <div class="project-divider gray"></div>
+
+    <div class="sketches-container">
+
+        <div class="sketches-wrap">
             <div>
-                <a href="wooshmail.html"><h1 class="woosh-txt">WooshMail</h1></a>
+                <img class="sketch-img" src="img/groceryprime/sketches/home.png" alt="sketch of the home screen">
             </div>
-          
+            <div>
+                <img class="sketch-img" src="img/groceryprime/sketches/subcategory.png" alt="sketch of the subcategory screen">
+            </div>
+            <div>
+                <img class="sketch-img" src="img/groceryprime/sketches/product.png" alt="sketch of the product screen">
+            </div>
+            <div>
+                <img class="sketch-img" src="img/groceryprime/sketches/mycart.png" alt="sketch of the mycart screen">
+            </div>
+            <div>
+                <img class="sketch-img" src="img/groceryprime/sketches/checkout.png" alt="sketch of the checkout screen">
+            </div>
         </div>
-      
 
 
-        <footer>
-            <p class="treehouse-disclaimer">&copy; 2021 Redgreenbluex | The "Grocery Prime" case study was completed as part of the UX Design Techdegree from <a class="treehouse-link" href="https://teamtreehouse.com/techdegree/ux-design" target="_blank" rel="noopener noreferrer">Treehouse&trade;</a></p>
-        </footer>
+        <div class="solution-container text-wrap">
+            <p>My goal for the sketches was to include features that would solve users' pain points. For example, I displayed a visible "sale" banner next to some items and included a counter that would change the quantity of an item in real time. After reviewing my sketches, I thougth of a new feature to add in the wireframes, which consisted of a reminder nested in the checkout screen, in case users forgot an item and need to continue shopping.</p>
+        </div>
 
-    </main>
-   
+        <div class="sketches-wrap">
+            <div>
+                <img class="sketch-img wireframe" src="img/groceryprime/wireframes/Home.png" alt="wireframe of the home screen">
+            </div>
+            <div>
+                <img class="sketch-img wireframe" src="img/groceryprime/wireframes/Subcategory.png" alt="wireframe of the subcategory screen">
+            </div>
+            <div>
+                <img class="sketch-img wireframe" src="img/groceryprime/wireframes/Product.png" alt="wireframe of the product screen">
+            </div>
+            <div>
+                <img class="sketch-img wireframe" src="img/groceryprime/wireframes/mycart.png" alt="wireframe of the mycart screen">
+            </div>
+            <div>
+                <img class="sketch-img wireframe" src="img/groceryprime/wireframes/Checkout.png" alt="wireframe of the checkout screen">
+            </div>
+            <div>
+                <img class="sketch-img wireframe" src="img/groceryprime/wireframes/Items.png" alt="wireframe of the items screen">
+            </div>
+        </div>
+
+        <div class="prototype-link-container center-vertical">
+            <a class="prototype-link" href="https://www.figma.com/proto/8bL5o0SaUd4iqBhmg5AqUj/Wiggly-Wireframe?node-id=1%3A2&scaling=scale-down&page-id=0%3A1" target="_blank" rel="noopener noreferrer">interactive prototype</a>
+        </div>
+
+    </div>
+
+
+    <div class="project-divider orange"></div>
+
+
+    <div class="task-container">
+        <div class="task-info-wrap text-wrap">
+            <h2>The Task</h2>
+            <p>Researcher: "In this research study you will be asked to use a prototype of a grocery store app using this laptop. Your task is to select an item and navigate through the app to the checkout screen. I will briefly explain how to use the prototype. It is simple, you can click anywhere in the prototype, but the app will guide you where to click by highlighting the primary button in blue color, allowig you to proceed to the next screen."</p>
+        </div>
+
+        <div class="text-wrap study-quotes">
+            <h2>Sample of Participant Responses</h2>
+            <p>"How can you scroll down?" "How do I add more?"</p>
+            <p>"It looks simple." "Can I scroll sideways?"</p>
+            <p>"Can I look for an item and save it for later?" "It looks clean." "Where do I enter my card information?"</p>
+        </div>
+
+        <div class="pros-cons-container">
+
+            <div class="text-wrap pros-wrap">
+                <h2>What Went Well</h2>
+                <ol>
+                    <li>Most participants reported the app looked clean and was easy to use.</li>
+                    <li>Users were satisfied with the presentation of the content, overall.</li>
+                </ol>
+
+            </div>
+
+            <div class="text-wrap cons-wrap">
+                <h2>What Needs to Change</h2>
+                <ol>
+                    <li>Some participants reported the text appeared a little too small to read</li>
+                    <li>Other participants asked about whether they can save their favorite items, so adding this feature would improve their user experience. </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="summary-container">
+        <div class="text-wrap summary-info-wrap">
+            <h2>Project Summary</h2>
+            <p>I had a lot of fun working on this project. From going out to the field interviewing people, sketching, creating wireframes, and finally, testing my prototype with others, I felt this project captured the process of a real world design project. I learned how important doing research and usability testing is to the design of a product. The research phase, moreover, reinforced the idea that design should be user centric.</p>
+        </div>
+    </div>
+
+
     <div class="rgb-bar-bottom"></div> 
+
 </body>
 </html>

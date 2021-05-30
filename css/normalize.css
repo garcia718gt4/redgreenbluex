@@ -437,11 +437,16 @@
    * Remove default list style, padding, and margin 
    */
 
-   ol, 
+    
    ul {
      margin: 0;
      padding: 0; 
      list-style: none;
+   }
+
+   ol {
+     margin: 0;
+     padding: 0;
    }
 
    body {

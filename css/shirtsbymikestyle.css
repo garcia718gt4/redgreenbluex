@@ -32,6 +32,7 @@ p {
 h2 {
     font-size: 20px;
     text-align: center;
+    font-weight: normal;
 }
 
 
@@ -113,6 +114,7 @@ h2 {
 
 .baloo-chetan {
     font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 100;
 }
 
 .main-title-container {
@@ -148,7 +150,7 @@ h2 {
 
 .table-flex h2 {
     color: #414141; 
-    font-size: 19px;
+    font-size: 21px;
 }
 
 .block {
@@ -186,10 +188,6 @@ h2 {
 .project-container p {
     text-align: left;
     padding: 0 5px;
-}
-
-.project-container h2 {
-    color:  #202020;
 }
 
 .project-square {
@@ -231,7 +229,7 @@ h2 {
 
 .text-wrap {
     margin: 0 auto;
-    width: 330px;
+    width: 310px;
 }
 
 
@@ -316,7 +314,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 335px;
+    width: 310px;
     margin: 30px auto;
 }
 
@@ -358,7 +356,7 @@ h2 {
 .summary-info-wrap {
     margin: 30px auto;
     text-align: center;
-    width: 335px;
+    width: 310px;
 }
 
 .assumptions-info-wrap p,
