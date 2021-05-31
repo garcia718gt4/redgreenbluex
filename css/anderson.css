@@ -407,6 +407,8 @@ h2 {
       margin: 30px 0 30px;
   }
 
+ 
+
   .low-fidelity-txt-wrap {
       margin: 0 auto;
       width: 310px;
@@ -420,15 +422,36 @@ h2 {
     color: #c4c4c4;
 }
 
-  .low-fi-link {
-      color:rgb(82, 151, 224);
+  .low-fi-link,
+  .hi-fi-link {
+      padding: 10px 15px;
       text-decoration: none;
-      padding: 4px;
-      transition: color .3s ease;
+      font-size: 17px;
+      margin: 10px auto 30px;
+      transition: color .2s ease, background-color .2s ease;
+  }
+
+  .low-fi-link {
+      color: #c4c4c4;
+      background: #565656;
+      border: 2px solid #c4c4c4;
+      border-radius: 3px;
+  }
+
+  .hi-fi-link {
+      color: #808080;
+      border: 2px solid #808080;
+      border-radius: 3px;
   }
 
   .low-fi-link:hover {
-      color:rgb(19, 119, 227);
+      background: #c4c4c4;
+      color: #5b5b5b;
+  }
+
+  .hi-fi-link:hover {
+      background: #808080;
+      color: #efefef;
   }
 
 /* || USABILITY & FINDINGS STUDY CONTAINER *******/
@@ -712,11 +735,13 @@ h2 {
     /* || LOW-FI PROTOTYPE CONTAINER *******/
 
     .low-fi-info-wrap {
-        margin: 40px 0 40px;
+        margin: 50px 0;
     }
 
-    .low-fi-link {
-        font-size: 17px;
+    .low-fi-link,
+    .hi-fi-link {
+        font-size: 19px;
+        margin: 15px auto 40px;
     }
 
     /* || USABILITY & FINDINGS STUDY CONTAINER *******/
@@ -927,12 +952,14 @@ h2 {
 
     /* || LOW-FI PROTOTYPE CONTAINER *******/
 
-    .low-fi-info-wrap {
-        margin: 60px 0;
+    .low-fi {
+        margin-top: 100px;
     }
 
-    .low-fi-link {
-        font-size: 18px;
+    .low-fi-link,
+    .hi-fi-link {
+        font-size: 20px;
+        margin: 20px auto 50px;
     }
 
     .low-fidelity-txt-wrap {
