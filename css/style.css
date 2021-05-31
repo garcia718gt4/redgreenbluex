@@ -210,7 +210,6 @@ body {
 }
 
 
-
 .main-nav {
     display: flex;
     flex-direction: column;
@@ -431,8 +430,8 @@ Media Query for 1440px (desktop)
 
     .main-container {
         margin: 50px auto;
-        /* width: 1400px; */
-        width: 1200px;
+        width: 1400px;
+        /* width: 1200px; */
         flex-wrap: nowrap; 
     }
 
