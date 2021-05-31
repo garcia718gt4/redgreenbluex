@@ -186,14 +186,11 @@ span {
 }
 
 .christian {
-    background: linear-gradient(120deg, #b7b7b7 0%, #358bb8 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #358bb8;
 }
 
 .american {
-    background: linear-gradient(120deg, #cf3030 0%, rgb(223, 223, 223) 50%,rgb(59, 100, 224) 100%);
-    /* background: linear-gradient(120deg, #cf2323 0%, rgb(223, 223, 223) 50%,rgb(40, 86, 223) 100%); */
+    background: linear-gradient(90deg, #cf1f1f 0%,rgb(23, 74, 205) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

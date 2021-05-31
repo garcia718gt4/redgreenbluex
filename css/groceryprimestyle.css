@@ -101,6 +101,9 @@ h2 {
     padding: 0;
 }
 
+
+
+
 /* || HERO *******/
 
 .main-header {
@@ -140,6 +143,7 @@ h2 {
     width: 100%;
     background: #F9F9F9;
 }
+
 
 .table-wrap {
     margin: 30px auto;
@@ -214,6 +218,9 @@ h2 {
 
 /* || RESEARCH PLANNING CONTAINER *******/
 
+.research-planning-title {
+    margin-top: 30px;
+}
 
 .research-planning-container {
     width: 100%;
@@ -245,6 +252,10 @@ ul li {
     line-height: 1.6em;
 }
 
+.interview-questions-wrap li {
+    font-size: 17px;
+}
+
 .interview-questions-container {
     margin-bottom: 50px;
 }
@@ -270,8 +281,16 @@ ul li {
     margin: 30px auto;
 }
 
+#analysis-review {
+    margin: 40px auto;
+    border: 2px solid rgb(255, 114, 114);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
 .participant-quotes li {
     font-style: italic;
+    font-size: 17px;
 }
 
 
@@ -291,6 +310,9 @@ ul li {
 
 .solution-container {
     margin: 40px auto;
+    border: 2px solid rgb(98, 98, 98);
+    padding: 10px 15px;
+    border-radius: 10px;
 }
 
 .sketch-img {
@@ -305,7 +327,7 @@ ul li {
 }
 
 .prototype-link-container {
-    margin: 30px auto;
+    margin: 35px auto;
 }
 
 .prototype-link {
@@ -314,7 +336,7 @@ ul li {
     font-size: 17px;
     border: 2px solid rgb(57, 57, 57);
     padding: 10px 15px;
-    border-radius: 3px;
+    border-radius: 10px;
     transition: color .2s ease, background-color .2s ease;
 }
 
@@ -345,7 +367,7 @@ ul li {
 .task-info-wrap,
 .study-quotes,
 .pros-cons-container {
-    margin: 40px auto;
+    margin: 30px auto;
 }
 
 /* || NEXT STEPS CONTAINER *******/
@@ -357,4 +379,417 @@ ul li {
 .rgb-bar-bottom {
     height: 25px;
     background: radial-gradient(49.75% 8150.4% at 50.25% 50%,  #FFA35E 0%, #FF0C0C 100%);
+}
+
+
+
+/*===============================
+    Media Query for 768px (iPad)
+================================= */
+
+@media (min-width: 768px) { 
+
+
+    /* || GENERAL FONT STYLES *******/
+
+    p,
+    .prototype-link {
+        font-size: 19px;
+    }
+
+    .interview-questions-wrap li,
+    .participant-quotes li,
+    .pros-cons-container li {
+        font-size: 19px;
+    }
+    
+    h2 {
+        font-size: 22px;
+    }
+
+    .text-wrap {
+        width: 355px;
+    }
+
+
+    /* || HERO *******/
+
+    .main-header {
+    height: 550px;
+    }
+
+
+     /* || GROCERY PRIME TITLE *******/
+
+    .grocery-title {
+        width: 270px;
+        height: 140px;
+    }
+
+
+    /* || TABLE OF CONTENTS *******/
+
+
+    .table-wrap {
+        margin: 65px auto 105px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-evenly;
+        width: 550px;
+    }
+    
+    .table-flex {
+        flex-direction: column;
+        margin: 0 50px;
+    }
+
+    .table-flex h2 {
+        font-size: 25px;
+    }
+
+    .block {
+        width: 157.5px;
+        height: 52.5px;   
+    }
+
+    /* || PROJECT DIVIDER *******/
+
+    .project-divider {
+        height: 52.5px;   
+    }
+
+     /* || PROJECT CONTAINER *******/
+
+    .project-container-wrap {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .project-square {
+        width: 50%; 
+        height: 350px;
+    }
+
+    .project-container p {
+        padding: 0 15px;
+    }
+
+    .duration {
+        width: 100%;
+    }
+
+    /* || RESEARCH PLANNING CONTAINER *******/
+
+    .research-planning-title {
+        margin-top: 40px;
+    }
+
+    .research-planning-wrap {
+        margin: 45px auto 0;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-evenly;
+        width: 768px;
+    }
+
+    .research-planning-square {
+        height: 400px;
+        margin: 0 20px;
+    }
+
+    .goal {
+        width: 25%;
+    }
+
+    .method {
+        width: 33%;
+    }
+
+    .research-participants {
+        width: 25%;
+    }
+
+    .interview-questions-wrap {
+        width: 650px;
+    }
+    
+    .interview-questions-container {
+        margin-bottom: 60px;
+    }
+
+  
+
+    /* || ANALYSIS CONTAINER *******/
+
+    .analysis-container {
+        background: #C30000;
+    }
+
+    .analysis-info-wrap {
+        margin: 40px auto 60px;
+    }
+
+    #analysis-quotes {
+        width: 650px;
+        margin: 10px auto 40px;
+    }
+
+    #analysis-review,
+    .solution-container,
+    .task-info-wrap,
+    .study-quotes,
+    .summary-info-wrap {
+        width: 550px;
+    }
+
+    #analysis-review {
+        margin: 50px auto;
+    }
+
+
+     /* || SKETCHES / WIREFRAMES CONTAINER *******/
+
+     .sketch-img {
+        width: 186px;
+        height: 402px;
+      }
+
+      .prototype-link-container {
+        margin: 55px auto;
+    }
+
+      /* || TASK CONTAINER *******/
+
+    .task-info-wrap,
+    .study-quotes,
+    .summary-info-wrap {
+        margin-top: 40px;
+    }
+
+      .pros-cons-container { 
+          display: flex;
+          flex-direction: row;
+          align-items:baseline;
+          justify-content: space-between;
+          width: 750px;
+          padding: 0px 20px;
+          margin-bottom: 50px;
+      }
+
+      .pros-wrap,
+      .cons-wrap {
+          width: 40%;
+      }
+
+      .summary-info-wrap {
+          margin-bottom: 120px;
+      }
+    
+
+     
+ 
+}
+
+
+
+/*================================
+    Media Query for 1440px (laptop)
+================================== */
+
+@media (min-width: 1440px) {
+
+    p,
+    .prototype-link {
+        font-size: 20px;
+     }
+
+
+    .interview-questions-wrap li,
+    .participant-quotes li,
+    .pros-cons-container li {
+        font-size: 20px;
+    }
+
+
+     
+    h2 {
+         font-size: 24px;
+     }
+
+    .text-wrap {
+        width: 470px;
+    }
+
+    /* || HERO *******/
+
+    .main-header {
+        height: 670px;
+    }
+
+
+    /* || GROCERY PRIME TITLE *******/
+
+    .grocery-title {
+        width: 380px;
+        height: 200px;
+    }
+
+
+    /* || TABLE OF CONTENTS *******/
+
+    .table-wrap {
+        margin: 85px auto 125px;
+        width: 900px;
+    }
+
+    .table-flex {
+        margin: 0 95px;
+    }
+
+    .table-flex h2 {
+        font-size: 32px;
+    }
+
+    .block {
+        width: 183.5px;
+        height: 61.25px;   
+    }
+
+
+    /* || PROJECT DIVIDER *******/
+    .project-divider {
+        height: 61.5px;   
+    }
+
+    /* || PROJECT CONTAINER *******/
+
+      .project-container-wrap {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .project-square {
+        width: 33.3333%; 
+        height: 370px;
+    }
+
+    /* || RESEARCH PLANNING CONTAINER *******/
+
+    .research-planning-title {
+        margin-top: 50px;
+    }
+
+    .research-planning-wrap {
+        margin: 55px auto 0;
+        width: 1370px;
+    }
+
+    .research-planning-square {
+        height: 350px;
+    }
+
+    .goal {
+        width: 25%;
+    }
+
+    .method {
+        width: 33%;
+    }
+  
+    .research-participants {
+        width: 25%;
+    }
+
+    .interview-questions-wrap {
+        width: 750px;
+    }
+    
+    .interview-questions-container {
+        margin-bottom: 70px;
+    }
+
+    .interview-questions-wrap li {
+        font-size: 19px;
+    }
+
+
+      /* || ANALYSIS CONTAINER *******/
+
+    .analysis-container {
+        background: #C30000;
+    }
+
+    .analysis-info-wrap {
+        margin: 40px auto 70px;
+    }
+
+    #analysis-quotes {
+        width: 750px;
+        /* margin: 15px auto 50px; */
+    }
+
+    #analysis-review,
+    .solution-container,
+    .task-info-wrap,
+    .study-quotes,
+    .summary-info-wrap {
+        width: 650px;
+    }
+
+    #analysis-review {
+        margin: 60px auto;
+    }
+
+    .participant-quotes li {
+        font-size: 19px;
+    }
+
+    /* || SKETCHES / WIREFRAMES CONTAINER *******/
+
+    .sketches-wrap {
+        flex-direction: row;
+        margin: 60px auto;
+        width: 1370px;
+    }
+
+    .sketch-img {
+        width: 217px;
+        height: 469px;
+    }
+
+
+    .prototype-link-container {
+        margin: 70px auto;
+    }
+
+
+
+    /* || TASK CONTAINER *******/
+
+ 
+
+    .task-info-wrap,
+    .study-quotes,
+    .summary-info-wrap {
+        margin-top: 50px;
+    }
+
+    .pros-cons-container { 
+        width: 1250px;
+        margin-bottom: 60px;
+    }
+
+    .pros-wrap,
+    .cons-wrap {
+        width: 40%;
+     }
+
+     .summary-info-wrap {
+        margin-bottom: 140px;
+    }
+  
+
+ 
 }
