@@ -195,10 +195,6 @@ h2 {
     height: 330px;
 }
 
-.project, 
-.response {
-    background: #FFFFFF;
-}
 
 .project h2,
 .response h2, 
@@ -288,13 +284,13 @@ h2 {
 }
 
 .square-container {
-    background: linear-gradient(0deg, #D96A1A 0%, #F37E2A 100%);
+    background: #da7d3b;
 }
 
 .square-container p,
 .assumptions-info-wrap p,
 .redesign-square p {
-    color: rgb(255, 255, 255);
+    color: rgb(234, 234, 234);
 }
 
 
@@ -326,7 +322,6 @@ h2 {
 
 .design-changes-container {
     background: #0E2B13;
-    /* background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(31, 145, 63, 0.9) 98.46%); */
 }
 
 .sketches-container,
@@ -367,7 +362,7 @@ h2 {
 /* || REDESIGN WRAP *******/
 
 .redesign-square {
-    background: linear-gradient(181.87deg, rgba(53, 192, 92, 0.91) 1.62%, rgba(25, 117, 51, 0.9) 100%);
+    background: linear-gradient(180.87deg, rgba(24, 134, 56, 0.25) 1.62%, rgba(9, 90, 32, 0.25) 100%);
 }
 
 
