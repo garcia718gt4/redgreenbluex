@@ -76,7 +76,7 @@ body {
 
 
 .frog-col {
-    background-color:#003D11;
+    background-color:#00300e;
 }
 
 
@@ -100,7 +100,8 @@ body {
 }
 
 .grocery-col {
-    background-color:#630000;
+    background-color:#4a0101;
+
 }
 
 .grocery-txt {
@@ -119,16 +120,16 @@ body {
 
 /* WooshMail */
 .woosh-col {
-    background: #012f5b;
+    /* background: #032d52; */
+    background: #042757;
+
 }
 
 
 .woosh-txt {
     font-family: 'Lemonada', cursive;
     font-weight: 600;
-    background: linear-gradient(90deg, #5da3e6 0%, #0779e4 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #2998F8;
 }
 
 .woosh-logo {
@@ -430,8 +431,8 @@ Media Query for 1440px (desktop)
 
     .main-container {
         margin: 50px auto;
-        width: 1400px;
-        /* width: 1200px; */
+        /* width: 1400px; */
+        width: 1200px;
         flex-wrap: nowrap; 
     }
 

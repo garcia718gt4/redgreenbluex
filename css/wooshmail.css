@@ -120,9 +120,7 @@ h2 {
 }
 
 .wooshmail-title {
-    background: linear-gradient(90deg, #5da3e6 0%, #0779e4 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #2998F8;
     font-size: 32px;
 }
 
