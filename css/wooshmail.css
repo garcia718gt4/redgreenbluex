@@ -126,9 +126,9 @@ h2 {
     font-size: 32px;
 }
 
-.leckerli-one {
-    font-family: 'Leckerli One', cursive;
-    font-weight: 200;
+.lemonada {
+    font-family: 'Lemonada', cursive;
+    font-weight: 600;
 }
 
 
@@ -276,7 +276,7 @@ h2 {
      }
 
      .main-title-container {
-         width: 400px;
+        width: 450px;
         float: right;
         margin-right: 70px;
         margin-top: 70px;

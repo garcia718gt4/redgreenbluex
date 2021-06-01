@@ -124,8 +124,8 @@ body {
 
 
 .woosh-txt {
-    font-weight: 200;
-    font-family: 'Leckerli One', cursive;
+    font-family: 'Lemonada', cursive;
+    font-weight: 600;
     background: linear-gradient(90deg, #5da3e6 0%, #0779e4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
