@@ -5,7 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Sen', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .center-vertical {
@@ -25,7 +25,7 @@ body {
 
 p {
     line-height: 1.6;
-    color:#808080;
+    color:#6d6d6d;
     font-size: 17px; 
 }
 
@@ -196,15 +196,15 @@ h2 {
 }
 
 .objective-square h2 {
-    color: #FF0C0C;
+    color: #f2f2f2;
 }
 
 .objective-square p {
-    color: #FF4646;
+    color: #c9c9c9;
 }
 
 .objective-square {
-    background: #FF0C0C10;
+    background: #303030;
 }
 
 .duration-square p {
@@ -224,7 +224,7 @@ h2 {
 
 .research-planning-container {
     width: 100%;
-    background: #840000;
+    background: #630000;
 }
 
 .research-planning-square {
@@ -233,7 +233,7 @@ h2 {
 
 .research-planning-container h2,
 .analysis-info-wrap h2  {
-    color: rgb(255, 255, 255);
+    color: #f2f2f2;
 }
 
 .research-planning-container p,
@@ -274,18 +274,26 @@ ul li {
 /* || ANALYSIS CONTAINER *******/
 
 .analysis-container {
-    background: #C30000;
+    background: #f9f9f9;
 }
 
 .analysis-info-wrap {
     margin: 30px auto;
 }
 
+#analysis-quotes h2 {
+    color: #565656;
+}
+
+#analysis-quotes ul li {
+    color: #808080;
+}
+
 #analysis-review {
     margin: 40px auto;
-    border: 2px solid rgb(255, 114, 114);
-    padding: 10px 15px;
+    padding: 10px 25px;
     border-radius: 10px;
+    background: #c20101;
 }
 
 .participant-quotes li {
@@ -297,7 +305,7 @@ ul li {
 /* || SKETCHES / WIREFRAMES CONTAINER *******/
 
 .sketches-container {
-    background: #fff;
+    background: #f2f2f2;
 }
 
 .sketches-wrap {
@@ -310,9 +318,10 @@ ul li {
 
 .solution-container {
     margin: 40px auto;
-    border: 2px solid rgb(98, 98, 98);
-    padding: 10px 15px;
+    border: 2px solid rgb(114, 114, 114);
+    padding: 10px 25px;
     border-radius: 10px;
+    background: rgb(255, 255, 255);
 }
 
 .sketch-img {
@@ -337,11 +346,12 @@ ul li {
     border: 2px solid rgb(57, 57, 57);
     padding: 10px 15px;
     border-radius: 10px;
+    background: rgb(255, 255, 255);
     transition: color .2s ease, background-color .2s ease;
 }
 
 .prototype-link:hover {
-    background: black;
+    background: rgb(57, 57, 57);
     color:rgb(230, 230, 230);
 }
 
@@ -357,7 +367,7 @@ ul li {
 
 
 .pros-cons-container ol li {
-    color: #808080;
+    color: #6d6d6d;
 }
 
 .cons-wrap {
@@ -522,10 +532,6 @@ ul li {
   
 
     /* || ANALYSIS CONTAINER *******/
-
-    .analysis-container {
-        background: #C30000;
-    }
 
     .analysis-info-wrap {
         margin: 40px auto 60px;
@@ -717,9 +723,6 @@ ul li {
 
       /* || ANALYSIS CONTAINER *******/
 
-    .analysis-container {
-        background: #C30000;
-    }
 
     .analysis-info-wrap {
         margin: 40px auto 70px;
