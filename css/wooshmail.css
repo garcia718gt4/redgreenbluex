@@ -201,35 +201,63 @@ h2 {
     width: 310px;
 }
 
-.target-audience-info-wrap {
+
+
+.target-audience-info-wrap,
+.personas-container {
     margin: -30px auto 30px;
 }
 
-.target-square {
-    margin-top:20px;
+.target-square,
+.personas-wrap {
+    margin-top: 20px;
 }
 
 .problemToSolve-square {
     background: #f1f1f1;
 }
 
+/* || TARGET CONTAINER *******/ 
+
 .target-audience-container {
     background: #81BDF640;    
 }
 
-.target-audience-container h2 {
+.target-audience-container h2,
+.planning-container h2 {
     margin: 30px auto;
 }
 
 
 .project-problem-container-wrap,
-.target-audience-info-wrap {
+.target-audience-info-wrap,
+.personas-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
+/* || PLANNING CONTAINER *******/
+
+
+.personas-container {
+    margin: 0 auto 40px;
+}
+
+.img-of-persona {
+    display: inline-block;
+    width: 310px;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px solid #883AC650;
+    /* padding: 10px; */
+}
+
+#personas,
+#storyboard {
+    margin-bottom: 50px;
+}
 
 
 /*===============================
@@ -240,7 +268,8 @@ h2 {
 
       /* || GENERAL FONT STYLES *******/
 
-     p {
+     p,
+     .target-square li{
         font-size: 19px;
      }
      
@@ -287,10 +316,6 @@ h2 {
         height: 52.5px;   
     }
 
-    .project-divider {
-        height: 52.5px;   
-    }
-
     /* || PROJECT CONTAINER *******/
 
     .project-container p {
@@ -311,7 +336,8 @@ h2 {
         width: 355px;
     }
 
-    .target-audience-container h2 {
+    .target-audience-container h2,
+    .planning-container h2 {
         margin-top: 40px;
     }
     .target-square {
@@ -326,6 +352,27 @@ h2 {
         text-align: center;
         margin-bottom: 40px;
     }
+
+    .project-divider {
+        height: 52.5px;   
+    }
+
+    /* || PLANNING CONTAINER *******/
+
+    .img-of-persona {
+        width: 660px;
+        height: 405px;
+    }
+
+
+    .personas-container {
+        margin: 0 auto 50px;
+    }
+
+    #personas,
+    #storyboard {
+        margin-bottom: 60px;
+    }
     
 }
 
@@ -339,7 +386,8 @@ h2 {
 
     /* || GENERAL FONT STYLES *******/
 
-    p {
+    p,
+    .target-square li {
         font-size: 20px;
      }
      
@@ -407,7 +455,8 @@ h2 {
         width: 450px;
     }
 
-    .target-audience-container h2 {
+    .target-audience-container h2,
+    .planning-container h2 {
         margin-top: 50px;
     }
   
@@ -418,5 +467,21 @@ h2 {
         justify-content: space-between;
         margin-bottom: 60px;
     }
+
+    /* || PLANNING CONTAINER *******/
+
+    .personas-container {
+        align-items: baseline;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 1400px;
+        margin-bottom: 60px;
+    }
+
+    #personas,
+    #storyboard {
+        margin-bottom: 70px;
+    }
+
 
 }
