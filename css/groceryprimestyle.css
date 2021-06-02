@@ -281,7 +281,7 @@ ul li {
 /* || ANALYSIS CONTAINER *******/
 
 .analysis-container {
-    background: #f9f9f9;
+    background: #fff5f5;
 }
 
 .analysis-info-wrap {
@@ -298,9 +298,11 @@ ul li {
 
 #analysis-review {
     margin: 40px auto;
-    padding: 10px 25px;
-    border-radius: 10px;
-    background: #c20101;
+    padding: 10px 20px;
+}
+
+#analysis-review p {
+    color: rgb(148, 3, 3);
 }
 
 .participant-quotes li {
