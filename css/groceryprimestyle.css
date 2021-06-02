@@ -231,7 +231,7 @@ h2 {
 
 .research-planning-container {
     width: 100%;
-    background: #630000;
+    background: #880000;
 }
 
 .research-planning-square {
@@ -298,11 +298,11 @@ ul li {
 
 #analysis-review {
     margin: 40px auto;
-    padding: 10px 20px;
+    padding: 10px;
 }
 
 #analysis-review p {
-    color: rgb(148, 3, 3);
+    color: rgb(154, 0, 0);
 }
 
 .participant-quotes li {
@@ -745,7 +745,7 @@ ul li {
 
 
     .analysis-info-wrap {
-        margin: 40px auto 70px;
+        margin: 50px auto 70px;
     }
 
     #analysis-quotes {
@@ -762,7 +762,7 @@ ul li {
     }
 
     #analysis-review {
-        margin: 60px auto;
+        margin: 55px auto;
     }
 
     .participant-quotes li {
