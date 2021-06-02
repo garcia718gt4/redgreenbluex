@@ -29,6 +29,11 @@ p {
     font-size: 17px; 
 }
 
+h1 {
+    font-size: 28px;
+    color: #565656;
+}
+
 h2 {
     font-size: 20px;
     text-align: center;
@@ -396,6 +401,10 @@ h2 {
        font-size: 19px;
     }
     
+    h1 {
+        font-size: 30px;
+    }
+
     h2 {
         font-size: 22px;
     }
@@ -574,6 +583,10 @@ h2 {
         font-size: 20px;
      }
      
+    h1 {
+        font-size: 32px;
+    }
+
     h2 {
          font-size: 24px;
      }

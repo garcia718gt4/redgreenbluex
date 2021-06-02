@@ -29,6 +29,12 @@ p {
     font-size: 17px; 
 }
 
+h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #565656;
+}
+
 h2 {
     font-size: 20px;
     text-align: center;
@@ -220,6 +226,7 @@ h2 {
 
 .research-planning-title {
     margin-top: 30px;
+    color: rgb(255, 240, 240);
 }
 
 .research-planning-container {
@@ -361,6 +368,10 @@ ul li {
     background:#FFA35E19;
 }
 
+.task-container h2 {
+    color: #565656;
+}
+
 .study-quotes p {
     font-style: italic;
 }
@@ -413,6 +424,10 @@ ul li {
         font-size: 19px;
     }
     
+    h1 {
+        font-size: 30px;
+    }
+
     h2 {
         font-size: 22px;
     }
@@ -618,6 +633,9 @@ ul li {
         font-size: 20px;
     }
 
+    h1 {
+        font-size: 32px;
+    }
 
      
     h2 {
