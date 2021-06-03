@@ -368,6 +368,18 @@ h2 {
 }
 
 
+/* || TESTING CONTAINER *******/
+
+.testing-container {
+    background: #023868;
+}
+
+.user-flow-test-title {
+    color: #2998F8;
+    margin-top: 30px;
+}
+
+
 
 
 /*===============================
@@ -412,14 +424,14 @@ h2 {
         margin: 65px auto 105px;
         display: flex;
         flex-direction: row;
-        align-items:center;
+        align-items:baseline;
         justify-content: space-evenly;
-        width: 650px;
+        width: 710px;
     }
 
     .table-flex {
         flex-direction: column;
-        margin: 0 24px;
+        margin: 0 28px;
     }
 
     .table-flex h2 {
@@ -546,6 +558,12 @@ h2 {
         width: 410px;
         text-align: center;
     }
+
+    /* || TESTING CONTAINER *******/
+
+.user-flow-test-title {
+    margin-top: 40px;
+}
     
     
 }
@@ -656,7 +674,7 @@ h2 {
         align-items: baseline;
         justify-content: space-between;
         flex-direction: row;
-        width: 1400px;
+        width: 1370px;
     }
 
     #personas,
@@ -684,7 +702,7 @@ h2 {
     .wireframes-wrap {
         margin: 100px auto;
         flex-flow: row wrap;
-        width: 1400px;
+        width: 1370px;
     }
 
     .wireframe-img-container {
@@ -707,5 +725,10 @@ h2 {
         margin: 35px auto;
     }
   
+    /* || TESTING CONTAINER *******/
+
+    .user-flow-test-title {
+        margin-top: 50px;
+    }
 
 }
