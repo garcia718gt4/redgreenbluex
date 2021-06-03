@@ -303,7 +303,7 @@ h2 {
 /* || WIREFRAMES ANALYSIS CONTAINER *******/
 
 .wireframes-container {
-    background: #eaeaea;
+    background: #efefef;
 }
 
 .wireframes-wrap {
@@ -383,6 +383,14 @@ h2 {
     color: #2998F8;
 }
 
+.user-analysis-title {
+    color: rgb(225, 225, 225);
+}
+
+.user-analysis-pgh {
+    color: #d2d2d2;
+}
+
 .testing-wrap {
     width: 310px;
     margin: 30px auto;
@@ -391,7 +399,6 @@ h2 {
 .analysis-square {
     background: #003767;
 }
-
 
 
 
@@ -464,8 +471,7 @@ h2 {
         padding: 0 15px;
     }
 
-    .project-problem-container-wrap,
-    .testing-info-wrap {
+    .project-problem-container-wrap {
         flex-flow: row wrap;
     }
 
@@ -564,9 +570,10 @@ h2 {
         margin-top: 45px;
     }
 
-    .wireframes-pgh-info-wrap {
+    .wireframes-pgh-info-wrap,
+    .testing-wrap {
         width: 550px;
-        padding: 20px 0;
+        padding: 10px;
     }
     
     .wireframes-links-container {
@@ -577,10 +584,9 @@ h2 {
 
     /* || TESTING CONTAINER *******/
 
-.user-flow-test-title {
-    margin-top: 40px;
-}
-    
+    .testing-wrap {
+        margin: 40px auto;
+    }
     
 }
 
@@ -741,8 +747,20 @@ h2 {
   
     /* || TESTING CONTAINER *******/
 
-    .user-flow-test-title {
-        margin-top: 50px;
+    .testing-info-wrap {
+        flex-flow: row nowrap;
+    }
+   
+    .user-square {
+        width: 50%;
+    }
+
+    .testing-wrap {
+        padding: 0;
+    }
+
+    .testing-wrap {
+        margin: 50px auto;
     }
 
 }
