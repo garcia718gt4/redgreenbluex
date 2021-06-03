@@ -245,6 +245,7 @@ h2 {
 
 .abstract h1 {
     color: #38578A;
+    margin-top: 20px;
 }
 
 .abstract-text-wrap {
@@ -657,12 +658,18 @@ h2 {
         margin-top: -63px;
     }
 
-
-
     /* || ABSTRACT & PAIN POINTS CONTAINER *******/
 
     .abstract-text-wrap {
         width: 445px;
+    }
+
+    .abstract-text-wrap {
+        margin: 45px auto; 
+    }
+
+    .abstract h1 {
+        margin-top: 0;
     }
 
     .point-wrap {
@@ -1057,6 +1064,5 @@ h2 {
     .assurance {
         margin-bottom: auto;
     }
-
 
 }
