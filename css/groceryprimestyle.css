@@ -229,9 +229,10 @@ h2 {
     color: rgb(255, 240, 240);
 }
 
-.research-planning-container {
+.research-planning-container,
+.analysis-container {
     width: 100%;
-    background: #880000;
+    background: #680000;
 }
 
 .research-planning-square {
@@ -280,20 +281,15 @@ ul li {
 
 /* || ANALYSIS CONTAINER *******/
 
-.analysis-container {
-    background: #fff5f5;
-}
 
 .analysis-info-wrap {
     margin: 30px auto;
 }
 
-#analysis-quotes h2 {
-    color: #565656;
-}
-
+#analysis-quotes h2,
+#analysis-review p,
 #analysis-quotes ul li {
-    color: #808080;
+    color: #EFEFEF;
 }
 
 #analysis-review {
@@ -301,9 +297,6 @@ ul li {
     padding: 10px;
 }
 
-#analysis-review p {
-    color: rgb(154, 0, 0);
-}
 
 .participant-quotes li {
     font-style: italic;
@@ -559,6 +552,10 @@ ul li {
         margin: 10px auto 40px;
     }
 
+    #analysis-review {
+        margin: 50px auto;
+    }
+
     #analysis-review,
     .solution-container,
     .task-info-wrap,
@@ -567,9 +564,6 @@ ul li {
         width: 550px;
     }
 
-    #analysis-review {
-        margin: 50px auto;
-    }
 
 
      /* || SKETCHES / WIREFRAMES CONTAINER *******/
@@ -753,6 +747,11 @@ ul li {
         /* margin: 15px auto 50px; */
     }
 
+    #analysis-review {
+        margin: 60px auto;
+    }
+
+
     #analysis-review,
     .solution-container,
     .task-info-wrap,
@@ -761,9 +760,6 @@ ul li {
         width: 650px;
     }
 
-    #analysis-review {
-        margin: 55px auto;
-    }
 
     .participant-quotes li {
         font-size: 19px;
