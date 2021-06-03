@@ -401,7 +401,21 @@ h2 {
 }
 
 
+/* || SUMMARY CONTAINER *******/
 
+.summary-title {
+    color:#81BDF6;
+}
+
+.summary-info-wrap {
+    margin: 30px auto 100px;
+    width: 310px;
+}
+
+.rgb-bar-bottom {
+    height: 25px;
+    background: radial-gradient(49.75% 8150.4% at 50.25% 50%, #81BDF6  0%, #2998F8 100%);
+}
 
 
 /*===============================
@@ -533,7 +547,7 @@ h2 {
 
     .comp-analysis-wrap {
         margin: 40px auto;
-        width: 660px;
+        width: 600px;
     }
 
     .comp-analysis-wrap h1 {
@@ -587,6 +601,15 @@ h2 {
     .testing-wrap {
         margin: 40px auto;
     }
+
+    /* || SUMMARY CONTAINER *******/
+
+    .summary-info-wrap {
+        margin: 40px auto 120px;
+        width: 550px;
+        padding: 0 10px;
+    }
+
     
 }
 
@@ -706,7 +729,7 @@ h2 {
 
     .comp-analysis-wrap {
         margin: 50px auto;
-        width: 800px;
+        width: 725px;
     }
 
     .comp-analysis-wrap h1 {
@@ -761,6 +784,13 @@ h2 {
 
     .testing-wrap {
         margin: 50px auto;
+    }
+
+      /* || SUMMARY CONTAINER *******/
+
+      .summary-info-wrap {
+        margin: 50px auto 140px;
+        width: 650px;
     }
 
 }
