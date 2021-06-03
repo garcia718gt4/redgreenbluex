@@ -209,66 +209,12 @@ span {
 
 .bullit-points-container {
     color: #676767;
-    width: 375px;
+    width: 315px;
     line-height: 1.5;
-    padding: 15px;
-    margin: 25px auto;
     text-align: center;
     font-size: 18px;
-}
-
-/* .red-circle::before {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background: rgb(239, 16, 16);
-}
-
-.blue-circle::before {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background: rgb(16, 109, 239);
-}
-
-.green-circle::before {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background: rgb(9, 218, 110);
-}
-
-.purple-circle::before {
-    content: "";
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background: rgb(220, 7, 220);
-} */
-
-
-/* balanced shapes ******/
-
-.balanced-shapes {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.shapes {
-    height: 220px;
-    width: 150px;
-    opacity: .6;
+    margin-bottom: auto;
+    margin-top: 100px;
 }
 
 
@@ -342,8 +288,7 @@ Media Query for 768px
 
     .bullit-points-container {
         font-size: 21px;
-        width: 740px; 
-        padding: 25px 0;    
+        width: 740px;   
     }
 
     .shapes {
@@ -372,22 +317,12 @@ Media Query for 1440px
 
     .main-content {
         width: 1440px;
-        flex-direction: row;
         margin-top: 0px;
         padding-top: 0px;
     }
 
-    .bullit-points-container { 
-        text-align: left;
-    }
-
     span {
         font-size: 29px;
-    }
-
-    .balanced-shapes {
-        margin-top: 60px;
-     
     }
 
     .shapes {
