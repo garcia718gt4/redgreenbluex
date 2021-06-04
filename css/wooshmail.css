@@ -383,9 +383,12 @@ h2 {
     color: #2998F8;
 }
 
-.user-analysis-title,
 #mockup-title {
     color: rgb(225, 225, 225);
+}
+
+.user-analysis-title {
+    color: #a2d1fa;
 }
 
 .user-analysis-pgh {
@@ -413,7 +416,7 @@ h2 {
  }
 
  #mockup-title:hover {
-    color: #a2d1fa;
+    color: #57abf5;
  }
  
 
