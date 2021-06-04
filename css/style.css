@@ -72,7 +72,7 @@ body {
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
     color: #40B962;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 
@@ -93,6 +93,7 @@ body {
 .grocery-txt, 
 .prime-txt {
     font-family: 'Kanit', sans-serif;
+    font-weight: bold;
 }
 
 .grocery-logo {
@@ -102,7 +103,6 @@ body {
 
 .grocery-col {
     background-color:#4a0101;
-
 }
 
 .grocery-txt {
@@ -112,7 +112,6 @@ body {
 
 .prime-txt {
     color: #FFA35E;
-    font-weight: bold;
     margin-top: -10px;
     font-style: italic;
     letter-spacing: .04em;
