@@ -383,7 +383,8 @@ h2 {
     color: #2998F8;
 }
 
-.user-analysis-title {
+.user-analysis-title,
+#mockup-title {
     color: rgb(225, 225, 225);
 }
 
@@ -400,7 +401,23 @@ h2 {
     background: #003767;
 }
 
+/* || MOCKUPS CONTAINER *******/
 
+#mockup-container {
+    background: #011b3b;
+ }
+
+ #mockup-title {
+     text-decoration: none;
+     transition: color .2s ease;
+ }
+
+ #mockup-title:hover {
+    color: #a2d1fa;
+ }
+ 
+
+ 
 /* || SUMMARY CONTAINER *******/
 
 .summary-title {
@@ -601,6 +618,7 @@ h2 {
     .testing-wrap {
         margin: 40px auto;
     }
+
 
     /* || SUMMARY CONTAINER *******/
 
