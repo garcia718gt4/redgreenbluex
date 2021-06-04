@@ -311,7 +311,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .wireframe-img-container {
@@ -424,7 +424,7 @@ h2 {
 /* || SUMMARY CONTAINER *******/
 
 .summary-title {
-    color:#81BDF6;
+    color: #565656;
 }
 
 .summary-info-wrap {
@@ -548,8 +548,8 @@ h2 {
 
     .img-of-persona,
     .wireframe-img {
-        width: 660px;
-        height: 405px;
+        width: 600px;
+        height: 365px;
     }
 
 
