@@ -318,7 +318,7 @@ h2 {
 .img-frame {
     margin-top: 10px;
     display: inline-block;
-    width: 310px;
+    width: 330px;
     height: 210px;
     border-radius: 5px;
 }
@@ -333,7 +333,7 @@ h2 {
 
 .user-journey-info-wrap {
     margin: 30px auto 40px;
-    width: 310px;
+    width: 330px;
 }
 
 .user-journey-info-wrap p {
@@ -709,14 +709,14 @@ h2 {
 
     .img-frame {
         margin-top: 20px;
-        width: 660px;
+        width: 705px;
         height: 405px;
     }
 
     /* || USER JOURNEY CONTAINER *******/
 
     .user-journey-info-wrap {
-        width: 660px;
+        width: 705px;
         margin: 45px auto 55px;
     }
 
@@ -966,12 +966,12 @@ h2 {
      /* || USER JOURNEY CONTAINER *******/
 
      .img-frame {
-        width: 845px;
+        width: 875px;
         height: 500px;
     }
 
      .user-journey-info-wrap {
-        width: 845px;
+        width: 875px;
     }
 
     .user-journey-info-wrap p {
