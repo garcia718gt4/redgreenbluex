@@ -232,7 +232,7 @@ h2 {
 .research-planning-container,
 .analysis-container {
     width: 100%;
-    background: #680000;
+    background: #4a0101;
 }
 
 .research-planning-square {
@@ -240,8 +240,10 @@ h2 {
 }
 
 .research-planning-container h2,
-.analysis-info-wrap h2  {
-    color: #f2f2f2;
+.analysis-info-wrap h2,
+#analysis-quotes h2  {
+    color: #ea4a4a;
+    font-weight: bold;
 }
 
 .research-planning-container p,
@@ -282,24 +284,30 @@ ul li {
 /* || ANALYSIS CONTAINER *******/
 
 
-.analysis-info-wrap {
-    margin: 30px auto;
+.summary-of-analysis {
+    background: rgb(254, 237, 237);
+    margin: 0 auto;
+    width: 100%;
 }
 
-#analysis-quotes h2,
-#analysis-review p,
-#analysis-quotes ul li {
-    color: #EFEFEF;
+.summary-of-analysis-wrap  {
+    margin: 40px auto 55px;
+    width: 310px;
 }
+
+.summary-of-analysis-wrap p {
+    color: #565656;
+}
+
+.research-summary-title {
+    color:#FF0C0C;
+}
+
 
 #analysis-quotes li {
     text-align: center;
 }
 
-#analysis-review {
-    margin: 40px auto;
-    padding: 10px;
-}
 
 
 .participant-quotes li {
@@ -364,11 +372,12 @@ ul li {
 /* || TASK CONTAINER *******/
 
 .task-container {
-    background:#FFA35E19;
+    background:#914303;
 }
 
-.task-container h2 {
-    color: #565656;
+.task-container h2,
+.task-container h1 {
+    color:#FFA35E;
 }
 
 .study-quotes p {
@@ -376,9 +385,9 @@ ul li {
     text-align: center;
 }
 
-
+.task-container p,
 .pros-cons-container ol li {
-    color: #6d6d6d;
+    color: #efefef;
 }
 
 .cons-wrap {
@@ -549,8 +558,9 @@ ul li {
 
     /* || ANALYSIS CONTAINER *******/
 
-    .analysis-info-wrap {
-        margin: 40px auto 60px;
+    .summary-of-analysis-wrap{
+        margin: 50px auto 70px;
+        width: 500px;
     }
 
     #analysis-quotes {
@@ -558,11 +568,7 @@ ul li {
         margin: 10px auto 40px;
     }
 
-    #analysis-review {
-        margin: 50px auto;
-    }
 
-    #analysis-review,
     .solution-container,
     .task-info-wrap,
     .study-quotes,
@@ -728,44 +734,40 @@ ul li {
         width: 25%;
     }
 
-    .interview-questions-wrap {
-        width: 750px;
+    .interview-questions-wrap,
+    #analysis-wrap {
+        width: 650px;
     }
-    
-    .interview-questions-container {
-        margin-bottom: 70px;
-    }
+ 
 
     .interview-questions-wrap li {
         font-size: 19px;
     }
 
+    #questions-responses-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 1440px;
+        margin: 50px auto;
+    }
+
+   
 
       /* || ANALYSIS CONTAINER *******/
 
-
-    .analysis-info-wrap {
-        margin: 50px auto 70px;
-    }
-
-    #analysis-quotes {
-        width: 750px;
-        /* margin: 15px auto 50px; */
-    }
-
-    #analysis-review {
-        margin: 60px auto;
-    }
-
-
-    #analysis-review,
     .solution-container,
     .task-info-wrap,
     .study-quotes,
-    .summary-info-wrap {
+    .summary-info-wrap,
+    .summary-of-analysis-wrap {
         width: 650px;
     }
 
+    .summary-of-analysis-wrap {
+        margin: 70px auto 90px;
+    }
 
     .participant-quotes li {
         font-size: 19px;
