@@ -207,7 +207,8 @@ h2 {
 
 .project h2,
 .response h2, 
-.old-critique-title {
+.old-critique-title,
+.summary-info-wrap h1{
     color: #565656;
 }
 
@@ -300,14 +301,16 @@ h2 {
 
 .assumptions-info-wrap h2,
 .redesign-square h2 {
-    color: #40B962;
+    color: #6cec90;
     font-weight: bold;
 }
 
 .assumptions-info-wrap p,
-.redesign-square p,
-.summary-info-wrap h1,
-.square-container p {
+.redesign-square p {
+    color: rgb(222, 222, 222);
+}
+
+.square-container p  {
     color: #565656;
 }
 
@@ -324,11 +327,11 @@ h2 {
 /* || SKETCHES CONTAINER *******/
 
 .sketches-container {
-    background: #0E2B13;
+    background: #003c0a;
 }
 
 .design-changes-container {
-    background: linear-gradient(180.87deg, rgba(44, 139, 71, 0.25) 1.62%, rgba(18, 148, 55, 0.25) 100%);
+    background: rgb(3, 122, 37);
 }
 
 .sketches-container,
