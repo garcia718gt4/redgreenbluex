@@ -292,6 +292,10 @@ ul li {
     color: #EFEFEF;
 }
 
+#analysis-quotes li {
+    text-align: center;
+}
+
 #analysis-review {
     margin: 40px auto;
     padding: 10px;
@@ -369,6 +373,7 @@ ul li {
 
 .study-quotes p {
     font-style: italic;
+    text-align: center;
 }
 
 
@@ -385,6 +390,7 @@ ul li {
 .pros-cons-container {
     margin: 30px auto;
 }
+
 
 /* || NEXT STEPS CONTAINER *******/
 
