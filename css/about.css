@@ -169,6 +169,8 @@ span {
 
 .csusm {
     color: #0078CC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .front-end {
@@ -177,6 +179,11 @@ span {
 
 .ux-design {
     color: #4a4290;
+}
+
+.ux-design,
+.front-end {
+    font-family: 'Varela Round', sans-serif;
 }
 
 .violin {
