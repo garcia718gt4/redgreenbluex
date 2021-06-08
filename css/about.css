@@ -132,9 +132,12 @@ ul li a {
 
 /**********************
 
-// bullit points 
+// FONT STYLES
 
 ***********************/
+
+
+
 
 .treehouse {
     text-decoration: none;
@@ -172,7 +175,6 @@ span {
 .csusm {
     color: #0078CC;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
 }
 
 .front-end {
@@ -186,6 +188,12 @@ span {
 .ux-design,
 .front-end {
     font-family: 'Varela Round', sans-serif;
+}
+
+.ux-design,
+.front-end,
+.csusm {
+    font-weight: bold;
 }
 
 .violin {
@@ -205,16 +213,6 @@ span {
 }
 
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    align-items: center;
-    justify-content:center;
-    margin: 20px auto;
-    width: 310px;
-}
-
 .biographies {
     font-family: 'Petrona', serif;
     color: rgb(140, 63, 63);
@@ -227,20 +225,66 @@ span {
     color: rgb(150, 120, 30);
 }
 
-/* bullit points container ******/
+.exercise {
+    color: rgb(19, 117, 19);
+}
 
-.bullit-points-container {
-    color: #676767;
+.podcast {
+    color: rgb(129, 22, 129);
+}
+
+.music {
+    color: rgb(0, 79, 144);
+}
+
+
+/* MAIN CONTENT CONTAINER ******/
+
+.main-content-container {
+    width: 100%;
+    flex: 1;
+    margin: 30px auto;
+}
+
+.main-content-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    margin: 0px auto;
+}
+
+.main-content-square {
+    color: #565656;
     width: 315px;
+    height: 315px;
     line-height: 1.5;
     text-align: left;
     font-size: 17px;
+    background: #eaeaea74;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+.content-info-wrap {
+    padding: 0 20px 20px;
+}
+
+.skills-square {
+    height: 370px;
+}
+
+.content-title {
+    color: rgb(79, 79, 79);
+    font-weight: 700;
+    text-align: center;
 }
 
 
 /* footer ******/
 
-h2 {
+.contact-title {
     color: rgb(232, 232, 232);
 }
 
@@ -253,9 +297,9 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
-    margin: 30px auto;
+    margin: 30px auto 60px;
 }
 
 .contact-container p {
@@ -270,7 +314,7 @@ h2 {
 .email-link,
 .linkedin,
 .contact-container a {
-    color: #bcbcbc;
+    color: #cecece;
 }
 
 
@@ -291,13 +335,23 @@ Media Query for 768px
 
 @media (min-width: 768px) {
 
-    .main-content {
-        width: 700px;
+    .main-content-container { 
+        margin: 40px auto;
     }
 
-    .bullit-points-container {
+    .main-content-square {
         font-size: 19px;
-        width: 700px;   
+        width: 550px;   
+        height: 355px;
+        margin: 20px 0;
+    }
+    
+    .main-content-square {
+        margin-bottom: 15px;
+    }
+
+    .content-info-wrap {
+        padding: 0 25px;
     }
 
     span {
@@ -328,8 +382,8 @@ Media Query for 768px
 
 
     .contact-p-container  {
-        font-size: 21px;
-        margin: 50px auto;
+        font-size: 19px;
+        margin: 40px auto 80px;
     }
     
     .contact-container p {
@@ -345,11 +399,38 @@ Media Query for 1440px
 
 @media (min-width: 1440px) { 
 
-    .main-content {
-        width: 1040px;
+    .main-content-container { 
+        margin: 50px auto;
+    }
+
+    .main-content-wrap {
+        width: 1300px;
+        flex-flow: row wrap;
+        justify-content: space-between;
         margin-top: 0px;
         padding-top: 0px;
-        margin: 50px auto;
+    }
+
+    .main-content-square {
+        width: 48%;
+        height: 365px;
+        font-size: 20px
+    }
+
+    .content-info-wrap {
+        padding: 0 30px;
+    }
+
+    .skills-square {
+        margin-left: 40px;
+    }
+
+    .interests-square {
+        width: 1300px;
+    }
+
+    .interest-square-wrap {
+        text-align: center;
     }
 
     span {
@@ -361,15 +442,9 @@ Media Query for 1440px
         height: 560px;
     }
 
-    .bullit-points-container {
-        font-size: 20px;
-        width: 740px;   
-    }
-
-
     .contact-p-container  {
         font-size: 21px;
-        margin: 70px auto;
+        margin: 45px auto 120px;
     }
 
 
