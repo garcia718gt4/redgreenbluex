@@ -162,9 +162,11 @@ span {
 }
 
 .san-diego {
+    font-family: 'Pacifico', cursive;
     background: linear-gradient(120deg, #d1b00c 1.57%, #129DEB 92.41%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 8px;
 }
 
 .csusm {
@@ -207,7 +209,7 @@ span {
     display: flex;
     flex-direction: column;
     flex: 1;
-    align-items:center;
+    align-items: center;
     justify-content:center;
     margin: 20px auto;
     width: 310px;
@@ -243,7 +245,7 @@ h2 {
 }
 
 .contact-container {
-    background: linear-gradient(90deg, #2b0000 0.01%, #002b09  50.44%, #001830 99.99%);
+    background: linear-gradient(90deg, #2b0000 0.01%, #002b09  50.44%, #001f3e 99.99%);
 }
 
 .contact-p-container  {
@@ -290,8 +292,12 @@ Media Query for 768px
 @media (min-width: 768px) {
 
     .main-content {
-        width: 760px;
-        margin: 0 50px;
+        width: 700px;
+    }
+
+    .bullit-points-container {
+        font-size: 19px;
+        width: 700px;   
     }
 
     span {
@@ -313,10 +319,7 @@ Media Query for 768px
         margin-right: 45px;
     }
 
-    .bullit-points-container {
-        font-size: 19px;
-        width: 740px;   
-    }
+   
 
     .shapes {
         height: 400px;
@@ -343,7 +346,7 @@ Media Query for 1440px
 @media (min-width: 1440px) { 
 
     .main-content {
-        width: 1440px;
+        width: 1040px;
         margin-top: 0px;
         padding-top: 0px;
         margin: 50px auto;
