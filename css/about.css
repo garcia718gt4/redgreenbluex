@@ -276,7 +276,7 @@ span {
 }
 
 .content-title {
-    color: rgb(79, 79, 79);
+    color: rgb(54, 54, 54);
     font-weight: 700;
     text-align: center;
 }
@@ -309,14 +309,12 @@ span {
 }
 
 
-
 .phone-number,
 .email-link,
 .linkedin,
 .contact-container a {
     color: #cecece;
 }
-
 
 .contact-container a {
     text-decoration: none;
