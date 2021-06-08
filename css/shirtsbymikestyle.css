@@ -16,6 +16,8 @@ body {
 
 .banner {
     background: rgba(0, 0, 0, 0.948);
+    background: #fff;
+    /* background: linear-gradient(90deg, #2b0000 0.01%, #002b09  50.44%, #001f3e 99.99%); */
     height: 75px;
     width: 100%;
     position: fixed;

@@ -15,7 +15,8 @@ body {
 }
 
 .banner {
-    background: rgba(0, 0, 0, 0.948);
+    /* background: rgba(0, 0, 0, 0.948); */
+    background: #fff;
     height: 75px;
     width: 100%;
     position: fixed;
