@@ -675,6 +675,7 @@ ul li {
     .table-wrap {
         margin: 85px auto 125px;
         width: 900px;
+        height: 200px;
     }
 
     .table-flex {
@@ -687,13 +688,13 @@ ul li {
 
     .block {
         width: 183.5px;
-        height: 61.25px;   
+        height: 66.25px;   
     }
 
 
     /* || PROJECT DIVIDER *******/
     .project-divider {
-        height: 61.5px;   
+        height: 71.5px;   
     }
 
     /* || PROJECT CONTAINER *******/

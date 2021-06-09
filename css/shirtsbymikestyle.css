@@ -434,12 +434,12 @@ h2 {
     /* || TABLE OF CONTENTS *******/
 
     .table-wrap {
-    margin: 65px auto 105px;
-    display: flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content: space-evenly;
-    width: 550px;
+        margin: 65px auto 105px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-evenly;
+        width: 550px;
     }
 
     .table-flex {
@@ -631,6 +631,7 @@ h2 {
      .table-wrap {
         margin: 85px auto 125px;
         width: 900px;
+        height: 200px;
     }
 
     .table-flex {
@@ -643,11 +644,11 @@ h2 {
 
     .block {
         width: 183.5px;
-        height: 61.25px;   
+        height: 66.25px;   
     }
 
     .project-divider {
-        height: 61.5px;   
+        height: 71.5px;   
     }
 
     /* || PROJECT CONTAINER *******/

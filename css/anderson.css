@@ -864,11 +864,12 @@ h2 {
         font-size: 48px;
     }
 
-     /* || TABLE OF CONTENTS *******/
+    /* || TABLE OF CONTENTS *******/
 
      .table-wrap {
         margin: 85px auto 125px;
         width: 900px;
+        height: 200px;
     }
 
     .table-flex {
@@ -881,11 +882,11 @@ h2 {
 
     .block {
         width: 183.5px;
-        height: 61.25px;   
+        height: 66.25px;   
     }
 
     .project-divider {
-        height: 61.5px;   
+        height: 71.5px;   
     }
 
 

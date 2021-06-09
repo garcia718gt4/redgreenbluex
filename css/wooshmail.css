@@ -683,6 +683,7 @@ h2 {
      .table-wrap {
         margin: 85px auto 125px;
         width: 1150px;
+        height: 200px;
     }
 
     .table-flex {
@@ -695,11 +696,11 @@ h2 {
 
     .block {
         width: 183.5px;
-        height: 61.25px;   
+        height: 66.25px;   
     }
 
     .project-divider {
-        height: 61.5px;   
+        height: 71.5px;   
     }
 
     /* || PROJECT CONTAINER *******/
