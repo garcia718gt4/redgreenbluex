@@ -259,13 +259,14 @@ span {
     color: #565656;
     width: 315px;
     height: 315px;
-    line-height: 1.5;
+    line-height: 1.3;
     text-align: left;
     font-size: 17px;
     background: #eaeaea74;
     border-radius: 20px;
     margin: 15px 0;
 }
+
 
 .content-info-wrap {
     padding: 0 20px 20px;
