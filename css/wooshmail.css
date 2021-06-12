@@ -207,11 +207,8 @@ h2 {
     width: 310px;
 }
 
-
-
-.target-audience-info-wrap,
-.personas-container {
-    margin: -30px auto 30px;
+.target-audience-info-wrap {
+    margin: -30px auto 40px;
 }
 
 .target-square,
@@ -529,12 +526,12 @@ h2 {
     }
 
     .target-audience-info-wrap {
-        width: 740px;
+        width: 760px;
         flex-direction: row;
         align-items: baseline;
         justify-content: space-between;
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
 
     .project-divider {
@@ -724,10 +721,7 @@ h2 {
   
     .target-audience-info-wrap {
         width: 1240px;
-        flex-direction: row;
-        align-items: baseline;
-        justify-content: space-between;
-        margin-bottom: 60px;
+        margin-bottom: 70px;
     }
 
     /* || PLANNING CONTAINER *******/
