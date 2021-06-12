@@ -564,9 +564,10 @@ ul li {
         width: 500px;
     }
 
-    #analysis-quotes {
+    #analysis-quotes,
+    .interview-questions-container {
         width: 650px;
-        margin: 10px auto 40px;
+        margin: 20px auto 60px;
     }
 
 
@@ -758,6 +759,12 @@ ul li {
    
 
       /* || ANALYSIS CONTAINER *******/
+
+    #analysis-quotes,
+    .interview-questions-container {
+        width: 670px;
+        padding: 0 25px;
+    }
 
     .solution-container,
     .task-info-wrap,
