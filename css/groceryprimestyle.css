@@ -141,6 +141,8 @@ h2 {
     font-weight: 100;
 }
 
+
+.orange-red{background: #AC5301;}
 .red {background: #FF0C0C;}
 .gray {background: #818181;}
 .orange {background: #FFA35E;}
@@ -203,15 +205,15 @@ h2 {
 }
 
 .objective-square h2 {
-    color: #f2f2f2;
+    color: #ffffff;
 }
 
 .objective-square p {
-    color: #c9c9c9;
+    color: #eaeaea;
 }
 
 .objective-square {
-    background: #3a1f02;
+   background: rgba(172, 83, 1, 0.85);
 }
 
 .duration-square p {
@@ -470,14 +472,14 @@ ul li {
         margin: 65px auto 105px;
         display: flex;
         flex-direction: row;
-        align-items:center;
+        align-items:baseline;
         justify-content: space-evenly;
-        width: 550px;
+        width: 710px;
     }
     
     .table-flex {
         flex-direction: column;
-        margin: 0 50px;
+        margin: 0 30px;
     }
 
     .table-flex h2 {
@@ -485,7 +487,7 @@ ul li {
     }
 
     .block {
-        width: 157.5px;
+        width: 125.5px;
         height: 52.5px;   
     }
 
@@ -675,12 +677,12 @@ ul li {
 
     .table-wrap {
         margin: 85px auto 125px;
-        width: 900px;
+        width: 1150px;
         height: 200px;
     }
 
     .table-flex {
-        margin: 0 95px;
+        margin: 0 65px;
     }
 
     .table-flex h2 {

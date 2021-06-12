@@ -116,7 +116,7 @@ h2 {
 .main-header {
     margin-top: 75px;
     height: 330px;
-    background: url("../img/wooshmail/wooshmail-cover.jpg") no-repeat center;
+    background:linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), url("../img/wooshmail/wooshmail-cover.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
 }
@@ -478,7 +478,7 @@ h2 {
         margin: 65px auto 105px;
         display: flex;
         flex-direction: row;
-        align-items:baseline;
+        align-items:center;
         justify-content: space-evenly;
         width: 710px;
     }
@@ -659,9 +659,6 @@ h2 {
 
     .main-header {
         height: 670px;
-        background: url("../img/wooshmail/wooshmail-cover.jpg") no-repeat center;
-        background-size: cover;
-        width: 100%;
      }
  
      .wooshmail-title {

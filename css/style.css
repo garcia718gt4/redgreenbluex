@@ -36,9 +36,25 @@ body {
     font-size: 33px;
 }
 
+/****** CARD STYLES ***********/
+
+.card {
+    background:#242424;
+    width: 340px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 25px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background .3s ease;
+}
+
 /* Anderson Restaurant  */
 
-.anderson-col {
+.anderson-col:hover {
     background: #452f00;
 }
 
@@ -75,10 +91,9 @@ body {
 }
 
 
-.frog-col {
-    background-color:#00300e;
+.frog-col:hover {
+    background:#00300e;
 }
-
 
 .frog-pic {
     margin: 6px;
@@ -95,22 +110,22 @@ body {
     font-weight: bold;
 }
 
-.grocery-logo {
-    width: 270px;
-    text-align: center;
+
+
+.grocery-col:hover {
+    background: #430000;
 }
 
-.grocery-col {
-    background-color:#4a0101;
+.grocery-txt,
+.prime-txt {
+    color: #FF0C0C;
 }
 
 .grocery-txt {
-    color: #FF0C0C;
     letter-spacing: .055em;
 }
 
 .prime-txt {
-    color: #FFA35E;
     margin-top: -10px;
     font-style: italic;
     letter-spacing: .04em;
@@ -118,8 +133,7 @@ body {
 
 
 /* WooshMail */
-.woosh-col {
-    /* background: #032d52; */
+.woosh-col:hover {
     background: #042757;
 
 }
@@ -297,23 +311,6 @@ ul li a {
     text-decoration: none;
 }
 
-.card {
-    width: 340px;
-    height: 300px;
-    border-radius: 15px;
-    margin: 25px auto;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    opacity: 1;
-    transition: opacity .4s ease;
-}
-
-.card:hover {
-    opacity: .65;
-}
 
 
 
