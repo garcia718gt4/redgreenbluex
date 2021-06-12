@@ -345,6 +345,10 @@ Media Query for 768px
         margin: 20px 0;
     }
     
+    .interests-square {
+        height: 325px;
+    }
+
     .main-content-square {
         margin-bottom: 15px;
     }
@@ -415,6 +419,12 @@ Media Query for 1440px
         height: 365px;
         font-size: 20px
     }
+
+    .interests-square {
+        height: 320px;
+    }
+
+  
 
     .content-info-wrap {
         padding: 0 30px;
