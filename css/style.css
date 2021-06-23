@@ -262,12 +262,12 @@ ul li a {
 /* || MAIN STYLES  */
 
 .intro-message {
-    margin-top: 40px;
+    margin: 40px auto 0;
     text-align: center;
 }
 
 .hello-title {
-    font-size: 55px;
+    font-size: 54px;
     width: 185px;
     background: linear-gradient(120deg,  rgb(241, 15, 15) 17%, #40fa9d 58%, #1272e7 75%);
     -webkit-background-clip: text;
@@ -281,11 +281,13 @@ ul li a {
     text-align: center;
 }
 
+
 .intro-message h2 {
     width: 375px;
-    font-size: 31px;
+    font-size: 34px;
     color: rgb(244, 244, 244);
 }
+
 
 .ux-design-title {
     display: inline-block;
@@ -293,7 +295,6 @@ ul li a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 
 
 /******  MAIN CONTAINER  ******/
@@ -377,7 +378,7 @@ Media Query for 768px (tablet)
     
     .hello-title {
         width: 220px;
-        font-size: 62px;
+        font-size: 60px;
     }
     
     .intro-message {
@@ -436,7 +437,7 @@ Media Query for 1440px (desktop)
     }
     .intro-message h2 {
         width: 1100px;
-        font-size: 50px;
+        font-size: 52px;
     }
     
     .card {
