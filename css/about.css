@@ -136,9 +136,6 @@ ul li a {
 
 ***********************/
 
-
-
-
 .treehouse {
     text-decoration: none;
     color: #676767;
@@ -154,6 +151,14 @@ span {
     display: inline-block;
     font-size: 21px;
     font-weight: bold;
+}
+
+#summer-2021,
+#fewd,
+#uxdesign {
+    font-size: 15px;
+    color: rgb(140, 140, 140);
+    font-weight: lighter;
 }
 
 /* bold names ********/
@@ -237,6 +242,45 @@ span {
     color: rgb(0, 79, 144);
 }
 
+.lexend {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.josefin {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+}
+
+.g {
+    color: #4285f4;
+}
+
+.o,
+.e {
+    color:  #ea4335;
+}
+
+.oo {
+    color: #fbbc05;
+}
+
+.l {
+ color: #34a853;
+}
+
+.g,
+.o,
+.oo,
+.l {
+    font-size: 27px;
+}
+
+.e {
+    font-size: 38px;
+}
+
+
+
 
 /* MAIN CONTENT CONTAINER ******/
 
@@ -257,8 +301,8 @@ span {
 
 .main-content-square {
     color: #565656;
-    width: 315px;
-    height: 315px;
+    width: 345px;
+    height: 335px;
     line-height: 1.3;
     text-align: left;
     font-size: 17px;
@@ -338,15 +382,22 @@ Media Query for 768px
         margin: 40px auto;
     }
 
+    .me-square {
+        height: 335px;
+    }
+
     .main-content-square {
         font-size: 19px;
         width: 550px;   
-        height: 355px;
         margin: 20px 0;
+    }
+
+    .skills-square {
+        height: 405px;
     }
     
     .interests-square {
-        height: 325px;
+        height: 305px;
     }
 
     .main-content-square {
@@ -393,6 +444,17 @@ Media Query for 768px
         line-height: 2em;
     }
 
+    .g,
+    .o,
+    .oo,
+    .l {
+        font-size: 31px;
+    }
+
+    .e {
+        font-size: 44px;
+    }
+
 }
 
 /* =====================
@@ -416,22 +478,20 @@ Media Query for 1440px
 
     .main-content-square {
         width: 48%;
-        height: 365px;
+        height: 410px;
         font-size: 20px
+    }
+
+    .skills-square {
+        margin-left: 40px;
     }
 
     .interests-square {
         height: 320px;
     }
 
-  
-
     .content-info-wrap {
         padding: 0 30px;
-    }
-
-    .skills-square {
-        margin-left: 40px;
     }
 
     .interests-square {
@@ -454,6 +514,17 @@ Media Query for 1440px
     .contact-p-container  {
         font-size: 21px;
         margin: 45px auto 120px;
+    }
+
+    .g,
+    .o,
+    .oo,
+    .l {
+        font-size: 35px;
+    }
+
+    .e {
+        font-size: 50px;
     }
 
 

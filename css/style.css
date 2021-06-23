@@ -29,10 +29,13 @@ body {
 .shirts-txt,
 .grocery-txt,
 .woosh-txt,
-.prime-txt {
+.prime-txt,
+.anderson-title,
+.tcc-title-container h2 {
     margin: 0;
     padding: 0;
     font-size: 33px;
+    font-weight: 700;
 }
 
 /****** CARD STYLES ***********/
@@ -51,6 +54,52 @@ body {
     transition: background .3s ease;
 }
 
+.inprogress {
+    cursor:initial;
+}
+
+/******************** 
+
+|| WEB FONTS  
+
+**********************/
+
+
+/* SOCIAL GOOD TITLE   */
+
+.social-good-container {
+    line-height: 1.25;
+}
+
+.social-good-container h2 {
+    color: rgb(125, 125, 125); 
+}
+
+/* Tucson Charities Center  */
+
+.tcc-title-container h2 {
+    font-family: 'Philosopher', sans-serif;
+}
+
+.tucson-title,
+.center-title {
+    color: rgba(184, 45, 45, 0.5);
+}
+
+.charities-title {
+    color: rgba(40, 137, 227, 0.5); 
+}
+
+.tcc-title-container {
+    line-height: 1.25;
+}
+
+.coming-soon {
+    color: rgb(211, 211, 211);
+}
+
+
+
 /* Anderson Restaurant  */
 
 .anderson-col:hover {
@@ -62,11 +111,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .anderson-title {
     color: #F3F3F3;
     letter-spacing: 0.06em;
     font-family: "Nova Slim", cursive;
-    font-size: 32px;
  }
 
 
@@ -75,7 +124,7 @@ body {
     font-weight: 100;
     color: #b48f31;
     text-align: right;
-    font-size: 22px;
+    font-size: 22.5px;
     margin-right: 6px;
     letter-spacing: .02em;
 }
@@ -86,7 +135,6 @@ body {
 .shirts-txt {
     font-family: 'Baloo Chettan 2', cursive;
     color: #40B962;
-    font-weight: 600;
 }
 
 
@@ -106,7 +154,6 @@ body {
 .grocery-txt, 
 .prime-txt {
     font-family: 'Kanit', sans-serif;
-    font-weight: bold;
 }
 
 
@@ -379,7 +426,22 @@ Media Query for 768px (tablet)
         width: 220px;
         font-size: 60px;
     }
+
+    .shirts-txt,
+    .grocery-txt,
+    .woosh-txt,
+    .prime-txt,
+    .anderson-title,
+    .tcc-title-container h2 {
+        font-size: 36px;
+    }
     
+     .restaurant-title {
+        font-size: 24.5px;
+    }
+
+
+        
     .intro-message {
         margin-top: 80px;
     }
@@ -396,17 +458,6 @@ Media Query for 768px (tablet)
         font-size: 40px;
     }
 
-    .shirts-txt,
-    .grocery-txt,
-    .woosh-txt,
-    .prime-txt {
-        font-size: 33px;
-    }
-
-    .frog-pic {
-        width: 65px;
-        height: 65px;
-    }
 
     .certificate-paragraphs {
         width: 745px;
@@ -427,25 +478,34 @@ Media Query for 1440px (desktop)
 
     .main-container {
         margin: 50px auto;
-        width: 1400px;
-        flex-wrap: nowrap; 
+        width: 1150px;
+        flex-wrap: wrap; 
     }
 
     .hello-title {
         font-size: 72px;
     }
+
     .intro-message h2 {
         width: 1100px;
         font-size: 52px;
     }
     
-    .card {
-        width: 330px;
-        height: 290px;
+    .shirts-txt,
+    .grocery-txt,
+    .woosh-txt,
+    .prime-txt,
+    .anderson-title,
+    .tcc-title-container h2 {
+        font-size: 38px;
+    }
+
+    .restaurant-title {
+        font-size: 26.5px;
     }
 
     .certificate-paragraphs {
-        width: 845px;
+        width: 1150px;
      }
 
 }
