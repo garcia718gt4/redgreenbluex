@@ -317,7 +317,7 @@ span {
 }
 
 .skills-square {
-    height: 370px;
+    height: 400px;
 }
 
 .content-title {
@@ -392,9 +392,6 @@ Media Query for 768px
         margin: 20px 0;
     }
 
-    .skills-square {
-        height: 405px;
-    }
     
     .interests-square {
         height: 305px;
