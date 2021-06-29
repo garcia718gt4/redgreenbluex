@@ -71,15 +71,15 @@ body {
     justify-content: center;
     cursor: pointer;
     border: 3px solid rgb(63, 63, 63);
-    /* transition:transform .3s ease, border-color .3s ease; */
+    transition:transform .3s ease, border-color .3s ease;
 }
 
 
-/* .card:hover {
+.card:hover {
     transform: scale(1.07);
-    border-color: rgb(149, 149, 149);
+    border-color: rgb(176, 176, 176);
 
-} */
+}
 
 .inprogress {
     cursor:initial;
