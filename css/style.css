@@ -44,7 +44,7 @@ body {
     background:#242424;
     width: 350px;
     height: 300px;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 25px auto;
     text-align: center;
     display: flex;
@@ -52,6 +52,14 @@ body {
     justify-content: center;
     cursor: pointer;
     transition: background .3s ease;
+    border: 3px solid rgb(63, 63, 63);
+    transition: background .3s ease, opacity .3s ease, transform .3s ease, border-color .3s ease;
+
+   
+}
+.card:hover {
+    transform: scale(1.07);
+    border-color: lightgray;
 }
 
 .inprogress {
@@ -102,9 +110,18 @@ body {
 
 /* Anderson Restaurant  */
 
+/* .anderson-col {
+  transition: background .3s ease, opacity .3s ease, transform .3s ease, border-color .3s ease;
+} */
+
 .anderson-col:hover {
-    background: #452f00;
+    background: linear-gradient(180deg, #00000024 0%, rgba(0, 0, 0, 0.151) 100%), url("../img/andersonImages/anderson-restaurant-location.jpg") no-repeat center;
+    background-size: cover;
 }
+
+/* .anderson-col:hover {
+    background: #452f00;
+} */
 
 .anderson-title, 
 .restaurant-title {
