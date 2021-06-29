@@ -41,38 +41,26 @@ body {
 
 /****** CARD STYLES ***********/
 
-
-
-.anderson-restaurant-location img {
-    opacity: 0;
+.card {
+    background:#090909;
     width: 350px;
     height: 300px;
-    position: absolute;
-	/* top: 0;
-	right: 0;
-	bottom: 0; 
-    left: 0; */
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-    background: rgba(0,0,0);
-    border-radius: 5px;
     border-radius: 10px;
-    transition: opacity .05s ease; 
-    background: no-repeat center;
-    background-size: cover;
-} 
-
-
-.anderson-restaurant-location:hover {
-    opacity: 1;
+    margin: 25px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 3px solid rgb(63, 63, 63);
+    transition:transform .3s ease, border-color .3s ease;
 }
 
 
+.card:hover {
+    transform: scale(1.07);
+    border-color: rgb(176, 176, 176);
+}
 
 .anderson-col:hover {
     background: linear-gradient(180deg, #00000024 0%, rgba(0, 0, 0, 0.151) 100%), url("../img/andersonImages/anderson-restaurant-location.jpg") no-repeat center;
@@ -92,27 +80,8 @@ body {
 }
 
 
-.card {
-    background:#1a1a1a;
-    width: 350px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 25px auto;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border: 3px solid rgb(63, 63, 63);
-    transition:transform .3s ease, border-color .3s ease;
-}
 
 
-.card:hover {
-    transform: scale(1.07);
-    border-color: rgb(176, 176, 176);
-
-}
 
 .inprogress {
     cursor:initial;
