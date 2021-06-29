@@ -58,8 +58,8 @@ body {
 
 
 .card:hover {
-    transform: scale(1.07);
-    border-color: rgb(176, 176, 176);
+    transform: scale(1.09);
+    border-color: rgb(195, 195, 195);
 }
 
 .anderson-col:hover {
