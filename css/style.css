@@ -53,13 +53,13 @@ body {
     cursor: pointer;
     transition: background .3s ease;
     border: 3px solid rgb(63, 63, 63);
-    transition: background .3s ease, opacity .3s ease, transform .3s ease, border-color .3s ease;
-
-   
+    transition: transform .3s ease, border-color .3s ease;
 }
+
+
 .card:hover {
     transform: scale(1.07);
-    border-color: lightgray;
+    border-color: rgb(149, 149, 149);
 }
 
 .inprogress {

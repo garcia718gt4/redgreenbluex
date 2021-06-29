@@ -83,7 +83,7 @@ body {
     font: 400 100%/1.5 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: rgb(255, 255, 255);
     line-height: 1.3;
 }
 
@@ -306,11 +306,21 @@ span {
     line-height: 1.3;
     text-align: left;
     font-size: 17px;
-    background: #eaeaea74;
     border-radius: 20px;
     margin: 15px 0;
 }
 
+.me-square {
+    background: rgb(242, 253, 242);
+}
+
+.skills-square {
+    background: rgb(241, 243, 252);
+}
+
+.contact-container {
+    background: rgb(106, 0, 0);
+}
 
 .content-info-wrap {
     padding: 0 20px 20px;
@@ -331,9 +341,7 @@ span {
     color: rgb(232, 232, 232);
 }
 
-.contact-container {
-    background: linear-gradient(90deg, #2b0000 0.01%, #002b09  50.44%, #001f3e 99.99%);
-}
+
 
 .contact-p-container  {
     display: flex;
@@ -463,7 +471,6 @@ Media Query for 1440px
         justify-content: space-between;
         margin-top: 0px;
         padding-top: 0px;
-        margin-top: 80px;
     }
 
     .main-content-square {
@@ -503,7 +510,7 @@ Media Query for 1440px
 
     .contact-p-container  {
         font-size: 21px;
-        margin: 45px auto 120px;
+        margin: 65px auto 120px;
     }
 
     .g,
