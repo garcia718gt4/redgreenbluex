@@ -40,8 +40,27 @@ body {
 
 /****** CARD STYLES ***********/
 
+
+.anderson-col:hover {
+    background: linear-gradient(180deg, #00000024 0%, rgba(0, 0, 0, 0.151) 100%), url("../img/andersonImages/anderson-restaurant-location.jpg") no-repeat center;
+    background-size: cover;
+}
+.frog-col:hover {
+    background: linear-gradient(180deg, #00000056 0%, rgba(4, 4, 4, 0.393) 100%), url("../img/shirtsbymike/shirts.jpg") no-repeat center;
+    background-size: cover;
+}
+.grocery-col:hover {
+    background: linear-gradient(180deg, #00000056 0%, rgba(4, 4, 4, 0.393) 100%), url("../img/groceryprime/groceryisle.jpg") no-repeat center;
+    background-size: cover;
+}
+.woosh-col:hover {
+    background: linear-gradient(180deg, #00000024 0%, rgba(0, 0, 0, 0.151) 100%), url("../img/wooshmail/wooshmail-cover.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
 .card {
-    background:#242424;
+    background:#1a1a1a;
     width: 350px;
     height: 300px;
     border-radius: 10px;
@@ -51,16 +70,16 @@ body {
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: background .3s ease;
     border: 3px solid rgb(63, 63, 63);
-    transition: transform .3s ease, border-color .3s ease;
+    /* transition:transform .3s ease, border-color .3s ease; */
 }
 
 
-.card:hover {
+/* .card:hover {
     transform: scale(1.07);
     border-color: rgb(149, 149, 149);
-}
+
+} */
 
 .inprogress {
     cursor:initial;
@@ -110,18 +129,6 @@ body {
 
 /* Anderson Restaurant  */
 
-/* .anderson-col {
-  transition: background .3s ease, opacity .3s ease, transform .3s ease, border-color .3s ease;
-} */
-
-.anderson-col:hover {
-    background: linear-gradient(180deg, #00000024 0%, rgba(0, 0, 0, 0.151) 100%), url("../img/andersonImages/anderson-restaurant-location.jpg") no-repeat center;
-    background-size: cover;
-}
-
-/* .anderson-col:hover {
-    background: #452f00;
-} */
 
 .anderson-title, 
 .restaurant-title {
@@ -154,11 +161,6 @@ body {
     color: #40B962;
 }
 
-
-.frog-col:hover {
-    background:#00300e;
-}
-
 .frog-pic {
     margin: 6px;
     width: 55px;
@@ -168,15 +170,11 @@ body {
 
 /* Grocery Prime  */
 
+
+
 .grocery-txt, 
 .prime-txt {
     font-family: 'Kanit', sans-serif;
-}
-
-
-
-.grocery-col:hover {
-    background: #430000;
 }
 
 .grocery-txt,
@@ -196,10 +194,6 @@ body {
 
 
 /* WooshMail */
-.woosh-col:hover {
-    background: #042757;
-
-}
 
 
 .woosh-txt {
