@@ -13,6 +13,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     line-height: 1.3;
     background: rgba(0, 0, 0, 0.948);
+ 
 } 
 
 .center-vertical {
@@ -39,6 +40,38 @@ body {
 }
 
 /****** CARD STYLES ***********/
+
+
+
+.anderson-restaurant-location img {
+    opacity: 0;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+	/* top: 0;
+	right: 0;
+	bottom: 0; 
+    left: 0; */
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background: rgba(0,0,0);
+    border-radius: 5px;
+    border-radius: 10px;
+    transition: opacity .05s ease; 
+    background: no-repeat center;
+    background-size: cover;
+} 
+
+
+.anderson-restaurant-location:hover {
+    opacity: 1;
+}
+
 
 
 .anderson-col:hover {
