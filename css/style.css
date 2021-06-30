@@ -53,7 +53,7 @@ body {
     justify-content: center;
     cursor: pointer;
     border: 3px solid rgb(63, 63, 63);
-    transition:transform .3s ease, border-color .3s ease;
+    transition:transform .4s ease, border-color .4s ease;
 }
 
 
