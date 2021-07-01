@@ -42,7 +42,6 @@ body {
 /****** CARD STYLES ***********/
 
 .card {
-    background:#090909;
     width: 350px;
     height: 300px;
     border-radius: 10px;
@@ -53,34 +52,35 @@ body {
     justify-content: center;
     cursor: pointer;
     border: 3px solid rgb(63, 63, 63);
-    transition:transform .4s ease, border-color .4s ease;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(30, 30, 30);
+    background-blend-mode: overlay;
+    transition:background-color, .3s ease, transform .4s ease, border-color .4s ease;
 }
 
-
 .card:hover {
+    background-color: rgba(0, 0, 0, 0);
     transform: scale(1.09);
     border-color: rgb(195, 195, 195);
 }
 
-.anderson-col:hover {
-    background: linear-gradient(180deg, #00000024 0%, rgba(0, 0, 0, 0.151) 100%), url("../img/andersonImages/anderson-restaurant-location.jpg") no-repeat center;
-    background-size: cover;
-}
-.frog-col:hover {
-    background: linear-gradient(180deg, #00000056 0%, rgba(4, 4, 4, 0.393) 100%), url("../img/shirtsbymike/shirts.jpg") no-repeat center;
-    background-size: cover;
-}
-.grocery-col:hover {
-    background: linear-gradient(180deg, #00000056 0%, rgba(4, 4, 4, 0.393) 100%), url("../img/groceryprime/groceryisle.jpg") no-repeat center;
-    background-size: cover;
-}
-.woosh-col:hover {
-    background: linear-gradient(180deg, #00000024 0%, rgba(0, 0, 0, 0.151) 100%), url("../img/wooshmail/wooshmail-cover.jpg") no-repeat center;
-    background-size: cover;
+.card:hover .anderson-title-container {
+    visibility: hidden;
 }
 
+.card:hover .grocery-logo {
+    visibility: hidden;
+}
 
+.card:hover .woosh-logo {
+    visibility: hidden;
+}
 
+.card:hover .frog-logo {
+    visibility: hidden;
+}
 
 
 .inprogress {
@@ -131,6 +131,9 @@ body {
 
 /* Anderson Restaurant  */
 
+.anderson-title-container {
+    z-index: 2;
+}
 
 .anderson-title, 
 .restaurant-title {

@@ -309,11 +309,11 @@ span {
 }
 
 .me-square {
-    background: rgb(242, 253, 242);
+    background: rgb(237, 245, 255);
 }
 
 .skills-square {
-    background: rgb(241, 243, 252);
+    background: rgb(238, 255, 238);
 }
 
 .contact-container {
@@ -478,7 +478,7 @@ Media Query for 1440px
 
     .main-content-square {
         width: 48.5%;
-        height: 410px;
+        height: 450px;
         font-size: 20px
     }
 
