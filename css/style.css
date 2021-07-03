@@ -57,7 +57,7 @@ body {
     background-size: cover;
     background-color: rgb(30, 30, 30);
     background-blend-mode: overlay;
-    transition:background-color, .4s ease, transform .4s ease, border-color .4s ease;
+    transition:background-color, .3s ease, transform .3s ease, border-color .3s ease;
 } 
 
 .card:hover {
