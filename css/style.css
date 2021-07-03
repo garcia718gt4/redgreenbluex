@@ -67,7 +67,7 @@ body {
 }
 
 .card .container-title {
-    transition: opacity .4s ease;
+    transition: opacity .3s ease;
 }
 .card:hover .container-title {
     opacity: 0;
