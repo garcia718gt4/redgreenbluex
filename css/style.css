@@ -60,14 +60,11 @@ body {
     transition:background-color, .4s ease, transform .4s ease, border-color .4s ease;
 } 
 
-
-
 .card:hover {
     background-color: rgba(0, 0, 0, 0);
     transform: scale(1.09);
     border-color: rgb(195, 195, 195);
 }
-
 
 .card .container-title {
     transition: opacity .4s ease;
@@ -75,7 +72,6 @@ body {
 .card:hover .container-title {
     opacity: 0;
 }
-
 
 
 .inprogress {
@@ -489,10 +485,14 @@ Media Query for 1440px (desktop)
 
     .main-container {
         margin: 50px auto;
-        width: 1150px;
+        width: 1200px;
         flex-wrap: wrap; 
+        justify-content: space-between;
     }
 
+    .card {
+        margin-right: 25px;
+    }
     .hello-title {
         font-size: 72px;
     }
