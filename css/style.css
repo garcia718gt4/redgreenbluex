@@ -32,12 +32,14 @@ body {
 .woosh-txt,
 .prime-txt,
 .anderson-title,
-.tcc-title-container h2 {
+.tcc-title-container h2, 
+.sensorybox {
     margin: 0;
     padding: 0;
     font-size: 33px;
     font-weight: 700;
 }
+
 
 /****** CARD STYLES ***********/
 
@@ -74,9 +76,6 @@ body {
 }
 
 
-.inprogress {
-    cursor:initial;
-}
 
 /******************** 
 
@@ -119,6 +118,18 @@ body {
 }
 
 
+/* Sensorybox  */
+
+.sensorybox {
+    font-family: 'Poetsen One', sans-serif;
+    /* background: linear-gradient(89.26deg, #a528d3 3.5%, #08B0F8 66.56%); */
+    background: linear-gradient(89.26deg, #CC26DE 3.5%, #0FACEF 76.22%);
+    /* background: linear-gradient(90.04deg, #18C165 1.72%, #19A8D6 73.87%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+                                                
 
 /* Anderson Restaurant  */
 
@@ -166,8 +177,6 @@ body {
 
 /* Grocery Prime  */
 
-
-
 .grocery-txt, 
 .prime-txt {
     font-family: 'Kanit', sans-serif;
@@ -191,7 +200,6 @@ body {
 
 /* WooshMail */
 
-
 .woosh-txt {
     font-family: 'Lemonada', cursive;
     font-weight: 600;
@@ -200,8 +208,9 @@ body {
 
 .woosh-logo {
     width: 255px;
-    
 }
+
+
 
 /* || GENERAL STYLES  */
 
@@ -225,6 +234,7 @@ body {
     transition: opacity .4s ease;
     margin: auto;
 }
+
 
 .logo:hover {
     opacity: 1;
@@ -439,7 +449,8 @@ Media Query for 768px (tablet)
     .woosh-txt,
     .prime-txt,
     .anderson-title,
-    .tcc-title-container h2 {
+    .tcc-title-container h2,
+    .sensorybox {
         font-size: 36px;
     }
     
@@ -447,8 +458,6 @@ Media Query for 768px (tablet)
         font-size: 24.5px;
     }
 
-
-        
     .intro-message {
         margin-top: 80px;
     }
@@ -464,7 +473,6 @@ Media Query for 768px (tablet)
         width: 758px;
         font-size: 40px;
     }
-
 
     .certificate-paragraphs {
         width: 745px;
@@ -507,7 +515,8 @@ Media Query for 1440px (desktop)
     .woosh-txt,
     .prime-txt,
     .anderson-title,
-    .tcc-title-container h2 {
+    .tcc-title-container h2,
+    .sensorybox {
         font-size: 38px;
     }
 
