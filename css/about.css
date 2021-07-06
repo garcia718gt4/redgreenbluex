@@ -340,7 +340,7 @@ span {
 /* footer ******/
 
 .contact-title {
-    color: rgb(232, 232, 232);
+    color: white;
 }
 
 
@@ -366,7 +366,7 @@ span {
 .email-link,
 .linkedin,
 .contact-container a {
-    color: #cecece;
+    color: rgb(232, 232, 232);
 }
 
 .contact-container a {
