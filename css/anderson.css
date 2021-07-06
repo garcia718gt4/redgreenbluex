@@ -128,15 +128,29 @@ body {
 }
 
 
-p {
+/* || GENERAL FONT STYLES *******/
+
+p,
+.target-square li {
     line-height: 1.6;
-    color: #6d6d6d;;
-    font-size: 17px;
+    color: #6d6d6d;
+    font-size: 17px; 
+}
+
+h1, 
+h2 {
+    text-align: center;
+    color: #565656;
+    font-weight: normal;
 }
 
 h1 {
     font-size: 28px;
-    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 /* || TABLE OF CONTENTS *******/
@@ -287,6 +301,11 @@ h2 {
     margin: 30px 0px; 
 }
 
+.pain-points-header, 
+.user-journey-info-wrap h1 {
+    color: #fcdf97;
+}
+
 .point-wrap {
     margin-bottom: 30px;
     text-align: center;
@@ -368,12 +387,10 @@ h2 {
       margin: 20px auto;
   }
 
-  .paper-wireframes-container h1 {
-      color: #3a3a3a;
-  }
+ 
 
   .digital-wireframes-container h1 {
-        color: rgb(218, 218, 218);
+        color: rgb(255, 255, 255);
         margin-top: 30px;
   }
 
@@ -407,7 +424,7 @@ h2 {
   }
 
   .wireframe-paragraph p {
-      color: #d3d3d3;
+      color: #dfdfdf;
       margin: 0; 
       padding: 0; 
   }
@@ -426,12 +443,12 @@ h2 {
       width: 310px;
   }
 
-  .low-fi-info-wrap h2 {
-      color: #efefef;
+  .low-fidelity-txt-wrap h1 {
+      color: #fbfbfb;
   }
 
   .low-fi-info-wrap p {
-    color: #d3d3d3;
+    color: #dfdfdf;
 }
 
   .low-fi-link,
@@ -444,34 +461,38 @@ h2 {
   }
 
   .low-fi-link {
-      color: #d3d3d3;
+      color: #dfdfdf;
       background: #3A3A3A;
-      border: 2px solid #d3d3d3;
+      border: 2px solid #ffffff;
       border-radius: 3px;
   }
 
   .hi-fi-link {
-      color: #6d6d6d;
-      border: 2px solid #6d6d6d;
+      color: #565656;
+      border: 2px solid #565656;
       border-radius: 3px;
   }
 
   .low-fi-link:hover {
-      background: #c4c4c4;
-      color: #242424;
+      background: #ffffff;
+      color: #1a1a1a;
   }
 
   .hi-fi-link:hover {
-      background: #6d6d6d;
-      color: #efefef;
+      background: #565656;
+      color: #fcfcfc;
+  }
+
+  .hi-fidelity-txt-wrap h1 {
+      color: #565656;
   }
 
 /* || USABILITY & FINDINGS STUDY CONTAINER *******/
   
 .usability-study-container {
     background: rgb(244, 244, 244);
-
 }
+
 
 .findings {
     border-top: 1px dotted rgb(196, 196, 196);
@@ -479,12 +500,6 @@ h2 {
 
 .usability-study-wrap {
     margin-top: 30px;
-}
-
-.usability-study-parameters-title,
-.parameter-info-wrap h2,
-.single-findings h2 {
-    color: black;
 }
 
 .parameter-info-wrap,
@@ -502,6 +517,12 @@ h2 {
 .single-parameter p,
 .mockup-paragraph p {
     color: #6d6d6d;
+}
+
+.single-findings h2, 
+.single-parameter h2,
+.point-wrap h2  {
+    font-weight: bold;
 }
 
 
@@ -634,14 +655,8 @@ h2 {
         padding: 0 15px;
     }
 
-    .project-container {
-        display: flex;
-        flex-flow: row wrap;
-    }
-
-    .project-square {
-        width: 50%; 
-        height: 350px;
+    .project-text-wrap {
+        width: 500px;
     }
 
     h1 {
@@ -656,10 +671,6 @@ h2 {
         font-size: 19px;
     }
 
-    .project-text-wrap {
-        width: 355px;
-    }
-
     .problem-container {
         margin-top: -63px;
     }
@@ -667,7 +678,7 @@ h2 {
     /* || ABSTRACT & PAIN POINTS CONTAINER *******/
 
     .abstract-text-wrap {
-        width: 445px;
+        width: 500px;
     }
 
     .abstract-text-wrap {
@@ -766,7 +777,7 @@ h2 {
 
     .wireframe-paragraph,
     .low-fidelity-txt-wrap {
-        width: 400px;
+        width: 500px;
     }
 
     .wireframe-paragraph {
@@ -818,7 +829,7 @@ h2 {
     }
 
     .findings-info-wrap {
-        width: 420px;
+        width: 500px;
     }
 
     /* || TAKEAWAYS CONTAINER *******/
@@ -829,13 +840,16 @@ h2 {
 
 
     .takeaways-wrap {
-        width: 660px;
         margin-top: 30px auto;
+    }
+
+    .takeaways-wrap, 
+    .next-steps-info-wrap {
+        width: 500px;
     }
 
     .next-steps-info-wrap {
         margin-bottom: 150px;
-        width: 660px;
     }
 
 }
@@ -891,7 +905,13 @@ h2 {
 
     /* || PROJECT CONTAINER *******/
 
+    .project-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
     .project-square {
+        width: 50%;
         height: 370px;
     }
 
@@ -904,7 +924,7 @@ h2 {
     }
 
     .project-text-wrap {
-        width: 450px;
+        width: 500px;
     }
 
     .problem-container {
@@ -915,7 +935,7 @@ h2 {
 
     .abstract-text-wrap {
         margin: 75px 0; 
-        width: 800px;
+        width: 700px;
     }
 
     /* || PAIN POINTS CONTAINER *******/
@@ -1056,6 +1076,7 @@ h2 {
 
     .findings-info-wrap {
         margin: 70px auto;
+       
     }
 
     .findings {
@@ -1095,7 +1116,8 @@ h2 {
 
     .takeaway-2,
     .clarity,
-    .assurance {
+    .assurance,
+    .familiarity {
         margin-bottom: auto;
     }
 
