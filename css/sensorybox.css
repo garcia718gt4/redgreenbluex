@@ -136,7 +136,14 @@ h2 {
     background: linear-gradient(89.26deg, #da25ee 3.5%, #0581ee 76.22%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    opacity: .83;
+    transition: opacity .3s ease;
 }
+
+.hi-fi-link:hover {
+    opacity: 1;
+}
+
 
 .title-container {
     margin-bottom: 250px;
