@@ -302,6 +302,7 @@ h2 {
 
 .usability-study-background {
     background: #d33916e7;
+    background: linear-gradient(-150.26deg, #f88368 1.5%, #db401df3 52.22%);
 }
 
 .usability-study-background h1 {
@@ -309,14 +310,14 @@ h2 {
 }
 
 .usability-study-background p {
-    color: #fdefec;
+    color: #fcf4f2f9;
 }
 
 
 /* ||  MOCKUPS CONTAINER *******/
 .mockups-images-container,
 .mockups-summary {
-    background: #ebf5ff;
+    background: #e1f0ffde;
 }
 
 .mockups-images-wrap {
