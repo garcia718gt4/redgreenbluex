@@ -344,7 +344,7 @@ h2 {
 }
 
 .davit-persona {
-    border: 2px solid #38578A;
+    box-shadow: 0 4px 16px #00000041;
 }
 
 
@@ -710,7 +710,7 @@ h2 {
     }
 
     .problem-statement-text-wrap {
-        width: 660px;
+        width: 500px;
     }
 
     .persona-container {
@@ -732,7 +732,8 @@ h2 {
     }
 
     .user-journey-info-wrap p {
-        width: 705px;
+        text-align: left;
+        width: 700px;
     }
 
 
@@ -953,7 +954,7 @@ h2 {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        width: 1420px;
+        width: 1440px;
     }
 
     .pain-points-wrap {
@@ -977,7 +978,7 @@ h2 {
     
     .problem-statement-text-wrap {
         text-align: left;
-        width: 400px;
+        width: 450px;
     }
 
     .problem-img-container {
@@ -987,7 +988,7 @@ h2 {
      /* || USER JOURNEY CONTAINER *******/
 
      .img-frame {
-        width: 875px;
+        width: 810px;
         height: 500px;
     }
 

@@ -20,7 +20,7 @@ body {
     width: 100%;
     position: fixed;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
-
+    z-index: 1;
 }
 
 /* || GENERAL FONT STYLES *******/
@@ -36,12 +36,11 @@ h1,
 h2 {
     text-align: center;
     color: #565656;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 h1 {
     font-size: 28px;
-    font-weight: 700;
 }
 
 h2 {
@@ -123,25 +122,542 @@ h2 {
 }
 
 .title-container {
-    padding: 15px;
+    padding: 0 10px;
     background: linear-gradient(119.45deg, #B42506 21.93%, #D1492B 76.69%);
-    /* background: rgb(18, 18, 18); */
     border-radius: 5px;
-    opacity: .80;
+    opacity: .85;
 }
+
+.tcc-title {
+    color: white;
+    font-size: 32px;
+}
+
 
 .philosopher {
     font-family: 'Philosopher', sans-serif;
+}
+
+
+/* || TABLE OF CONTENTS *******/
+
+.table-of-contents-container,
+.next-steps-container {
+    width: 100%;
+    background: #F9F9F9;
+}
+
+.table-wrap {
+    margin: 30px auto;
+    width: 270px;  
+}
+
+.table-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.table-flex h2 {
+    color: #414141; 
+    font-size: 21px;
+}
+
+.block {
+    width: 105px;
+    height: 35px;   
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.orange-red {background: #B42506;}
+.light-blue {background: #3599E1;}
+.light-orange {background: #FF7C60;}
+.dark-blue {background: #023462;}
+
+/* || PROJECT DIVIDER *******/
+
+.project-divider {
+    width: 100%;
+    height: 42.5px;
+}
+
+
+/* || PROJECT CONTAINER *******/
+
+.project-container p {
+    text-align: left;
+    padding: 0 5px;
+}
+
+
+.project-container h1 {
+    color:  #565656;
+}
+
+.project-square {
+    width: 100%;
+    height: 330px;
+}
+
+.product, 
+.response {
+    background: #FFFFFF;
+}
+
+
+.audience,
+.goal-role-duration {
+    background:#b42606f1;
+}
+
+.audience h1, 
+.goal-role-duration h1 {
     color: white;
-    font-weight: bold;
 }
 
-/* .tucson,
-.center {
-    color: rgba(184, 45, 45);
+.audience p, 
+.goal-role-duration p {
+    color: #ffe7e2;
 }
 
-.charities {
-    color: rgba(40, 137, 227); 
-} */
 
+
+.text-wrap {
+    margin: 0 auto;
+    width: 310px;
+}
+
+
+/* || USER RESEARCH CONTAINER *******/
+
+.abstract-container,
+.sitemap-info-wrap {
+    margin: 30px auto 50px;
+}
+
+/* || PROBLEM STATEMENT CONTAINER *******/
+
+.problem-statement-title {
+    color: #1a8bdb;
+}
+
+.persona-container {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.img-frame {
+    margin-top: 10px;
+    display: inline-block;
+    width: 330px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px #00000041;
+}
+
+
+/* || SITEMAP STATEMENT CONTAINER *******/
+
+.sitemap-container {
+    background: #038cee;
+}
+
+
+.sitemap-title {
+    color: #f3faff;
+}
+
+/* ||  WIREFRAMES CONTAINER *******/
+
+.wireframes {
+    margin: 20px auto 40px;
+    width: 100%;
+}
+
+.wireframes-images-container {
+    margin: 0px auto 50px;
+    text-align: center;
+}
+
+.wireframe-desktop,
+.wireframe-mobile {
+    margin-top: 40px;
+    box-shadow: 0 4px 16px #00000041;
+}
+
+.wireframe-desktop {
+    width: 340px;
+    height: 900px;
+}
+
+.wireframe-mobile {
+    width: 125px;
+    height: 1526px;
+}
+
+/* ||  RESEARCH & USABILITY BACKGROUND CONTAINER *******/
+
+.usability-study-background {
+    background: #d33916e7;
+}
+
+.usability-study-background h1 {
+    color: white;
+}
+
+.usability-study-background p {
+    color: #fdefec;
+}
+
+
+/* ||  MOCKUPS CONTAINER *******/
+.mockups-images-container,
+.mockups-summary {
+    background: #ebf5ff;
+}
+
+.mockups-images-wrap {
+    margin: 30px auto 50px;
+    text-align: center;
+}
+
+.mockup,
+.mockup-volunteer {
+    margin-top: 50px;
+    box-shadow: 0 4px 16px #00000041;
+}
+
+.mockup { 
+    width: 340px;
+    height: 1011px; 
+}
+
+.mockup-volunteer {
+    width: 340px;
+    height: 866px;
+}
+
+.hi-fi-link {
+    margin: 50px;
+    background: linear-gradient(119.45deg, #B42506 21.93%, #D1492B 76.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .83;
+    transition: opacity .3s ease;
+}
+
+.hi-fi-link:hover {
+    opacity: 1;
+}
+
+/* ||  LEARNINGS CONTAINER *******/
+
+.accessibility {
+    background: rgba(244, 244, 244, 0.637);
+}
+
+.learnings-info-wrap {
+    margin-bottom: 100px;
+}
+
+.rgb-bar-bottom {
+    height: 25px;
+    background: radial-gradient(49.75% 8150.4% at 50.25% 50%,#D1492B 0%, #023462 100%);
+}
+
+
+
+
+/*===============================
+    Media Query for 768px (iPad)
+================================= */
+
+    @media (min-width: 768px) {
+
+    /* || GENERAL FONT STYLES *******/
+
+    p {
+    font-size: 19px;
+    }
+    
+    h1 {
+    font-size: 30px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+     /* || HERO *******/
+
+    .main-header {
+        height: 550px;
+    }
+
+    .tcc-title {
+        font-size: 50px;
+    }
+
+    .title-container {
+        padding: 0 25px;
+    }
+
+    /* || TABLE OF CONTENTS *******/
+
+    .table-wrap {
+        margin: 65px auto 105px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+
+    .table-flex {
+        flex-direction: column;
+        margin: 0 28px;
+    }
+
+    .table-flex h2 {
+        font-size: 25px;
+    }
+
+    .text-wrap {
+        width: 500px;
+    }
+
+    .block {
+        width: 125.5px;
+        height: 52.5px;   
+    }
+
+    .project-divider {
+        height: 52.5px;   
+    }
+
+      /* || USER RESEARCH CONTAINER *******/
+
+      .abstract-container,
+      .sitemap-info-wrap {
+        margin: 40px auto 60px;
+    }
+
+     /* || PROBLEM STATEMENT CONTAINER *******/
+
+    .persona-container {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .img-frame {
+        margin-top: 20px;
+        width: 705px;
+        height: 405px;
+    }
+
+    /* ||  WIREFRAMES CONTAINER *******/
+
+    .wireframes-images-container {
+        display: flex; 
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items:flex-start;
+        width: 700px;
+    }
+
+    .wireframe-desktop {
+        width: 370px;
+        height: 930px;
+    }
+
+    .wireframe-mobile {
+        width: 155px;
+        height: 1556px;
+    }
+
+       .volunteer-wireframe {
+        margin-top: 60px;
+    }
+
+    /* ||  MOCKUPS CONTAINER *******/
+
+    .mockups-images-wrap {
+        width: 760px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px auto 60px;
+    }
+
+    .mockup { 
+        width: 360px;
+        height: 1031px; 
+    }
+
+    .mockup-volunteer {
+        width: 360px;
+        height: 886px;
+    }
+
+
+    /* ||  LEARNINGS CONTAINER *******/
+
+    .learnings-info-wrap {
+        margin-bottom: 150px;
+    }
+
+
+}
+
+/*================================
+    Media Query for 1440px (laptop)
+================================== */
+
+@media (min-width: 1440px) { 
+
+    /* || GENERAL FONT STYLES *******/
+
+    p {
+        font-size: 20px;
+    }
+        
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    /* || HERO *******/
+
+    .main-header {
+        height: 670px;
+    }
+
+    .tcc-title {
+        font-size: 68px;
+    }
+
+    /* || TABLE OF CONTENTS *******/
+
+    .table-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        margin: 85px auto 125px;
+        width: 1150px;
+        height: 200px;
+    }
+
+    .table-flex {
+        margin: 0 65px;
+    }
+
+    .table-flex h2 {
+        font-size: 32px;
+    }
+
+    .block {
+        width: 183.5px;
+        height: 66.25px;   
+    }
+
+    .project-divider {
+        height: 71.5px;   
+    }
+
+      /* || PROJECT CONTAINER *******/
+
+      .project-container {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .project-square {
+        width: 50%; 
+        height: 350px;
+    }
+
+      /* || USER RESEARCH CONTAINER *******/
+
+      .abstract-container {
+        margin: 50px auto 70px;
+        width: 700px;
+    }
+
+    .sitemap-info-wrap {
+        margin: 50px auto 100px;
+    }
+
+     /* || PROBLEM STATEMENT CONTAINER *******/
+
+     .three-col {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 1440px;
+    }
+
+    .problem-statement-title {
+        text-align: left;
+    }
+
+    .problem-statement-paragraph {
+        width: 450px;
+    }
+
+
+     .img-frame {
+        width: 810px;
+        height: 500px;
+    }
+
+     /* ||  WIREFRAMES CONTAINER *******/
+     .wireframes {
+        margin-bottom: 50px;
+    }
+
+     .wireframes-images-container,
+     .mockups-images-wrap {
+        width: 900px;
+    }
+
+    .wireframe-desktop {
+        width: 400px;
+        height: 1000px;
+    }
+
+    .wireframe-mobile {
+        width: 175px;
+        height: 1576px;
+    }
+
+        /* ||  MOCKUPS CONTAINER *******/
+
+    .mockups-images-wrap {
+        margin: 50px auto 90px;
+    }
+
+    .mockup { 
+        width: 390px;
+        height: 1051px; 
+    }
+
+    .mockup-volunteer {
+        width: 390px;
+        height: 906px;
+        margin-top: 70px;
+    }
+
+    /* ||  LEARNINGS CONTAINER *******/
+
+    .learnings-info-wrap {
+        margin-bottom: 200px;
+    }
+  
+ }

@@ -232,7 +232,7 @@ h2 {
 
 .audience p, 
 .goal-role-duration p {
-    color: #ddefff;
+    color: #e8f4ff;
 }
 
 
@@ -272,7 +272,7 @@ h2 {
 /* ||  RESEARCH & USABILITY BACKGROUND CONTAINER *******/
 
 .usability-study-background {
-    background: #410072;
+    background: #6b0db3dc;
 }
 
 .usability-study-background h1 {
@@ -280,18 +280,22 @@ h2 {
 }
 
 .usability-study-background p {
-    color: #ebd8fc;
+    color: #f5edfc;
 }
 
 
 /* ||  MOCKUPS CONTAINER *******/
 
-.mockups-images-container {
-    margin: 50px auto;
-    text-align: center;
+.mockups-images-container, 
+.mockups-summary {
+    background: #f0fff0;
+    width: 100%;
 }
 
-/* ||  MOCKUPS-SUMMARY CONTAINER *******/
+.mockups-images-wrap {
+    margin: 30px auto 50px;
+    text-align: center;
+}
 
 
 /* ||  LEARNINGS CONTAINER *******/
@@ -342,6 +346,8 @@ h2 {
        margin-top: -170px;
    }
 
+
+
    /* || TABLE OF CONTENTS *******/
 
   .table-wrap {
@@ -370,6 +376,10 @@ h2 {
       height: 52.5px;   
   }
 
+  .project-divider {
+    height: 52.5px;   
+}
+
   /* || USER RESEARCH CONTAINER *******/
 
     .abstract-container {
@@ -387,12 +397,17 @@ h2 {
     margin: 0px auto 70px;
 }
 
-.mockups-images-container {
-    margin: 50px auto;
+
+.mockups-images-wrap {
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px auto 60px;
 }
 
-.wireframes-images-container, 
-.mockups-images-container {
+.wireframes-images-container {
     width: 500px;
     display: flex;
     flex-flow: row wrap;
@@ -509,7 +524,7 @@ h2 {
         flex-direction: row;
     }
 
-    .mockups-images-container {
+    .mockups-images-wrap {
         width: 1000px;
         flex-flow: row wrap;
     }
