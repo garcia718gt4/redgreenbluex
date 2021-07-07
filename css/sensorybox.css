@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Poetsen One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poetsen One'), url('https://fonts.cdnfonts.com/s/31868/PoetsenOne-Regular.woff') format('woff');
+}
+
 * {
     box-sizing: border-box;
 }
