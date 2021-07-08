@@ -345,23 +345,16 @@ h2 {
 /* || TASK CONTAINER *******/
 
 .task-container {
-    background:#914303;
+    background: linear-gradient(31deg, #ffecdb 1.93%, #ffd5b3 46.69%, #fac192 95%);
+    
 }
 
-.task-container h2,
-.task-container h1 {
-    color:#FFA35E;
-}
 
 .study-quotes p {
     font-style: italic;
     text-align: center;
 }
 
-.task-container p,
-.pros-cons-container ol li {
-    color: #efefef;
-}
 
 .cons-wrap {
     margin-top: 40px;
@@ -382,7 +375,7 @@ h2 {
 
 .rgb-bar-bottom {
     height: 25px;
-    background: radial-gradient(49.75% 8150.4% at 50.25% 50%,  #FFA35E 0%, #FF0C0C 100%);
+    background: radial-gradient(49.75% 8150.4% at 50.25% 50%,  #fddcdc 0%, #FF0C0C 100%);
 }
 
 
@@ -625,9 +618,7 @@ h2 {
          font-size: 24px;
      }
 
-    .text-wrap {
-        width: 470px;
-    }
+
 
     /* || HERO *******/
 
@@ -712,7 +703,7 @@ h2 {
 
     .interview-questions-wrap,
     #analysis-wrap {
-        width: 650px;
+        width: 675px;
     }
  
 
@@ -744,7 +735,7 @@ h2 {
     .study-quotes,
     .summary-info-wrap,
     .summary-of-analysis-wrap {
-        width: 650px;
+        width: 675px;
     }
 
     .summary-of-analysis-wrap {
