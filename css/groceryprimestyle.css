@@ -682,7 +682,7 @@ h2 {
 
     .research-planning-wrap {
         margin: 55px auto 0;
-        width: 1370px;
+        width: 1400px;
     }
 
     .research-planning-square {
@@ -748,7 +748,7 @@ h2 {
     .sketches-wrap {
         flex-direction: row;
         margin: 60px auto;
-        width: 1370px;
+        width: 1440px;
     }
 
     .sketch-img {
@@ -774,7 +774,7 @@ h2 {
     }
 
     .pros-cons-container { 
-        width: 1250px;
+        width: 1400px;
         margin-bottom: 60px;
     }
 
