@@ -24,22 +24,26 @@ body {
 
 /* || GENERAL FONT STYLES *******/
 
-p {
+p,
+li {
     line-height: 1.6;
     color:#6d6d6d;
     font-size: 17px; 
 }
 
-h1 {
-    font-size: 28px;
+h1, 
+h2 {
     text-align: center;
     color: #565656;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 28px;
 }
 
 h2 {
     font-size: 20px;
-    text-align: center;
-    font-weight: normal;
 }
 
 /* || LOGO *******/
@@ -107,8 +111,6 @@ h2 {
     margin: 0 0 0 -12px;
     padding: 0;
 }
-
-
 
 
 /* || HERO *******/
@@ -227,47 +229,19 @@ h2 {
 
 /* || RESEARCH PLANNING CONTAINER *******/
 
-.research-planning-title {
-    margin-top: 30px;
-    color: rgb(255, 240, 240);
-}
-
-.research-planning-container,
 .analysis-container {
     width: 100%;
-    background: #4a0101;
+    margin: 30px auto; 
 }
 
 .research-planning-square {
     margin: 50px 0;
 }
 
-.research-planning-container h2,
-.analysis-info-wrap h2,
-#analysis-quotes h2  {
-    color: #ea4a4a;
-    font-weight: bold;
-}
-
-.research-planning-container p,
-.participant-quotes li,
-.analysis-paragraph p,
-ol li  {
-    color: #EFEFEF;
-}
-
 .research-participants p {
     text-align: center;
 }
 
-ol li,
-ul li {
-    line-height: 1.6em;
-}
-
-.interview-questions-wrap li {
-    font-size: 17px;
-}
 
 .interview-questions-container {
     margin-bottom: 50px;
@@ -284,14 +258,18 @@ ul li {
 }
 
 
-/* || ANALYSIS CONTAINER *******/
-
+/* || SUMMARY OF RESEARCH CONTAINER *******/
 
 .summary-of-analysis {
-    background: rgb(254, 237, 237);
     margin: 0 auto;
     width: 100%;
+    background: linear-gradient(45deg, #fa4444 1.93%, #ca0e0e 96.69%);
 }
+
+.research-summary-title {
+    color: white;
+}
+
 
 .summary-of-analysis-wrap  {
     margin: 40px auto 55px;
@@ -299,23 +277,15 @@ ul li {
 }
 
 .summary-of-analysis-wrap p {
-    color: #565656;
+    color: rgb(253, 242, 242);
 }
-
-.research-summary-title {
-    color:#FF0C0C;
-}
-
 
 #analysis-quotes li {
     text-align: center;
 }
 
-
-
 .participant-quotes li {
     font-style: italic;
-    font-size: 17px;
 }
 
 
@@ -634,7 +604,8 @@ ul li {
 @media (min-width: 1440px) {
 
     p,
-    .prototype-link {
+    .prototype-link,
+    li {
         font-size: 20px;
      }
 
@@ -780,9 +751,6 @@ ul li {
         margin: 70px auto 90px;
     }
 
-    .participant-quotes li {
-        font-size: 19px;
-    }
 
     /* || SKETCHES / WIREFRAMES CONTAINER *******/
 
