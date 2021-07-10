@@ -33,9 +33,7 @@ p {
 }
 
 .sketches-container h1 {
-    font-size: 28px;
-    color: #40B962;;
-    text-align: center;
+    color: white;
 }
 
 h1, 
@@ -325,18 +323,20 @@ h2 {
 /* || SKETCHES CONTAINER *******/
 
 .sketches-container {
-    background: #003c0a;
+    background: #025f11;
 }
 
 .design-changes-container {
-    background: rgb(1, 118, 34);
-    background: linear-gradient(141deg, #d4ecd7 1.93%, #a5dfae 96.69%);
-
+    background: linear-gradient(41deg, #f8fff9 1.93%, #ebfcec 24%, #e5fde7 65%, #c4ffcc 99.69%);
 }
 
 .sketches-container,
 .design-changes-container {
     width: 100%;
+}
+
+.design-changes-container h1 {
+    color: darkgreen;
 }
 
 .sketches-wrap {
