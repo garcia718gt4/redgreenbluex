@@ -31,17 +31,20 @@ p,
     font-size: 17px; 
 }
 
+h1, 
+h2 {
+    text-align: center;
+    color: #565656;
+    font-weight: normal;
+}
+
 h1 {
     font-size: 28px;
-    text-align: center;
+    font-weight: 700;
 }
 
 h2 {
     font-size: 20px;
-    text-align: center;
-    font-weight: normal;
-    color: #565656;
-
 }
 
 /* || LOGO *******/
@@ -226,11 +229,19 @@ h2 {
     background: #81BDF640;    
 }
 
-.target-audience-container h2,
-.planning-container h2 {
+.target-audience-container h1,
+.planning-container h1 {
     margin: 30px auto;
 }
 
+.target-audience-container h1 {
+    color: #2998F8;
+}
+
+.target-square h2 {
+    color: #2998F8;
+    font-weight: 700;
+}
 
 .project-problem-container-wrap,
 .target-audience-info-wrap,
@@ -323,7 +334,7 @@ h2 {
 /* || WIREFRAMES PARAGRAPH CONTAINER *******/
 
 .wireframes-title {
-    color: #808080;
+    color: #656565;
     margin-top: 30px;
     text-align: center;
 }
@@ -517,9 +528,9 @@ h2 {
         width: 355px;
     }
 
-    .target-audience-container h2,
-    .planning-container h2 {
-        margin-top: 40px;
+    .target-audience-container h1,
+    .planning-container h1 {
+        margin: 40px 0;
     }
     .target-square {
         padding: 0 15px;
@@ -711,9 +722,9 @@ h2 {
         width: 450px;
     }
 
-    .target-audience-container h2,
-    .planning-container h2 {
-        margin-top: 50px;
+    .target-audience-container h1,
+    .planning-container h1 {
+        margin: 50px 0;
     }
   
     .target-audience-info-wrap {
@@ -723,15 +734,15 @@ h2 {
 
     /* || PLANNING CONTAINER *******/
 
-    .planning-container h1 {
-        margin-top: 50px;
-    }
-
     .personas-container {
         align-items: baseline;
         justify-content: space-between;
         flex-direction: row;
         width: 1300px;
+    }
+
+    .personas-wrap h2 {
+        font-weight: 700;
     }
 
     #personas,
