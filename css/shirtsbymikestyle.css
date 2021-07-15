@@ -33,17 +33,23 @@ p {
 }
 
 .sketches-container h1 {
-    font-size: 28px;
-    color: #40B962;;
-    text-align: center;
+    color: white;
 }
 
+h1, 
+h2 {
+    text-align: center;
+    color: #565656;
+    font-weight: normal;
+}
 
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
 
 h2 {
     font-size: 20px;
-    text-align: center;
-    font-weight: normal;
 }
 
 
@@ -295,22 +301,9 @@ h2 {
     padding: 10px 20px;
 }
 
-.square-container h2 {
+.square-container h1 {
     color: #D96A1A;
     font-weight: bold;
-}
-
-
-
-.assumptions-info-wrap h2,
-.redesign-square h2 {
-    color: #6cec90;
-    font-weight: bold;
-}
-
-.assumptions-info-wrap p,
-.redesign-square p {
-    color: rgb(222, 222, 222);
 }
 
 .square-container p  {
@@ -330,16 +323,20 @@ h2 {
 /* || SKETCHES CONTAINER *******/
 
 .sketches-container {
-    background: #003c0a;
+    background: #025f11;
 }
 
 .design-changes-container {
-    background: rgb(1, 118, 34);
+    background: linear-gradient(41deg, #f8fff9 1.93%, #ebfcec 24%, #e5fde7 65%, #c4ffcc 99.69%);
 }
 
 .sketches-container,
 .design-changes-container {
     width: 100%;
+}
+
+.design-changes-container h1 {
+    color: darkgreen;
 }
 
 .sketches-wrap {
