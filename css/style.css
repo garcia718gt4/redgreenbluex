@@ -62,7 +62,7 @@ body {
     cursor: pointer;
     border: 3px solid rgb(63, 63, 63);
     background: linear-gradient(180deg, #242424 3.5%, #171717 76.22%);
-    transition: background-image .5s ease-in-out, border .5s ease, transform .5s ease;
+    transition: background .4s ease-in-out, border .4s ease, transform .4s ease;
 } 
 
 .card:hover {
