@@ -50,9 +50,6 @@ body {
 
 /****** CARD STYLES ***********/
 
-
-
-
 .card {
     width: 350px;
     height: 300px;
@@ -65,7 +62,7 @@ body {
     cursor: pointer;
     border: 3px solid rgb(63, 63, 63);
     background: linear-gradient(180deg, #242424 3.5%, #171717 76.22%);
-    transition: background-image .3s ease, border .3s ease, transform .3s ease;
+    transition: background-image .5s ease-in-out, border .5s ease, transform .5s ease;
 } 
 
 .card:hover {
@@ -80,8 +77,10 @@ body {
     opacity: .7;
 }
 
+
 .sensory-card:hover {
-    background-image:url("../img/sensorybox/sensorybox-cover.jpg"); 
+    background-image:url("../img/sensorybox/sensorybox-cover.jpg");
+  
 }
 
 .tcc-col-card:hover {
