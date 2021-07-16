@@ -73,34 +73,35 @@ body {
     transform: scale(1.09);
 }
 
-.card:hover .container-title {
-    opacity: .7;
-}
-
 
 .sensory-card:hover {
-    background-image:url("../img/sensorybox/sensorybox-cover.jpg");
+    /* background-image:url("../img/sensorybox/sensorybox-cover.jpg"); */
   
+    background: conic-gradient(from 0.67deg at 48.8% 100%, #5801b5 0deg, #003089 360deg);
 }
 
 .tcc-col-card:hover {
-    background-image: url("../img/tcc/tccCover.jpg");
+    /* background-image: url("../img/tcc/tccCover.jpg"); */
+    background: radial-gradient(120% 124.91% at 51.09% 0%, #FF6A00 0%, #A40000 100%);
 }
 
 .anderson-card:hover {
-    background-image: url("../img/andersonImages/anderson-restaurant-location.jpg");
+    /* background-image: url("../img/andersonImages/anderson-restaurant-location.jpg"); */
+    background: linear-gradient(120deg, #573f00 11.5%, #001848 100%);
 }
 
 .grocery-card:hover {
-    background-image: url("../img/groceryprime/thumbnail-image-gp-1.png");
+    /* background-image: url("../img/groceryprime/thumbnail-image-gp-1.png"); */
+    background: radial-gradient(90.95% 97.95% at 48.8% 100%, #580e0e 0%, #670202 100%);
 }
 
 .woosh-card:hover {
-    background-image: url("../img/wooshmail/coverpage.png");
+    background: linear-gradient(45deg, #375f97 1.5%, #021f48 100%);
 }
 
 .frog-card:hover {
-    background-image: url("../img/shirtsbymike/shirts.jpg");
+   
+    background: #00502f;
 }
 
 /******************** 
