@@ -62,7 +62,7 @@ body {
     cursor: pointer;
     border: 3px solid rgb(63, 63, 63);
     background: linear-gradient(180deg, #242424 3.5%, #171717 76.22%);
-    transition: background .4s ease, border .4s ease, transform .4s ease;
+    transition: background .2s ease, border .3s ease, transform .4s ease;
 } 
 
 .card:hover {
@@ -95,7 +95,7 @@ body {
 }
 
 .frog-card:hover {
-    background: #00502f;
+    background: #00502f8a;
 }
 
 /******************** 
