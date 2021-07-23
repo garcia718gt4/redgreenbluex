@@ -47,6 +47,10 @@ body {
     font-weight: 700;
 }
 
+h1 {
+    color: white;
+}
+
 
 /****** CARD STYLES ***********/
 
@@ -351,12 +355,13 @@ ul li a {
 }
 
 .hello-title {
-    font-size: 54px;
+    font-size: 44px;
     width: 185px;
     background: linear-gradient(120deg,  rgb(241, 15, 15) 17%, #40fa9d 58%, #1272e7 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 .hello-title, 
 .intro-message h2 {
@@ -364,7 +369,6 @@ ul li a {
     margin: 0 auto;
     text-align: center;
 }
-
 
 .intro-message h2 {
     width: 375px;
@@ -464,6 +468,7 @@ Media Query for 768px (tablet)
         width: 220px;
         font-size: 60px;
     }
+
 
     .shirts-txt,
     .grocery-txt,

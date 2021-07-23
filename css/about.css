@@ -312,16 +312,14 @@ span {
     color: rgb(74, 74, 74); 
 }
 
-.me-square {
-    background: rgb(237, 245, 255);
+.me-square,
+.skills-square {
+    background: rgb(242, 242, 242);
 }
 
-.skills-square {
-    background: rgb(238, 255, 238);
-}
 
 .contact-container {
-    background: rgb(106, 0, 0);
+    background: rgb(23, 50, 104);
 }
 
 .content-info-wrap {
