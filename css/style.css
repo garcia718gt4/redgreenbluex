@@ -66,7 +66,7 @@ h1 {
     cursor: pointer;
     border: 3px solid rgb(63, 63, 63);
     background: linear-gradient(180deg, #242424 3.5%, #171717 76.22%);
-    transition: background .2s ease, border .3s ease, transform .4s ease;
+    transition: background .4s ease, border .3s ease, transform .4s ease;
 } 
 
 .card:hover {
@@ -79,7 +79,7 @@ h1 {
 
 
 .sensory-card:hover {  
-    background: conic-gradient(from 0.67deg at 48.8% 100%, #5801b5 0deg, #003089 360deg);
+    background: radial-gradient(77.82% 77.82% at 48.8% 100%, #5801b5 0%, #003089 100%);
 }
 
 .tcc-col-card:hover {
