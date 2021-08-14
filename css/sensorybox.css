@@ -127,6 +127,7 @@ h2 {
     background: url("../img/sensorybox/sensorybox-cover.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
+    opacity: 92%;
 }
 
 .poetsen-one {
@@ -279,6 +280,16 @@ h2 {
 
 /* ||  RESEARCH & USABILITY BACKGROUND CONTAINER *******/
 
+.number {
+    font: bolder;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgb(119, 23, 119);
+}
+
 .usability-study-background {
     /* background: #6b0db3dc; */
     background: linear-gradient(120.26deg, #ba68f8 1.5%, #8c2cd6 45.22%);
@@ -320,6 +331,10 @@ h2 {
 }
 
 
+.prototype-title {
+    margin-top: 30px;
+}
+
 /*===============================
     Media Query for 768px (iPad)
 ================================= */
@@ -335,7 +350,7 @@ h2 {
    }
     
   h1 {
-      font-size: 30px;
+      font-size: 32px;
   }
 
    h2 {
@@ -378,7 +393,7 @@ h2 {
   }
 
   .text-wrap {
-      width: 500px;
+      width: 550px;
   }
 
   .block {
@@ -425,6 +440,10 @@ h2 {
     align-items: center;
 }
 
+.prototype-title {
+    margin-top: 40px;
+}
+
 
 /* ||  LEARNINGS CONTAINER *******/
 
@@ -449,7 +468,7 @@ h2 {
      }
      
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
     h2 {
          font-size: 24px;
@@ -510,14 +529,27 @@ h2 {
 
     .project-square {
         width: 50%; 
-        height: 350px;
+        height: 500px;
     }
 
     /* || USER RESEARCH CONTAINER *******/
 
     .abstract-container {
-        margin: 50px auto 70px;
+        margin: 50px auto;
         width: 700px;
+    }
+
+    .research-container {
+        margin: 0 auto;
+        max-width: 1600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .research-text-wrap {
+        width: 550px;
     }
 
      /* ||  WIREFRAMES CONTAINER *******/
@@ -537,6 +569,10 @@ h2 {
     .mockups-images-wrap {
         width: 1000px;
         flex-flow: row wrap;
+    }
+
+    .prototype-title {
+        margin-top: 50px;
     }
 
     .mockup {
