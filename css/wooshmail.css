@@ -462,11 +462,11 @@ h2 {
      }
       
     h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
      h2 {
-         font-size: 22px;
+         font-size: 24px;
      }
      
      /* || HERO *******/
@@ -660,10 +660,10 @@ h2 {
      }
      
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
     h2 {
-         font-size: 24px;
+         font-size: 28px;
      }
 
     /* || HERO *******/
@@ -714,7 +714,7 @@ h2 {
 
     .project-square {
         width: 50%; 
-        height: 350px;
+        height: 500px;
     }
 
     .text-wrap,

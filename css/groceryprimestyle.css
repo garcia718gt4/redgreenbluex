@@ -379,6 +379,10 @@ h2 {
 }
 
 
+.prototype-title {
+    margin-top: 30px;
+}
+
 
 /*===============================
     Media Query for 768px (iPad)
@@ -401,7 +405,7 @@ h2 {
     }
     
     h1 {
-        font-size: 30px;
+        font-size: 32px;
     }
 
     h2 {
@@ -580,7 +584,9 @@ h2 {
           margin-bottom: 150px;
       }
     
-
+      .prototype-title {
+        margin-top: 40px;
+    }
      
  
 }
@@ -607,7 +613,7 @@ h2 {
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     }
 
      
@@ -668,7 +674,7 @@ h2 {
 
     .project-square {
         width: 33.3333%; 
-        height: 370px;
+        height: 500px;
     }
 
     /* || RESEARCH PLANNING CONTAINER *******/
@@ -784,6 +790,9 @@ h2 {
         margin-bottom: 200px;
     }
   
+    .prototype-title {
+        margin-top: 50px;
+    }
 
  
 }

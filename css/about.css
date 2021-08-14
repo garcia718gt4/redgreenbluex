@@ -152,13 +152,6 @@ span {
     font-weight: bold;
 }
 
-#summer-2021,
-#fewd,
-#uxdesign {
-    font-size: 15px;
-    color: rgb(140, 140, 140);
-    font-weight: lighter;
-}
 
 /* bold names ********/
 
@@ -318,16 +311,13 @@ span {
     background: rgba(242, 242, 242, 0.678);
 }
 
-
 .contact-container {
-    background: rgb(23, 50, 104);
+    background: rgb(14, 109, 211);
 }
 
 .content-info-wrap {
     padding: 0 20px 20px;
 }
-
-
 
 .content-title {
     color: rgb(54, 54, 54);
@@ -336,10 +326,34 @@ span {
 }
 
 
+/* BUTTON ******/
+
+.button {
+    background-color: #56c97a;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    letter-spacing: .055em;
+    opacity: 90%;
+    transition: opacity .3s ease;
+}
+
+button:hover {
+    opacity: 100%;
+}
+
 /* footer ******/
 
 .contact-title {
     color: white;
+    font-size: 28px;
 }
 
 .contact-p-container  {
@@ -371,10 +385,9 @@ span {
 }
 
 .contact-container a:hover {
-    color: #9b9b9b;
+    color: #f6f9fd;
     text-decoration:underline;
 }
-
 
 
 /* =====================
@@ -432,7 +445,7 @@ Media Query for 768px
 
     .content-title, 
     .contact-title {
-       font-size: 30px;
+       font-size: 32px;
     }
 
     .contact-p-container  {
@@ -514,7 +527,7 @@ Media Query for 1440px
 
     .content-title, 
     .contact-title {
-       font-size: 33px;
+       font-size: 36px;
     }
 
     .contact-p-container  {

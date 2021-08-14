@@ -660,7 +660,7 @@ h2 {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 32px;
     } 
 
     h2 {
@@ -863,7 +863,7 @@ h2 {
 @media (min-width: 1440px) {
 
     h1 {
-        font-size: 32px;
+        font-size: 36px;
     } 
 
     .main-header {
@@ -913,7 +913,7 @@ h2 {
 
     .project-square {
         width: 50%;
-        height: 370px;
+        height: 500px;
     }
 
     h2 {
