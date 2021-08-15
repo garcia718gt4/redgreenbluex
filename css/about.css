@@ -329,7 +329,7 @@ span {
 /* BUTTON ******/
 
 .button {
-    background-color: #56c97a;
+    background-color: #3fce78;
     border: none;
     border-radius: 4px;
     color: white;
@@ -341,7 +341,8 @@ span {
     margin: 4px;
     cursor: pointer;
     letter-spacing: .055em;
-    opacity: 90%;
+    opacity: 87%;
+    box-shadow: 0px 1px 4px 1px rgb(201, 201, 201);
     transition: opacity .3s ease;
 }
 
