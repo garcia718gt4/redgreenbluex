@@ -342,7 +342,7 @@ span {
     cursor: pointer;
     letter-spacing: .055em;
     opacity: 87%;
-    box-shadow: 0px 1px 4px 1px rgb(201, 201, 201);
+    box-shadow: 0px 2px 5px 1px rgba(184, 184, 184, 0.56);
     transition: opacity .3s ease;
 }
 
