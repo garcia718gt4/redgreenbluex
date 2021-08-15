@@ -16,7 +16,7 @@ body {
 
 .banner {
     background: #fff;
-    height: 75px;
+    height: 60px;
     width: 100%;
     position: fixed;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
@@ -114,7 +114,7 @@ h2 {
 
 /* || HERO *******/
 .main-header {
-    margin-top: 75px;
+    margin-top: 60px;
     height: 330px;
     background: url("../img/tcc/tccCover.jpg") no-repeat center;
     background-size: cover;
@@ -552,7 +552,7 @@ h2 {
     /* || HERO *******/
 
     .main-header {
-        height: 670px;
+        height: 770px;
     }
 
     .tcc-title {
