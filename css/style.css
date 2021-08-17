@@ -121,9 +121,21 @@ h1 {
 
 /* Tucson Charities Center  */
 
-.tcc-title-container h2 {
+.tcc-title-container h2,
+.name-title {
     font-family: 'Philosopher', sans-serif;
     font-weight: bold;
+}
+
+.name-title {
+    margin-top: -10px;
+    letter-spacing: 3px;
+    color: rgb(232, 232, 232);
+}
+
+.name-title-container {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .tucson-title,
@@ -422,6 +434,8 @@ footer p {
 }
 
 .copyright-p {
+    border-bottom: 1px solid rgb(152, 152, 152);
+    padding-bottom: 10px;
     margin-top: 7px;
     text-align: center;
 }
