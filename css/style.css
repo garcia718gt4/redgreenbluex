@@ -79,12 +79,11 @@ h1 {
 
 
 .sensory-card:hover {  
-    background: radial-gradient(77.82% 77.82% at 48.8% 100%, #5801b5 0%, #003089 100%);
+    background:#141f92;
 }
 
 .tcc-col-card:hover {
-    background: radial-gradient(77.82% 77.82% at 49.94% 47.1%, #FF6A00 0%, #A40000 100%);
-}
+    background: #ffd1c4;}
 
 .anderson-card:hover {
     background: linear-gradient(120deg, #573f00 11.5%, #001848 100%);
