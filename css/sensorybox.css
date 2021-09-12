@@ -131,10 +131,13 @@ h1 {
     opacity: 92%;
 }
 
-.sensorybox {
+.brevia {
     font-family: brevia, sans-serif;
     font-style: normal;
     font-weight: 800;
+}
+
+.sensorybox {
     color:#179cf1;
     font-size: 32px;
 }
