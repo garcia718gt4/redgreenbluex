@@ -178,20 +178,20 @@ span {
     color: #3659a2;
 }
 
+.treehouse-font {
+    font-family: rubrik-new, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.treehouse-gray {
+    color: #47535B;
+}
+
 .ux-design {
     color: #4a4290;
 }
 
-.ux-design,
-.front-end {
-    font-family: 'Varela Round', sans-serif;
-}
-
-.ux-design,
-.front-end,
-.csusm {
-    font-weight: bold;
-}
 
 .violin {
     background: linear-gradient(120deg, #e69e39 0%, #b85d2c 100%);
@@ -271,8 +271,13 @@ span {
     font-size: 38px;
 }
 
-
-
+.cal-arts {
+    color: #00a9c4;
+    font-family: omnes-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+}
 
 /* MAIN CONTENT CONTAINER ******/
 
