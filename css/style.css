@@ -79,22 +79,22 @@ h1 {
 
 
 .sensory-card:hover {  
-    background:#141f92;
+    background:#391653;
 }
 
 .tcc-col-card:hover {
-    background: #ffd1c4;}
+    background: #15256d;}
 
 .anderson-card:hover {
-    background: linear-gradient(120deg, #573f00 11.5%, #001848 100%);
+    background:#131313;
 }
 
 .grocery-card:hover {
-    background: radial-gradient(90.95% 97.95% at 48.8% 100%, #580e0e 0%, #670202 100%);
+    background:#460f0f;
 }
 
 .woosh-card:hover {
-    background: linear-gradient(45deg, #375f97 1.5%, #021f48 100%);
+    background:#021f48 100%;
 }
 
 .frog-card:hover {
@@ -154,19 +154,22 @@ h1 {
     color: rgb(211, 211, 211);
 }
 
-
 /* Sensorybox  */
 
 .sensorybox {
-    font-family: 'Poetsen One', sans-serif;
-    background: linear-gradient(89.26deg, #CC26DE 3.5%, #0FACEF 76.22%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: brevia, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    color:#179cf1;
 }
 
-
-                                                
-
+.box {
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #32c5a1;
+    color: white;
+}
+                                    
 /* Anderson Restaurant  */
 
 .anderson-title-container {
