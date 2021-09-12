@@ -149,17 +149,17 @@ h1 {
     color: white;
 }
 
-.hi-fi-link {
-    margin: 50px;
-    height: 80px;
-    background: linear-gradient(89.26deg, #da25ee 3.5%, #0581ee 76.22%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.p-link {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #32c5a1;
+    color: white;
     opacity: .83;
     transition: opacity .3s ease;
 }
 
-.hi-fi-link:hover {
+.p-link:hover {
     opacity: 1;
 }
 
