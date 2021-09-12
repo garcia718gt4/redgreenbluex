@@ -125,7 +125,7 @@ h1 {
     height: 330px;
     background:url("../img/sensorybox/sensorybox-cover.jpg") no-repeat center;
     background-size: cover;
-    background-color: rgba(85, 142, 241, 0.596);
+    background-color: rgba(85, 142, 241, 0.441);
     background-blend-mode: screen;
     width: 100%;
     opacity: 92%;
