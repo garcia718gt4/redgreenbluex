@@ -339,27 +339,28 @@ h1 {
 }
 
 .main-nav li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 
 ul li a {
     text-decoration: none;
-    padding: 5px;
+  
 }
 
 .active {
     color: #efefef;
 }
-.ricardo {
+
+.nav-item {
     color: #a2a2a2;
 }
 
-.ricardo:hover {
+.nav-item:hover {
     color: #efefef;
 }
 
-.ricardo {
+.nav-item {
     transition: color .2s ease;
 }
 
@@ -463,21 +464,25 @@ footer p {
 }
 
 
-
 /* ===========================
 Media Query for 768px (tablet)
 ============================== */
 
 @media (min-width: 768px) {
     .main-nav {
-        width: 450px;
+        width: 580px;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
+        margin-bottom: 30px;
+   
     }
 
     .main-nav li {
-        margin-left: -10px;
         font-size: 21px;
+        padding: 0; 
+        margin: 0;
+        margin-left:-60px
+       
     }
 
     .ricardo {
@@ -536,6 +541,10 @@ Media Query for 1440px (desktop)
 ======================== */
 
 @media (min-width: 1440px) {
+
+    .main-nav {
+        margin-bottom: 40px;
+    }
 
     .main-container {
         margin: 50px auto;
