@@ -469,6 +469,7 @@ Media Query for 768px (tablet)
 ============================== */
 
 @media (min-width: 768px) {
+    
     .main-nav {
         width: 580px;
         flex-direction: row;
@@ -483,10 +484,6 @@ Media Query for 768px (tablet)
         margin: 0;
         margin-left:-60px
        
-    }
-
-    .ricardo {
-        margin-right: 45px;
     }
     
     .hello-title {

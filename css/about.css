@@ -97,6 +97,7 @@ body {
     width: 100%;
 }
 
+
 .main-nav {
     display: flex;
     flex-direction: column;
@@ -106,9 +107,11 @@ body {
 }
 
 .main-nav li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
+
+
 
 ul li a {
     text-decoration: none;
@@ -119,12 +122,14 @@ ul li a {
     color: #484848;
 }
 
-.home {
+.home, 
+.resume {
     color: #a2a2a2;
     transition: color .2s ease;
 }
 
-.home:hover {
+.home:hover, 
+.resume:hover {
     color: #484848;
 }
 
@@ -402,6 +407,21 @@ Media Query for 768px
 
 @media (min-width: 768px) {
 
+    .main-nav {
+        width: 580px;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .main-nav li {
+        font-size: 21px;
+        padding: 0; 
+        margin: 0;
+        margin-left:-60px
+    }
+
+
     .main-content-container { 
         margin: 40px auto;
     }
@@ -427,22 +447,6 @@ Media Query for 768px
         font-size: 25px;
     }
 
-    .main-nav {
-        width: 450px;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .main-nav li {
-        margin-left: -10px;
-        font-size: 21px;
-    }
-
-    .ricardo {
-        margin-right: 45px;
-    }
-
-   
 
     .shapes {
         height: 400px;
@@ -482,6 +486,8 @@ Media Query for 1440px
 
 
 @media (min-width: 1440px) { 
+
+
 
     .main-content-container { 
         margin: 50px auto;
