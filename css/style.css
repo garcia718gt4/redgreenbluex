@@ -248,6 +248,7 @@ h1 {
     color: #2998F8;
 }
 
+
 .woosh-logo {
     width: 255px;
 }
@@ -363,8 +364,6 @@ ul li a {
     transition: color .2s ease;
 }
 
-
-
 /* || MAIN STYLES  */
 
 .intro-message {
@@ -375,25 +374,20 @@ ul li a {
 .hello-title {
     font-size: 44px;
     width: 185px;
-    background: linear-gradient(120deg,  rgb(241, 15, 15) 17%, #40fa9d 58%, #1272e7 75%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
-
 
 .hello-title, 
 .intro-message h2 {
     font-weight: 700;
     margin: 0 auto;
     text-align: center;
+    color: rgb(234, 234, 234);
 }
 
 .intro-message h2 {
     width: 375px;
     font-size: 34px;
-    color: rgb(244, 244, 244);
 }
-
 
 .ux-design-title {
     display: inline-block;
@@ -401,7 +395,6 @@ ul li a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 
 /******  MAIN CONTAINER  ******/
 
@@ -418,14 +411,11 @@ ul li a {
     text-decoration: none;
 }
 
-
-
-
 /******  FOOTER  ******/
 
-
 footer {
-    margin-top: -30px;
+    margin-top: auto;
+    flex-shrink: 0;
 }
 
 
@@ -437,6 +427,7 @@ footer p {
     padding: 0;
     font-size: 12px;
     text-align: left;
+    
 }
 
 .copyright-p {
