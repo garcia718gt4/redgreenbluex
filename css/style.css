@@ -93,6 +93,10 @@ h1 {
     background:#460f0f;
 }
 
+.grocery-logo {
+    line-height: 1.35;
+}
+
 .woosh-card:hover {
     background:#021f48 100%;
 }
@@ -223,12 +227,9 @@ h1 {
 .grocery-txt, 
 .prime-txt {
     font-family: 'Kanit', sans-serif;
-}
-
-.grocery-txt,
-.prime-txt {
     color: #FF0C0C;
 }
+
 
 .grocery-txt {
     letter-spacing: .055em;

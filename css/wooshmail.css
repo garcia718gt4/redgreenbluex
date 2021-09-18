@@ -20,6 +20,7 @@ body {
     width: 100%;
     position: fixed;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
 }
 
 /* || GENERAL FONT STYLES *******/
@@ -119,16 +120,18 @@ h2 {
 .main-header {
     margin-top: 60px;
     height: 330px;
-    background:linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), url("../img/wooshmail/wooshmail-cover.jpg") no-repeat center;
+    background:url("../img/wooshmail/wooshmail-cover.jpg") no-repeat center;
+    background-color: rgba(58, 106, 201, 0.277);
+    background-blend-mode:lighten;
     background-size: cover;
     width: 100%;
 }
 
-
 /* || WooshMail TITLE *******/
 
 .main-title-container {
-    margin-top: 275px;
+    background: linear-gradient(119.45deg, #093277 1.93%, #000d4d  96.69%);
+    opacity: .95;
 }
 
 .wooshmail-title {
@@ -138,9 +141,7 @@ h2 {
 
 .lemonada {
     font-family: 'Lemonada', cursive;
-    font-weight: 600;
 }
-
 
 /* || TABLE OF CONTENTS *******/
 
@@ -152,7 +153,7 @@ h2 {
 
 .table-wrap {
     margin: 30px auto;
-    width: 250px;  
+    width: 310px;  
 }
 
 .table-flex {
@@ -479,9 +480,7 @@ h2 {
           font-size: 50px;
       }
  
-      .main-title-container {
-         margin-top: 455px;
-     }
+   
 
      /* || TABLE OF CONTENTS *******/
 
@@ -673,14 +672,15 @@ h2 {
      }
  
      .wooshmail-title {
-         font-size: 68px;
+         font-size: 78px;
      }
 
      .main-title-container {
-        width: 450px;
+        padding: 7px 25px;
         float: right;
-        margin-right: 70px;
-        margin-top: 70px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        margin-top: 300px;
     }
 
      /* || TABLE OF CONTENTS *******/

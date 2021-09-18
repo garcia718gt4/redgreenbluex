@@ -124,7 +124,7 @@ h2 {
 .main-header {
     margin-top: 60px;
     height: 330px;
-    background: url("../img/shirtsbymike/shirts.jpg") no-repeat center;
+    background: url("../img/shirtsbymike/shirtsbymike-cover.jpg") no-repeat center;
     background-size: cover;
     width: 100%;
 }
@@ -135,7 +135,8 @@ h2 {
 }
 
 .main-title-container {
-    margin-top: 235px;
+    background: linear-gradient(119.45deg, #02461a 1.93%, #045015 96.69%);
+    opacity: .95;
 }
 
 .shirtsByMike-title {
@@ -425,9 +426,7 @@ h2 {
          font-size: 50px;
      }
 
-     .main-title-container {
-        margin-top: 405px;
-    }
+
 
     /* || TABLE OF CONTENTS *******/
 
@@ -614,13 +613,16 @@ h2 {
      }
  
      .shirtsByMike-title {
-         font-size: 68px;
+         font-size: 78px;
      }
 
-     .main-title-container {
+
+    .main-title-container {
+        padding: 7px 25px;
         float: right;
-        margin-right: 70px;
-        margin-top: 220px;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        margin-top: 300px;
     }
 
 

@@ -20,6 +20,7 @@ body {
     width: 100%;
     position: fixed;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
 }
 
 /* || LOGO *******/
@@ -93,17 +94,19 @@ body {
 .main-header {
     margin-top: 60px;
     height: 330px;
-    background: url("../img/andersonImages/anderson-restaurant-location.jpg") no-repeat center;
+    background: url("../img/andersonImages/anderson-cover.jpg") no-repeat center;
     background-size: cover;
+    background-color: rgba(36, 36, 36, 0.01);
+    background-blend-mode:overlay;
     width: 100%;
 }
 
 
-.anderson-title, 
-.restaurant-title {
-    margin: 0;
-    padding: 0;
-}
+.main-title-container {
+    background: linear-gradient(119.45deg, #606060 1.93%, #2f2f2f 96.69%);
+    opacity: .95;
+ }
+
 
 .nova-slim {
     font-family: "Nova Slim", cursive;
@@ -120,7 +123,7 @@ body {
 .restaurant-title {
     font-family: 'Parisienne', cursive;
     font-weight: 100;
-    color: #b48f31;
+    color: #f0c353;
     text-align: right;
     font-size: 22px;
     margin-right: 6px;
@@ -152,6 +155,9 @@ h1 {
 h2 {
     font-size: 20px;
 }
+
+
+
 
 /* || TABLE OF CONTENTS *******/
 
@@ -870,12 +876,16 @@ h2 {
        height: 770px;
     }
 
-    .anderson-title {
-        font-size: 68px;
+    .main-title-container {
+        padding: 7px 25px;
+        float: right;
+        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px;
+        margin-top: 300px;
     }
 
-    .restaurant-title {
-        font-size: 48px;
+    .anderson-title {
+        font-size: 78px;
     }
 
     /* || TABLE OF CONTENTS *******/
