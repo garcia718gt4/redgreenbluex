@@ -310,15 +310,11 @@ span {
     font-size: 17px;
     border-radius: 20px;
     margin: 15px 0;
+    background: rgba(242, 242, 242, 0.678);
 }
 
 .main-content-square h2 {
     color: rgb(74, 74, 74); 
-}
-
-.me-square,
-.skills-square {
-    background: rgba(242, 242, 242, 0.678);
 }
 
 .skills-square {
@@ -366,6 +362,10 @@ button:hover {
 }
 
 /* footer ******/
+
+footer {
+    width: 100%;
+}
 
 .contact-title {
     color: white;
@@ -502,7 +502,6 @@ Media Query for 1440px
         width: 1400px;
         flex-flow: row wrap;
         justify-content: space-between;
-        margin-top: 0px;
         padding-top: 0px;
         margin-top: 10px;
     }
