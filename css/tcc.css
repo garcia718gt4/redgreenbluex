@@ -124,13 +124,21 @@ h2 {
 }
 
 .title-container {
-    background: linear-gradient(119.45deg, #B42506 21.93%, #D1492B 76.69%);
+    background: linear-gradient(119.45deg, #d2eafd 1.93%,  #facfcf 100%);
     opacity: .95;
 }
 
 .tcc-title {
-    color: white;
     font-size: 32px;
+}
+
+.tucson,
+.center {
+    color: rgba(184, 45, 45);
+}
+
+.charities {
+    color: rgba(40, 137, 227); 
 }
 
 
