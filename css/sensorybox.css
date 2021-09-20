@@ -269,6 +269,9 @@ h1 {
 
 /* ||  WIREFRAMES CONTAINER *******/
 
+.wireframes {
+    background-color: #f0c78534;
+}
 
 .wireframes-images-container {
     margin: 0px auto 50px;
@@ -314,7 +317,7 @@ h1 {
 
 .mockups-images-container, 
 .mockups-summary {
-    background: #d6fef4;
+    background: #d6fef4bb;
     width: 100%;
 }
 
@@ -537,8 +540,12 @@ h1 {
     /* || USER RESEARCH CONTAINER *******/
 
     .abstract-container {
-        margin: 50px auto;
+        margin-top: 50px;
         width: 700px;
+    }
+
+    .abstract {
+        height: 450px;
     }
 
     .research-container {
@@ -564,7 +571,7 @@ h1 {
 
     .wireframes-images-container {
         margin: 0px auto 80px;
-        width: 1300px;
+        width: 1300px; 
         flex-direction: row;
     }
 
