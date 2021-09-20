@@ -160,12 +160,16 @@ span {
 
 /* bold names ********/
 
-.full-name {
-    background: linear-gradient(120deg,rgb(196, 53, 53) 15%, #3cc982 45%, #3474c2 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.ricardo{
+    color: rgb(194, 58, 58);
 }
 
+.garcia {
+    color: rgb(70, 189, 113);
+}
+.bahena {
+    color: rgb(65, 127, 202);
+}
 .san-diego {
     font-family: 'Pacifico', cursive;
     background: linear-gradient(120deg, #d1b00c 1.57%, #129DEB 92.41%);
