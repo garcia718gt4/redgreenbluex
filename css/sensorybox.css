@@ -170,6 +170,13 @@ h1 {
 
 /* || TABLE OF CONTENTS *******/
 
+/* .block-expand {
+    transition: transform .3s ease;
+}
+.block-expand:hover {
+    transform: scale(1.09);
+} */
+
 .table-of-contents-container,
 .next-steps-container {
     width: 100%;
