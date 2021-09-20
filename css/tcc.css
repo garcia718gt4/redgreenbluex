@@ -182,7 +182,7 @@ h2 {
 
 .orange-red {background: #B42506;}
 .light-blue {background: #3599E1;}
-.light-orange {background: #FF7C60;}
+.light-orange {background: #ed5735;}
 .dark-blue {background: #023462;}
 
 /* || PROJECT DIVIDER *******/
@@ -281,8 +281,9 @@ h2 {
 /* ||  WIREFRAMES CONTAINER *******/
 
 .wireframes {
-    margin: 20px auto 40px;
+    margin: 0 auto;
     width: 100%;
+    background-color: #d6eeffc5;
 }
 
 .wireframes-images-container {
@@ -324,9 +325,20 @@ h2 {
 
 
 /* ||  MOCKUPS CONTAINER *******/
-.mockups-images-container,
-.mockups-summary {
+.mockups-images-container {
     background: #e1f0ffde;
+}
+
+.mockups-summary {
+    background-color: #193755;
+}
+
+.mockups-summary h1 {
+    color: white;
+}
+
+.mockups-summary p {
+    color: rgb(234, 234, 234);
 }
 
 .mockups-images-wrap {
@@ -362,6 +374,10 @@ h2 {
 
 .p-link:hover {
     opacity: 1;
+}
+
+.hi-fi-link {
+    margin: 50px auto;
 }
 
 /* ||  LEARNINGS CONTAINER *******/
@@ -479,6 +495,7 @@ h2 {
 
     /* ||  WIREFRAMES CONTAINER *******/
 
+
     .wireframes-images-container {
         display: flex; 
         flex-flow: row wrap;
@@ -520,6 +537,10 @@ h2 {
     .mockup-volunteer {
         width: 360px;
         height: 886px;
+    }
+
+    .hi-fi-link {
+        margin: 100px auto;
     }
 
 
@@ -649,9 +670,6 @@ h2 {
     }
 
      /* ||  WIREFRAMES CONTAINER *******/
-     .wireframes {
-        margin-bottom: 50px;
-    }
 
      .wireframes-images-container,
      .mockups-images-wrap {
@@ -700,6 +718,10 @@ h2 {
 
     .prototype-title {
         margin-top: 50px;
+    }
+
+    .hi-fi-link {
+        margin: 150px auto;
     }
 
     /* ||  LEARNINGS CONTAINER *******/

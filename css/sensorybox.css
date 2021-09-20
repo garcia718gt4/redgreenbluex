@@ -159,6 +159,10 @@ h1 {
     transition: opacity .3s ease;
 }
 
+.hi-fi-link {
+    margin: 50px auto;
+}
+
 .p-link:hover {
     opacity: 1;
 }
@@ -235,7 +239,6 @@ h1 {
 
 .audience,
 .goal-role-duration {
-     /* background: #50ABFF; */
     background:#179cf1eb;
 }
 
@@ -315,10 +318,21 @@ h1 {
 
 /* ||  MOCKUPS CONTAINER *******/
 
-.mockups-images-container, 
-.mockups-summary {
+.mockups-images-container {
     background: #d6fef4bb;
+}
+
+.mockups-summary {
+    background: #175747;
     width: 100%;
+}
+
+.mockups-summary h1 {
+    color: white;
+}
+
+.mockups-summary p {
+    color: rgb(234, 234, 234);
 }
 
 .mockups-images-wrap {
@@ -444,6 +458,10 @@ h1 {
 
 .prototype-title {
     margin-top: 40px;
+}
+
+.hi-fi-link {
+    margin: 100px auto;
 }
 
 
@@ -582,6 +600,10 @@ h1 {
 
     .prototype-title {
         margin-top: 50px;
+    }
+
+    .hi-fi-link {
+        margin: 150px auto;
     }
 
     .mockup {
