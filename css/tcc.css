@@ -637,6 +637,10 @@ h2 {
         width: 700px;
     }
 
+    .problem-statement-container {
+        margin-top: -60px;
+    }
+
     .sitemap-info-wrap {
         margin: 50px auto 100px;
     }

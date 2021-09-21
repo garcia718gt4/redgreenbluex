@@ -259,8 +259,7 @@ h1 {
 
 
 /* || USER RESEARCH CONTAINER *******/
-
-.abstract, 
+ 
 .accessibility {
     background: rgba(244, 244, 244, 0.637);
 }
@@ -268,6 +267,28 @@ h1 {
 .abstract-container {
     margin: 30px auto 50px;
 }
+
+
+.persona-container {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.problem-statement-title {
+    color: #d69732;
+}
+
+
+
+.img-frame {
+    margin-top: 10px;
+    display: inline-block;
+    width: 330px;
+    height: 210px;
+    border-radius: 5px;
+    box-shadow: 0 4px 16px #00000041;
+}
+
 
 /* ||  WIREFRAMES CONTAINER *******/
 
@@ -442,6 +463,18 @@ h1 {
 }
 
 
+.persona-container {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.img-frame {
+    margin-top: 20px;
+    width: 705px;
+    height: 405px;
+}
+
 .mockups-images-wrap {
     width: 500px;
     display: flex;
@@ -562,6 +595,8 @@ h1 {
         flex-flow: row wrap;
     }
 
+
+
     .project-square {
         width: 50%; 
         height: 500px;
@@ -569,13 +604,16 @@ h1 {
 
     /* || USER RESEARCH CONTAINER *******/
 
+    .problem-statement-container {
+        margin-top: -60px;
+    }
+
     .abstract-container {
-        margin-top: 50px;
         width: 700px;
     }
 
     .abstract {
-        height: 450px;
+        height: 350px;
     }
 
     .research-container {
@@ -590,6 +628,24 @@ h1 {
     .research-text-wrap {
         width: 550px;
     }
+
+    .problem-statement-paragraph {
+        width: 450px;
+    }
+
+    .img-frame {
+        width: 810px;
+        height: 500px;
+    }
+
+    .three-col {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 1440px;
+    }
+
 
      /* ||  WIREFRAMES CONTAINER *******/
 
