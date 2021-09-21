@@ -218,20 +218,8 @@ h2 {
 
 .audience,
 .goal-role-duration {
-    background:#b42606f1;
+    background:#b4260635;
 }
-
-.audience h1, 
-.goal-role-duration h1 {
-    color: white;
-}
-
-.audience p, 
-.goal-role-duration p {
-    color: #ffe7e2;
-}
-
-
 
 .text-wrap {
     margin: 0 auto;
