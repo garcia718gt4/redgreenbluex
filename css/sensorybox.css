@@ -325,6 +325,10 @@ h1 {
 
 /* ||  MOCKUPS CONTAINER *******/
 
+.mockups-wrap {
+    margin: 50px auto;
+}
+
 .mockups-images-container {
     background: #d6fef4bb;
 }
@@ -455,6 +459,10 @@ h1 {
     margin: 40px auto 60px;
 }
 
+.mockups-wrap {
+    margin: 80px auto;
+}
+
 .wireframes-images-container {
     width: 500px;
     display: flex;
@@ -469,6 +477,11 @@ h1 {
 
 .hi-fi-link {
     margin: 100px auto;
+}
+
+.mockups-summary {
+    background: #175747;
+    width: 100%;
 }
 
 
@@ -603,6 +616,10 @@ h1 {
     .mockups-images-wrap {
         width: 1000px;
         flex-flow: row wrap;
+    }
+
+    .mockups-wrap {
+        margin: 90px auto;
     }
 
     .prototype-title {
