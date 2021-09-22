@@ -381,16 +381,13 @@ h2 {
 
   /* || PAPER & DIGITAL WIREFRAMES CONTAINER *******/
 
-  .paper-wireframes-container {
-      background: #3e3e3e;
-  }
 
   .paper-wireframes-info-wrap {
       margin: 40px auto;
   }
 
   .paper-wireframes-info-wrap h1 {
-      color: white;
+      color: rgb(0, 0, 0);
   }
 
  
@@ -405,7 +402,7 @@ h2 {
       text-align: center;
       width: 310px;
       margin: 0 auto;
-      color: rgb(220, 220, 220);
+      color: rgb(43, 43, 43);
   }
 
   .digital-wireframes-container {
@@ -478,6 +475,7 @@ h2 {
       color: #565656;
       border: 2px solid #565656;
       border-radius: 3px;
+      margin-top: 30px;
   }
 
   .low-fi-link:hover {
@@ -492,6 +490,7 @@ h2 {
 
   .hi-fidelity-txt-wrap h1 {
       color: #565656;
+      margin: 30px auto 0px;
   }
 
 /* || USABILITY & FINDINGS STUDY CONTAINER *******/
@@ -560,7 +559,7 @@ h2 {
 }
 
 .mockup-paragraph {
-    background: rgb(244, 244, 244);
+    background: white;
 }
 
 .mockup-paragraph p {
@@ -812,6 +811,14 @@ h2 {
         margin: 15px auto 40px;
     }
 
+    .hi-fi-link {
+        margin-top: 40px;
+    }
+
+    .hi-fidelity-txt-wrap h1 {
+        margin: 40px auto 0px;
+    }
+
     /* || USABILITY & FINDINGS STUDY CONTAINER *******/
   
     .usability-study-wrap {
@@ -1060,12 +1067,20 @@ h2 {
         margin: 20px auto 50px;
     }
 
+    .hi-fi-link {
+        margin-top: 60px;
+    }
+
     .low-fidelity-txt-wrap {
         width: 600px;
     }
 
     .low-fidelity-txt-wrap p {
         text-align: center;
+    }
+
+    .hi-fidelity-txt-wrap h1 {
+        margin: 50px auto 0px;
     }
 
     /* || USABILITY & FINDINGS STUDY CONTAINER *******/
