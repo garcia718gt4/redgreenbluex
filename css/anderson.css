@@ -382,11 +382,15 @@ h2 {
   /* || PAPER & DIGITAL WIREFRAMES CONTAINER *******/
 
   .paper-wireframes-container {
-      background: #f2f2f2;
+      background: #3e3e3e;
   }
 
   .paper-wireframes-info-wrap {
-      margin: 20px auto;
+      margin: 40px auto;
+  }
+
+  .paper-wireframes-info-wrap h1 {
+      color: white;
   }
 
  
@@ -401,6 +405,7 @@ h2 {
       text-align: center;
       width: 310px;
       margin: 0 auto;
+      color: rgb(220, 220, 220);
   }
 
   .digital-wireframes-container {
@@ -767,15 +772,16 @@ h2 {
     }
 
     .paper-wireframes-container {
-        padding: 10px 0 25px;
+        padding: 10px 0px;
     }
 
     .paper-wireframes-info-wrap {
-        margin: 30px auto;
+        margin: 60px auto;
     }
 
     .paper-wireframes-container p {
-        width: 700px; 
+        width: 730px; 
+        font-size: 20px;
     }
 
     .wireframe-paragraph,
@@ -1038,7 +1044,8 @@ h2 {
     }
 
     .paper-wireframes-container p {
-        width: 720px; 
+        width: 850px; 
+        font-size: 24px;
     }
 
     /* || LOW-FI PROTOTYPE CONTAINER *******/
