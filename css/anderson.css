@@ -381,7 +381,6 @@ h2 {
 
   /* || PAPER & DIGITAL WIREFRAMES CONTAINER *******/
 
-
   .paper-wireframes-info-wrap {
       margin: 40px auto;
   }
@@ -495,8 +494,9 @@ h2 {
 
 /* || USABILITY & FINDINGS STUDY CONTAINER *******/
   
-.usability-study-container {
-    background: rgb(244, 244, 244);
+.usability-study-container,
+.light-black {
+    background: rgba(232, 232, 232, 0.705);
 }
 
 
