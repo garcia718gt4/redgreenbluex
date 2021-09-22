@@ -257,13 +257,14 @@ h2 {
 
 /* || RESEARCH PLANNING CONTAINER *******/
 
+
 .analysis-container {
     width: 100%;
     margin: 30px auto; 
 }
 
 .research-planning-square {
-    margin: 50px 0;
+    margin: 50px auto;
 }
 
 .research-participants p {
@@ -440,7 +441,7 @@ h2 {
     }
 
     .text-wrap {
-        width: 355px;
+        width: 365px;
     }
 
 
@@ -514,37 +515,9 @@ h2 {
 
     /* || RESEARCH PLANNING CONTAINER *******/
 
-    .research-planning-title {
-        margin-top: 40px;
-    }
 
-    .research-planning-wrap {
-        margin: 45px auto 0;
-        display: flex;
-        flex-direction: row;
-        align-items:center;
-        justify-content: space-evenly;
-        width: 768px;
-    }
-
+    .interview-questions-wrap,
     .research-planning-square {
-        height: 400px;
-        margin: 0 20px;
-    }
-
-    .goal {
-        width: 25%;
-    }
-
-    .method {
-        width: 33%;
-    }
-
-    .research-participants {
-        width: 25%;
-    }
-
-    .interview-questions-wrap {
         width: 650px;
     }
     
@@ -712,28 +685,30 @@ h2 {
         height: 500px;
     }
 
+    .project-square p {
+        width: 385px;
+    }
+
     /* || RESEARCH PLANNING CONTAINER *******/
 
     .research-planning-title {
         margin-top: 50px;
     }
 
+
     .research-planning-wrap {
-        margin: 55px auto 0;
+        margin: 55px auto;
         width: 1400px;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-around;
     }
 
     .research-planning-square {
-        height: 350px;
+        height: 200px;
     }
 
-    .goal {
-        width: 25%;
-    }
-
-    .method {
-        width: 33%;
-    }
   
     .research-participants {
         width: 25%;
