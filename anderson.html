@@ -36,17 +36,22 @@
             <div class="table-wrap">
 
                 <div class="table-flex">
-                    <h1 class="nova-slim">Project</h1>
+                    <h1 class="nova-slim">Overview</h1>
                     <div class="gold block"></div>
                 </div>
 
                 <div class="table-flex">
-                    <h1 class="nova-slim">User</h1>
+                    <h1 class="nova-slim">Empathize</h1>
                     <div class="blue block"></div>
                 </div>
 
                 <div class="table-flex">
-                    <h1 class="nova-slim">Design</h1>
+                    <h1 class="nova-slim">Ideate</h1>
+                    <div class="dark-grey block"></div>
+                </div>
+
+                <div class="table-flex">
+                    <h1 class="nova-slim">Testing</h1>
                     <div class="black block"></div>
                 </div>
             </div>  
@@ -90,9 +95,9 @@
         <div class="project-divider blue"></div>
        
 
-       <div class="abstract center-vertical"> 
+       <div class="abstract center-vertical" id="empathy-section"> 
             <div class="abstract-text-wrap">
-                <h1>User Research Summary</h1>
+                <h1>Empathy - User Research</h1>
                 <p>I conducted interviews and created empathy maps to understand the users I'm designing for. A primary user group identified through research was adults who prefer the ease and control of ordering meals on their phone.</p>
                 <p>This user group confirmed initial assumptions about restaurant customers such as, users want to feel safe from contagion while dining out. In addition, the experience of using a food ordering app at a physical restaurant location is new to users because they typically use food ordering apps mainly for delivery during the pandemic.</p>
             </div>
@@ -123,7 +128,7 @@
 
        <div class="problem-statement-container">
             <div class="problem-img-container three-col">
-                <div class="problem-statement-text-wrap">
+                <div class="problem-statement-text-wrap" id="problem-statement-section">
                     <h1 class="problem-statement-title">Problem Statement</h1>
                     <p>Davit is a busy therapist who needs a safer way to view menus because he does not want to share paper menus with others during the pandemic.</p>
                 </div>  
@@ -139,14 +144,14 @@
            <div class="user-journey-info-wrap">
                <h1>User Journey Map</h1>
                <img class="user-journey-img img-frame" src="img/andersonImages/userjourneymap 1-2.png" alt="journey map">
-               <p>Davit’s journey revealed how helpful it would be for users to have access to a digital menu.</p>
            </div>
        </div>
 
-    <div class="project-divider black"></div>
 
 
-    <div class="sketches-container light-black">
+    <div class="project-divider dark-grey"></div>
+
+    <div class="sketches-container">
         <div class="top-three-sketches three-col">
             <div>
                 <img class="paper-sketch" src="img/andersonImages/sketches/home.png" alt="sketch of home screen">
@@ -161,9 +166,9 @@
     </div>
 
 
-    <div class="paper-wireframes-container light-black">
+    <div class="paper-wireframes-container">
         <div class="paper-wireframes-info-wrap">
-            <h1>Paper Wireframes</h1>
+            <h1>Ideate - Paper Wireframes</h1>
             <p >I prioritized a simple navigation flow to viewing and selecting a menu item for a usability study later.</p>
         </div>
     </div>
@@ -184,10 +189,11 @@
         </div>
     </div>
 
+    <div class="project-divider black"></div>
 
-    <div class="wireframes-container mockup-container">
+    <div class="wireframes-container mockup-container" id="testing-section">
         <div class="low-fidelity-txt-wrap hi-fidelity-txt-wrap center-vertical">
-            <h1>Digital Wireframes</h1>
+            <h1>Testing - Lo-Fi Prototypes</h1>
         </div>
         <div class="wireframes-info-wrap three-col">
             <div>
@@ -195,10 +201,10 @@
             </div>
             <div class="wireframe-paragraph mockup-paragraph">
                 <h2><strong>Low Fidelity Prototype</strong></h2>
-                <p>The low fidelity prototype connected the primary user flow of selecting and ordering a meal from the restaurant menu.</p>
+                <p>The lo-fi prototype connected the primary user flow of selecting and ordering a meal from the restaurant menu.</p>
               
                 <div class="center-vertical">
-                    <a class="hi-fi-link" href="https://www.figma.com/proto/gSiq5gbclyB1CE0RF60xNn/Anderson-Restaurant?node-id=362%3A11&scaling=scale-down&page-id=0%3A1&starting-point-node-id=362%3A11" target="_blank" rel="noopener noreferrer">try low-fi prototype</a>
+                    <a class="hi-fi-link" href="https://www.figma.com/proto/gSiq5gbclyB1CE0RF60xNn/Anderson-Restaurant?node-id=362%3A11&scaling=scale-down&page-id=0%3A1&starting-point-node-id=362%3A11" target="_blank" rel="noopener noreferrer">try lo-fi prototype</a>
                 </div>
             </div>
             <div >
@@ -207,9 +213,10 @@
         </div>
     </div>
 
-    <div class="usability-study-container">
+
+    <div class="usability-study-container" id="usability-section">
         <div class="usability-study-wrap">
-            <h1 class="usability-study-parameters-title">Usability Study: Parameters</h1>
+            <h1 class="usability-study-parameters-title">Usability Study: Parameters & Findings</h1>
         </div>
         <div class="parameter-info-wrap">
             <div class="single-parameter">
@@ -232,10 +239,8 @@
     </div>
 
 
-    <div class="usability-study-container findings">
-        <div class="usability-study-wrap findings-wrap">
-            <h1 class="usability-study-parameters-title">Usability Study: Findings</h1>
-        </div>
+    <div class="usability-study-container findings" id="usability-findings">
+       
         <div class="findings-info-wrap large-three-col">
             <div class="single-findings clarity">
                 <h2>Clarity</h2>
@@ -253,9 +258,9 @@
     </div>
 
 
-    <div class="wireframes-container mockup-container">
+    <div class="wireframes-container mockup-container" id="refining-container">
         <div class="low-fidelity-txt-wrap hi-fidelity-txt-wrap center-vertical">
-            <h1>High Fidelity Prototype</h1>
+            <h1 id="refine-header">Refining the Design</h1>
         </div>
         <div class="wireframes-info-wrap three-col">
             <div>
@@ -306,13 +311,13 @@
             <h1>Takeaways</h1>
             <div class="takeaways-flex large-three-col">
                 <div class="takeaways-wrap takeaway-2">
-                    <h2>Impact</h2>
+                    <h2><strong>Impact</strong></h2>
                     <p><em>“The app looks clean and simple. I think it is a good idea to view the menu on your phone.”</em></p>
                 </div>
 
                 <div class="takeaways-wrap takeaway-2">
-                    <h2>What I Learned</h2>
-                    <p>Conducting the usability test allowed me to see that others do not share my views of icon meaning. This resulted in design changes that improved the use of the app.</p>
+                    <h2><strong>What I Learned</strong></h2>
+                    <p>Conducting the usability test allowed me to see that others do not share my views on icon meaning.</p>
                 </div>
             </div>
         </div>
@@ -321,7 +326,7 @@
     <div class="takeaways-container next-steps-container">
         <div class="takeaways-info-wrap next-steps-info-wrap">
             <h1>Next Steps</h1>
-            <p>Conduct a second usability study to validate the design changes and explore adding new convenience features, such as a delivery option.</p>
+            <p>Conduct a second usability study to validate the refined design changes and explore adding new convenience features, such as a delivery option.</p>
         </div>
     </div>
     

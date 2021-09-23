@@ -157,6 +157,7 @@ h1 {
     color: white;
     opacity: .83;
     transition: opacity .3s ease;
+    box-shadow: 0px 3px 9px 2px rgb(191, 191, 191);
 }
 
 .hi-fi-link {
@@ -223,33 +224,32 @@ h1 {
 
 /* || PROJECT CONTAINER *******/
 
+
+
+.project-container {
+    background: #179cf1;
+}
+
+.project-container h1 {
+    color:  white;
+}
+
 .project-container p {
     text-align: left;
     padding: 0 5px;
+    color: rgb(242, 242, 242);
 }
 
 
-.project-container h1 {
-    color:  #565656;
+.abstract-container p,
+.research-text-wrap p {
+    color: rgb(242, 242, 242);
 }
 
 .project-square {
     width: 100%;
     height: 330px;
 }
-
-.product, 
-.response {
-    background: #FFFFFF;
-}
-
-
-.audience,
-.goal-role-duration {
-    background:#179df120;
-}
-
-
 
 
 .text-wrap {
@@ -262,6 +262,28 @@ h1 {
  
 .accessibility {
     background: rgba(244, 244, 244, 0.637);
+}
+
+.abstract,
+.problem-statement-container {
+    background: #eeb151;
+}
+
+#empathize-header,
+#problem-statement-header {
+    color: rgb(35, 35, 35);
+}
+
+#ideate-header,
+#usability-header,
+#insight-header {
+    color: white;
+}
+
+
+.abstract p,
+.problem-statement-container p{
+    color: #3c3c3c;
 }
 
 .abstract-container {
@@ -293,8 +315,9 @@ h1 {
 /* ||  WIREFRAMES CONTAINER *******/
 
 .wireframes {
-    background-color: #f0c78534;
+    background-color: #8d41c7;
 }
+
 
 .wireframes-images-container {
     margin: 0px auto 50px;
@@ -318,32 +341,21 @@ h1 {
     width: 35px;
     border-radius: 50%;
     display: block;
-    background-color: rgb(119, 23, 119);
+    background-color: #117058;
+    display: inline-block;
 }
 
 .usability-study-background {
-    /* background: #6b0db3dc; */
-    background:#7b13ca;
+    background:#32c5a1;
    
 }
 
-.usability-study-background h1 {
-    color: white;
-}
-
-.usability-study-background p {
-    color: #fcf8ff;
-}
 
 
 /* ||  MOCKUPS CONTAINER *******/
 
 .mockups-wrap {
     margin: 50px auto;
-}
-
-.mockups-images-container {
-    background: #d6fef4bb;
 }
 
 .mockups-summary {
@@ -369,6 +381,11 @@ h1 {
 
 .learnings-info-wrap {
     margin-bottom: 100px;
+}
+
+#accessibility-section p,
+#learnings-section p {
+    color: #6d6d6d;
 }
 
 .rgb-bar-bottom {
@@ -425,7 +442,7 @@ h1 {
 
   .table-flex {
       flex-direction: column;
-      margin: 0 28px;
+      margin: 0 25px;
   }
 
   .table-flex h2 {
@@ -572,7 +589,7 @@ h1 {
     }
 
     .table-flex {
-        margin: 0 65px;
+        margin: 0 80px;
     }
 
     .table-flex h2 {
@@ -594,8 +611,6 @@ h1 {
         display: flex;
         flex-flow: row wrap;
     }
-
-
 
     .project-square {
         width: 50%; 

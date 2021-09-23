@@ -298,8 +298,8 @@ h2 {
 /* ||  RESEARCH & USABILITY BACKGROUND CONTAINER *******/
 
 .research-background {
-    background: #d33916e7;
-    background: linear-gradient(-150.26deg, #f88368 1.5%, #db401df3 52.22%);
+   
+    background: linear-gradient(-150.26deg, #f88368 1.5%, #db401df3 92.22%);
 }
 
 
@@ -445,7 +445,7 @@ h2 {
 
     .table-flex {
         flex-direction: column;
-        margin: 0 28px;
+        margin: 0 30px;
     }
 
     .table-flex h2 {
@@ -602,7 +602,7 @@ h2 {
     }
 
     .table-flex {
-        margin: 0 65px;
+        margin: 0 80px;
     }
 
     .table-flex h2 {
