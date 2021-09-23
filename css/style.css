@@ -431,9 +431,12 @@ footer p {
     
 }
 
-.copyright-p {
+.case-studies-disclaimer {
     border-bottom: 1px solid rgb(152, 152, 152);
-    padding-bottom: 10px;
+    padding-bottom: 7px;
+}
+
+.copyright-p {
     margin-top: 7px;
     text-align: center;
 }
@@ -539,13 +542,14 @@ Media Query for 1440px (desktop)
 
     .main-container {
         margin: 90px auto;
-        width: 1415px;
+        width: 1400px;
         flex-direction: row;
         justify-content: space-around;
     }
 
     .card {
-        width: 23.75%;
+        width: 380px;
+        height: 330px;
     }
 
     .card:hover {
