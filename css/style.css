@@ -416,19 +416,14 @@ ul li a {
 
 footer {
     margin-top: auto;
-    flex-shrink: 0;
 }
 
 
 footer p {
-    text-align: center;
-    padding: 1.4em 0;
     color: #919191;
     margin: 0 auto;
-    padding: 0;
     font-size: 12px;
     text-align: left;
-    
 }
 
 .case-studies-disclaimer {
@@ -521,6 +516,7 @@ Media Query for 768px (tablet)
 
      footer p {
          font-size: 14px;
+         width: 95%;
      }
 
      .name-title { 
