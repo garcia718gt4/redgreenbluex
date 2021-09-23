@@ -192,7 +192,7 @@ h2 {
     border-radius: 3px;
 }
 
-.gold {background: #A97A01;}
+.gold {background: #97751d;}
 .blue {background: #38578A;}
 .black {background: #3a3a3a;}
 .dark-grey {background: #a0a0a0;}
@@ -207,7 +207,7 @@ h2 {
 /* || PROJECT CONTAINER *******/
 
 .project-container {
-    background: #A97A01;
+    background: #97751d;
 }
 
 .project-container p {
@@ -499,7 +499,7 @@ h2 {
 
 .parameter-info-wrap,
 .findings-info-wrap {
-    margin: 30px auto;
+    margin: 30px auto 50px;
     text-align: center;
 }
 
@@ -835,17 +835,14 @@ h2 {
     }
 
     .findings-info-wrap {
-        margin: 40px auto;
+        margin: 40px auto 60px;
+        width: 500px;
     }
 
 
     .single-parameter {
         width: 50%;
         margin-bottom: 10px;
-    }
-
-    .findings-info-wrap {
-        width: 500px;
     }
 
     /* || TAKEAWAYS CONTAINER *******/
@@ -1104,7 +1101,7 @@ h2 {
     }
 
     .findings-info-wrap {
-        margin: 70px auto;
+        margin: 40px auto 80px;
        
     }
 

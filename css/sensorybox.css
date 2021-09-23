@@ -168,16 +168,6 @@ h1 {
     opacity: 1;
 }
 
-
-/* || TABLE OF CONTENTS *******/
-
-/* .block-expand {
-    transition: transform .3s ease;
-}
-.block-expand:hover {
-    transform: scale(1.09);
-} */
-
 .table-of-contents-container,
 .next-steps-container {
     width: 100%;
@@ -359,7 +349,7 @@ h1 {
 }
 
 .mockups-summary {
-    background: #175747;
+    background: linear-gradient(119.45deg,#240581  1.93%, #320253 96.69%);
     width: 100%;
 }
 
@@ -520,12 +510,6 @@ h1 {
 .hi-fi-link {
     margin: 100px auto;
 }
-
-.mockups-summary {
-    background: #175747;
-    width: 100%;
-}
-
 
 /* ||  LEARNINGS CONTAINER *******/
 
